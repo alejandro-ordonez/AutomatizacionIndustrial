@@ -1,0 +1,40 @@
+<!-- AWP_In_Variable Name='"webHMIData".webHMI_DO0_User' -->
+<!-- AWP_In_Variable Name='"webHMIData".webHMI_DO1_User' -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	    <link rel="stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <title>My Siemens S7-1212 Temperature Testbed</title>
+    </head>
+    <body>
+	<div id="container">
+
+    <div class="info">
+        <img src="logo.png" alt="Spektrum Logo">
+        <p><h2>Temperature Testbed</h2></p>
+    </div>
+    <h3>Temps in °C</h3>
+	<p>AI 0 (°C): :="webHMIData".webHMI_AI0_TempCels:</p>
+	<p>AI 1 (°C): :="webHMIData".webHMI_AI1_TempCels:</p>
+	<p>DO_O: :="webHMIData".webHMI_DO0_User:</p>
+	<p>DO_1: :="webHMIData".webHMI_DO1_User:</p>
+	<h3>Toggle DO_0</h3>
+	<form method="post">
+			<p><label for="en">Enable</label>
+			<input type="radio" id="en" name='"webHMIData".webHMI_DO0_User' value="true">
+			<label for="ds">Disable</label>
+			<input type="radio" id="ds" name='"webHMIData".webHMI_DO0_User' value="false"></p>
+			<p><button type="submit">Set</button></p>
+     </form>
+	 <h3>Toggle DO_1</h3>
+	<form method="post">
+			<p><label for="en">Enable</label>
+			<input type="radio" id="en" name='"webHMIData".webHMI_DO1_User' value="true">
+			<label for="ds">Disable</label>
+			<input type="radio" id="ds" name='"webHMIData".webHMI_DO1_User' value="false"></p>
+			<p><button type="submit">Set</button></p>
+     </form>
+	 </div>
+    </body>
+</html>

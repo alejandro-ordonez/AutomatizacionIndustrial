@@ -1,0 +1,32 @@
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.deps.json
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.runtimeconfig.json
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.runtimeconfig.dev.json
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.Views.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\bin\Debug\netcoreapp2.1\PLanta Multiproposito.Views.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.csprojAssemblyReference.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.RazorAssemblyInfo.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.RazorAssemblyInfo.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.AssemblyInfo.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.TagHelpers.input.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.TagHelpers.output.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.RazorCoreGenerate.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\About.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Contact.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Error.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Index.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Privacy.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_Layout.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewImports.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\Razor\Pages\_ViewStart.g.cshtml.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.RazorTargetAssemblyInfo.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.RazorTargetAssemblyInfo.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.Views.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\PLanta Multiproposito\PLanta Multiproposito\obj\Debug\netcoreapp2.1\PLanta Multiproposito.csproj.CopyComplete

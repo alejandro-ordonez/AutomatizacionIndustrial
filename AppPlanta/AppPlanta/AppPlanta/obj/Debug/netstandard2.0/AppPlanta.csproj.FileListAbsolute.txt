@@ -1,0 +1,13 @@
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.deps.json
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csprojAssemblyReference.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\App.xaml.g.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Home.xaml.g.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.AssemblyInfo.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\XamlC.stamp
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Main.xaml.g.cs

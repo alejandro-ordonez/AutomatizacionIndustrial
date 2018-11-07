@@ -1,0 +1,35 @@
+        html, body {
+            width: 100%;
+            height: 100%;
+            color: #444;
+            background: #6c6f76;
+            font: 10pt sans-serif;
+        }
+        #container{
+            background-color: #ffffff;
+            padding: 15px;
+            position: fixed;
+            width: 300px;
+            height: 550px;
+            top: 40%;
+            left: 50%;
+            margin-top: -250px;
+            margin-left: -170px;
+            border-radius: 15px;
+            border: #3C80AD solid 3px;
+            display: inline;
+            text-align: center;
+        }
+        .note{
+            text-align: center;
+        }
+        .info{
+            font-size: 0.9em;
+            margin-bottom: 25px;
+        }
+        input[type="submit"] {
+            width: 220px;
+            height: 30px;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
