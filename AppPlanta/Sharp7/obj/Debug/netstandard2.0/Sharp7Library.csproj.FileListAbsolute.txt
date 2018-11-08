@@ -1,0 +1,9 @@
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.deps.json
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.csproj.CoreCompileInputs.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.AssemblyInfoInputs.cache
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.AssemblyInfo.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.csprojAssemblyReference.cache

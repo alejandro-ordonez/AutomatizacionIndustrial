@@ -2,7 +2,29 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Xamarin.Forms/3.3.0.912540": {
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -129,18 +151,52 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Xamarin.Forms/3.3.0.912540": {
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -267,18 +323,52 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Xamarin.Forms/3.3.0.912540": {
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -405,18 +495,52 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Xamarin.Forms/3.3.0.912540": {
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
           "lib/Xamarin.iOS10/Xamarin.Forms.Core.dll": {},
@@ -543,22 +667,77 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Xamarin.Forms/3.3.0.912540": {
-      "sha512": "Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
+    "Prism.Core/7.1.0.431": {
+      "sha512": "tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.912540",
+      "path": "prism.core/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.pdb",
+        "lib/net45/Prism.xml",
+        "lib/netstandard1.0/Prism.dll",
+        "lib/netstandard1.0/Prism.pdb",
+        "lib/netstandard1.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "lib/uap10.0.15063/Prism.dll",
+        "lib/uap10.0.15063/Prism.pdb",
+        "lib/uap10.0.15063/Prism.pri",
+        "lib/uap10.0.15063/Prism.xml",
+        "lib/uap10.0.16299/Prism.dll",
+        "lib/uap10.0.16299/Prism.pdb",
+        "lib/uap10.0.16299/Prism.pri",
+        "lib/uap10.0.16299/Prism.xml",
+        "prism.core.7.1.0.431.nupkg.sha512",
+        "prism.core.nuspec"
+      ]
+    },
+    "Prism.Forms/7.1.0.431": {
+      "sha512": "sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
+      "type": "package",
+      "path": "prism.forms/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard1.0/Prism.Forms.dll",
+        "lib/netstandard1.0/Prism.Forms.pdb",
+        "lib/netstandard1.0/Prism.Forms.xml",
+        "lib/netstandard2.0/Prism.Forms.dll",
+        "lib/netstandard2.0/Prism.Forms.pdb",
+        "lib/netstandard2.0/Prism.Forms.xml",
+        "prism.forms.7.1.0.431.nupkg.sha512",
+        "prism.forms.nuspec"
+      ]
+    },
+    "Xamarin.Forms/3.3.0.967583": {
+      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+      "type": "package",
+      "path": "xamarin.forms/3.3.0.967583",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -584,11 +763,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -696,7 +877,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.912540.nupkg.sha512",
+        "xamarin.forms.3.3.0.967583.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -704,12 +885,19 @@
       "type": "project",
       "path": "../AppPlanta/AppPlanta.csproj",
       "msbuildProject": "../AppPlanta/AppPlanta.csproj"
+    },
+    "Sharp7Library/1.0.0": {
+      "type": "project",
+      "path": "../../Sharp7/Sharp7Library.csproj",
+      "msbuildProject": "../../Sharp7/Sharp7Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "AppPlanta >= 1.0.0",
-      "Xamarin.Forms >= 3.3.0.912540"
+      "Prism.Forms >= 7.1.0.431",
+      "Sharp7Library >= 1.0.0",
+      "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
   "packageFolders": {
@@ -741,6 +929,9 @@
           "projectReferences": {
             "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj": {
               "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj"
+            },
+            "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj"
             }
           }
         }
@@ -749,9 +940,13 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "Prism.Forms": {
+            "target": "Package",
+            "version": "[7.1.0.431, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.912540, )"
+            "version": "[3.3.0.967583, )"
           }
         }
       }

@@ -34,7 +34,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -213,6 +213,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -285,7 +307,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -312,13 +334,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -355,14 +389,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.Net.Native.Compiler": "2.1.8",
           "Microsoft.Net.UWPCoreRuntimeSdk": "2.1.2",
           "NETStandard.Library": "2.0.3",
-          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+          "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9"
         },
         "compile": {
           "ref/uap10.0.15138/Microsoft.CSharp.dll": {},
@@ -535,6 +569,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -559,7 +615,7 @@
           "build/runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -781,7 +837,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -808,13 +864,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -851,14 +919,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.Net.Native.Compiler": "2.1.8",
           "Microsoft.Net.UWPCoreRuntimeSdk": "2.1.2",
           "NETStandard.Library": "2.0.3",
-          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+          "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9"
         },
         "compile": {
           "ref/uap10.0.15138/Microsoft.CSharp.dll": {},
@@ -1031,7 +1099,29 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
+      "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -1278,7 +1368,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -1305,13 +1395,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -1348,7 +1450,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
@@ -1527,6 +1629,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1599,7 +1723,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -1626,13 +1750,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -1669,14 +1805,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.Net.Native.Compiler": "2.1.8",
           "Microsoft.Net.UWPCoreRuntimeSdk": "2.1.2",
           "NETStandard.Library": "2.0.3",
-          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+          "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9"
         },
         "compile": {
           "ref/uap10.0.15138/Microsoft.CSharp.dll": {},
@@ -1849,6 +1985,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -1897,7 +2055,7 @@
           "build/runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -2095,7 +2253,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -2122,13 +2280,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -2165,14 +2335,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.Net.Native.Compiler": "2.1.8",
           "Microsoft.Net.UWPCoreRuntimeSdk": "2.1.2",
           "NETStandard.Library": "2.0.3",
-          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+          "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9"
         },
         "compile": {
           "ref/uap10.0.15138/Microsoft.CSharp.dll": {},
@@ -2345,6 +2515,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -2369,7 +2561,7 @@
           "build/runtime.win10-arm.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -2592,7 +2784,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -2619,13 +2811,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -2662,14 +2866,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.Net.Native.Compiler": "2.1.8",
           "Microsoft.Net.UWPCoreRuntimeSdk": "2.1.2",
           "NETStandard.Library": "2.0.3",
-          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+          "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9"
         },
         "compile": {
           "ref/uap10.0.15138/Microsoft.CSharp.dll": {},
@@ -2842,6 +3046,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -2914,7 +3140,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -3088,7 +3314,7 @@
           "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -3115,13 +3341,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
@@ -3158,14 +3396,14 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.0.0",
           "Microsoft.Net.Native.Compiler": "2.1.8",
           "Microsoft.Net.UWPCoreRuntimeSdk": "2.1.2",
           "NETStandard.Library": "2.0.3",
-          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.5"
+          "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform": "6.1.9"
         },
         "compile": {
           "ref/uap10.0.15138/Microsoft.CSharp.dll": {},
@@ -3338,6 +3576,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Prism.Core/7.1.0.431": {
+        "type": "package",
+        "compile": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0.16299/Prism.dll": {}
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "type": "package",
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.2.0.839982"
+        },
+        "compile": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {}
+        }
+      },
       "runtime.win10-arm.Microsoft.Net.Native.Compiler/2.1.8": {
         "type": "package",
         "dependencies": {
@@ -3386,7 +3646,7 @@
           "build/runtime.win10-x64.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
+      "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
         "type": "package",
         "compile": {
           "ref/netstandard/_._": {}
@@ -3585,7 +3845,7 @@
           "build/runtime.win10-x86.Microsoft.Net.UWPCoreRuntimeSdk.targets": {}
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": "6.0.1",
@@ -3612,13 +3872,25 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
           "bin/placeholder/AppPlanta.dll": {}
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
+        }
+      },
+      "Sharp7Library/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Sharp7Library.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     }
@@ -3706,16 +3978,16 @@
         "version.txt"
       ]
     },
-    "Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "KYav5Tjs6Mn7GMsqnPXuGyOWagbmJ/LEtCcBNmhuj01/3+fm8BngClWMxNEW3YPMtwQkagxOK6zIkSs1wR+OeQ==",
+    "Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "O8g+lOx3O0YZjezTaNvDH95yY6YKn38j6uyeYKl1hHEWX3fGdTyFPc79v/7gGVz+siuPlDPcFzf5DmQKRrlmuQ==",
       "type": "package",
-      "path": "microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
+        "Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "THIRD-PARTY-NOTICES.TXT",
-        "microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "microsoft.netcore.universalwindowsplatform.nuspec",
         "ref/netcore50/_._",
         "ref/uap10.0.15138/Microsoft.CSharp.dll",
         "ref/uap10.0.15138/Microsoft.CSharp.xml",
@@ -4121,17 +4393,60 @@
         "lib/netstandard1.0/_._"
       ]
     },
-    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "EGaxh2FQ+QT/P45T+LILj6jY5wQVMix/MenOymQQO8/6mWNhVlkHrua6mvaaON4MwRbWRJPXNwPiJzLsKoUnEg==",
+    "Prism.Core/7.1.0.431": {
+      "sha512": "tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
       "type": "package",
-      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "prism.core/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/net45/Prism.dll",
+        "lib/net45/Prism.pdb",
+        "lib/net45/Prism.xml",
+        "lib/netstandard1.0/Prism.dll",
+        "lib/netstandard1.0/Prism.pdb",
+        "lib/netstandard1.0/Prism.xml",
+        "lib/netstandard2.0/Prism.dll",
+        "lib/netstandard2.0/Prism.pdb",
+        "lib/netstandard2.0/Prism.xml",
+        "lib/uap10.0.15063/Prism.dll",
+        "lib/uap10.0.15063/Prism.pdb",
+        "lib/uap10.0.15063/Prism.pri",
+        "lib/uap10.0.15063/Prism.xml",
+        "lib/uap10.0.16299/Prism.dll",
+        "lib/uap10.0.16299/Prism.pdb",
+        "lib/uap10.0.16299/Prism.pri",
+        "lib/uap10.0.16299/Prism.xml",
+        "prism.core.7.1.0.431.nupkg.sha512",
+        "prism.core.nuspec"
+      ]
+    },
+    "Prism.Forms/7.1.0.431": {
+      "sha512": "sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
+      "type": "package",
+      "path": "prism.forms/7.1.0.431",
+      "files": [
+        ".signature.p7s",
+        "lib/netstandard1.0/Prism.Forms.dll",
+        "lib/netstandard1.0/Prism.Forms.pdb",
+        "lib/netstandard1.0/Prism.Forms.xml",
+        "lib/netstandard2.0/Prism.Forms.dll",
+        "lib/netstandard2.0/Prism.Forms.pdb",
+        "lib/netstandard2.0/Prism.Forms.xml",
+        "prism.forms.7.1.0.431.nupkg.sha512",
+        "prism.forms.nuspec"
+      ]
+    },
+    "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "Eh7r1b8RNxO/cvzWuN5VfanY9oOavdF/swjdRmsezyy6MubHr7Xo4l5xd2C2WCqSAHOEsdc1s6qsOTn95SfqBw==",
+      "type": "package",
+      "path": "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "runtime.win10-arm-aot.microsoft.netcore.universalwindowsplatform.nuspec",
+        "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "runtime.win10-arm-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-arm-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -5003,17 +5318,17 @@
         "tools/CoreRuntime/copywin32resources.exe"
       ]
     },
-    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "COdkVTC19mn8FKZio+INajHBk3Br/u4Z/wk9KloetL0nZ0i5izwlG7J9xzZprwZxycat8EQZaFfkm2ar3BF7Tw==",
+    "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "OVG0ZxrIv3gXkUDNERJP1CNu0fft/xoaiWbP5zrowDuEj8tOYVY3rN6I19bMEZ43hWny85imPXFZ+lqWIOgvxw==",
       "type": "package",
-      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "runtime.win10-arm.microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "runtime.win10-arm.microsoft.netcore.universalwindowsplatform.nuspec",
+        "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "runtime.win10-arm.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-arm/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -5180,17 +5495,17 @@
         "runtimes/win10-arm/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "I2IgT0mxvN5vMJpqFoQJOnjndL8nF4awpY5l6xpSfRwPLT3ACpGl4+DClV7PE3Dxk37W0yRub7Z3taxbyjdsMQ==",
+    "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "ZK3Rwnu3QOU3FbA6+f58PKEbzDVxeYhDIMncQc5P5xeSuVMpazgLFV8S9TmdMilUD7Dbgpm2K/rvPTXdwpWDSA==",
       "type": "package",
-      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x64-aot.microsoft.netcore.universalwindowsplatform.nuspec",
+        "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "runtime.win10-x64-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x64-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -6056,17 +6371,17 @@
         "tools/CoreRuntime/copywin32resources.exe"
       ]
     },
-    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "PmdqgMbiRRMlHP5PWjd/aLIC1MTsl/yu9xFiWPtyAVeRMcqutmCHOaSKJwOLiFsjtHiRWWJ6CkWLedAAw+xInQ==",
+    "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "Al0scuuFV3GWjpEJrS+XGW6B8PbT2TwRExok/2LG6r0ushr0RJ3Zj62SIXE+3GfGrbTbx76NkrBQNZkJvzMdyQ==",
       "type": "package",
-      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "runtime.win10-x64.microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x64.microsoft.netcore.universalwindowsplatform.nuspec",
+        "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "runtime.win10-x64.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x64/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -6233,17 +6548,17 @@
         "runtimes/win10-x64/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "FjEwLHVGkZoSSRKhOYlmOGmKcbABuZPjpPwRDGBqWX37wY4ns1IQBP8mPXTsEp5TM/DatL4dFDQG6aUHI15H2Q==",
+    "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "9kCiXusw+0Hq7wtRtdd5iSrHTUkzZQFC7Gzqwk37JTn1kiFQlNy/Z95bWRXsVqaeHC+Ckk2jhsorKLMMv0zSow==",
       "type": "package",
-      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x86-aot.microsoft.netcore.universalwindowsplatform.nuspec",
+        "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "runtime.win10-x86-aot.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x86-aot/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -7109,17 +7424,17 @@
         "tools/CoreRuntime/copywin32resources.exe"
       ]
     },
-    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.5": {
-      "sha512": "ui8vTycbSKccC8qoeqtGOz1UjAl1PAM6sL3KNntAb2PoX6FywiQL9I8JeQ/oYqaUwWFFKemL1Fz8W+Nut2aKIw==",
+    "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform/6.1.9": {
+      "sha512": "Hc66W7N/ngRGKm+UvIVQ7y1TDy6qVzSoEbJ96aueEXJUXWxwzzYwvy6+SLODt4iLFZmTIpDAHTmyZ6WQtsOrPw==",
       "type": "package",
-      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.1.5",
+      "path": "runtime.win10-x86.microsoft.netcore.universalwindowsplatform/6.1.9",
       "files": [
         ".signature.p7s",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
         "ref/netstandard/_._",
-        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.6.1.5.nupkg.sha512",
-        "runtime.win10-x86.microsoft.netcore.universalwindowsplatform.nuspec",
+        "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.6.1.9.nupkg.sha512",
+        "runtime.win10-x86.Microsoft.NETCore.UniversalWindowsPlatform.nuspec",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.CSharp.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.VisualBasic.dll",
         "runtimes/win10-x86/lib/uap10.0.15138/Microsoft.Win32.Primitives.dll",
@@ -7286,10 +7601,10 @@
         "runtimes/win10-x86/nativeassets/uap10.0.15138/clrcompression.dll"
       ]
     },
-    "Xamarin.Forms/3.3.0.912540": {
-      "sha512": "Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
+    "Xamarin.Forms/3.3.0.967583": {
+      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.912540",
+      "path": "xamarin.forms/3.3.0.967583",
       "files": [
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
@@ -7315,11 +7630,13 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
+        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -7427,7 +7744,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.912540.nupkg.sha512",
+        "xamarin.forms.3.3.0.967583.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     },
@@ -7435,13 +7752,20 @@
       "type": "project",
       "path": "../AppPlanta/AppPlanta.csproj",
       "msbuildProject": "../AppPlanta/AppPlanta.csproj"
+    },
+    "Sharp7Library/1.0.0": {
+      "type": "project",
+      "path": "../../Sharp7/Sharp7Library.csproj",
+      "msbuildProject": "../../Sharp7/Sharp7Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "UAP,Version=v10.0.16299": [
       "AppPlanta >= 1.0.0",
-      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.5",
-      "Xamarin.Forms >= 3.3.0.912540"
+      "Microsoft.NETCore.UniversalWindowsPlatform >= 6.1.9",
+      "Prism.Forms >= 7.1.0.431",
+      "Sharp7Library >= 1.0.0",
+      "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
   "packageFolders": {
@@ -7477,6 +7801,9 @@
           "projectReferences": {
             "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj": {
               "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj"
+            },
+            "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj"
             }
           }
         }
@@ -7487,11 +7814,15 @@
         "dependencies": {
           "Microsoft.NETCore.UniversalWindowsPlatform": {
             "target": "Package",
-            "version": "[6.1.5, )"
+            "version": "[6.1.9, )"
+          },
+          "Prism.Forms": {
+            "target": "Package",
+            "version": "[7.1.0.431, )"
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.912540, )"
+            "version": "[3.3.0.967583, )"
           }
         },
         "imports": [

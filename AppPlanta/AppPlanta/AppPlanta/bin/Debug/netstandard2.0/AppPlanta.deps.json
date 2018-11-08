@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "c76d3d6da125718e0032fd837a018c8fe160977d"
+    "signature": "600c81eb0c6626fba2b2ad4a72f16b04eb3050ce"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,7 +10,8 @@
       "AppPlanta/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Xamarin.Forms": "3.3.0.912540"
+          "Prism.Forms": "7.1.0.431",
+          "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
           "AppPlanta.dll": {}
@@ -22,7 +23,27 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Xamarin.Forms/3.3.0.912540": {
+      "Prism.Core/7.1.0.431": {
+        "runtime": {
+          "lib/netstandard2.0/Prism.dll": {
+            "assemblyVersion": "7.1.0.431",
+            "fileVersion": "7.1.0.431"
+          }
+        }
+      },
+      "Prism.Forms/7.1.0.431": {
+        "dependencies": {
+          "Prism.Core": "7.1.0.431",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Prism.Forms.dll": {
+            "assemblyVersion": "7.1.0.431",
+            "fileVersion": "7.1.0.431"
+          }
+        }
+      },
+      "Xamarin.Forms/3.3.0.967583": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -60,12 +81,26 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Xamarin.Forms/3.3.0.912540": {
+    "Prism.Core/7.1.0.431": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Vm3JZ2Vd6u77eIw7XYQY6Ok89DghibebbdrUX/I1z6aJ9ZMJFBJjqwsIlYbpN4BNCm08UqaieG8BrqArJpIMnQ==",
-      "path": "xamarin.forms/3.3.0.912540",
-      "hashPath": "xamarin.forms.3.3.0.912540.nupkg.sha512"
+      "sha512": "sha512-tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
+      "path": "prism.core/7.1.0.431",
+      "hashPath": "prism.core.7.1.0.431.nupkg.sha512"
+    },
+    "Prism.Forms/7.1.0.431": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
+      "path": "prism.forms/7.1.0.431",
+      "hashPath": "prism.forms.7.1.0.431.nupkg.sha512"
+    },
+    "Xamarin.Forms/3.3.0.967583": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+      "path": "xamarin.forms/3.3.0.967583",
+      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
     }
   }
 }

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppPlanta.GUI.Manual">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Actuadores">
+        <ScrollView Margin="30">
+            <ListView ItemsSource="lstActuators">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid ColumnSpacing="15" RowSpacing="15">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="60"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="10"/>
+                                </Grid.ColumnDefinitions>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="30"/>
+                                </Grid.RowDefinitions>
+                                <Image Style="{DynamicResource BaseIcon}" Grid.Column="0" Grid.RowSpan="2"/>
+                                <Label Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="0"/>
+                                <Switch IsToggled="{Binding Satate}" Grid.Column="2" Grid.RowSpan="2"/>
+                                <BoxView BackgroundColor="{Binding BoxColor}"/>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </ScrollView>
+    </ContentPage>
+    <ContentPage Title="Indicadores">
+        
+    </ContentPage>
+</TabbedPage>

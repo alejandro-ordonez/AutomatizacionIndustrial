@@ -17,5 +17,8 @@
             <Setter Property="FontSize" Value="Medium"/>
             <Setter Property="TextColor" Value="Black"/>
         </Style>
+        <Style TargetType="Image" x:Key="BaseIcon">
+            <Setter Property="Aspect" Value="AspectFill"/>
+        </Style>
     </Application.Resources>
 </Application>
