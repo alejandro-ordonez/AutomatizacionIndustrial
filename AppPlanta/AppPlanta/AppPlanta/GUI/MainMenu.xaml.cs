@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using AppPlanta.Models;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +15,7 @@ namespace AppPlanta.GUI
         public MainMenu()
         {
             InitializeComponent();
+            NavigationPage.SetHasNavigationBar(this, false);
             MasterPage.ListView.ItemSelected += ListView_ItemSelected;
         }
 

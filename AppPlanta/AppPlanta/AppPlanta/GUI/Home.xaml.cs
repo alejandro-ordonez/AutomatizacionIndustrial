@@ -20,7 +20,7 @@ namespace AppPlanta.GUI
 
         private async void Ok_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new GUI.Main());
+            await Navigation.PushAsync(new GUI.MainMenu());
         }
     }
 }

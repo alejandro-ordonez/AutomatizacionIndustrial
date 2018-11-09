@@ -16,3 +16,7 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenuDetail.xaml.g.cs
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenuMaster.xaml.g.cs
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Manual.xaml.g.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\About.xaml.g.cs
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\Sharp7Library.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\Sharp7Library.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csproj.CopyComplete

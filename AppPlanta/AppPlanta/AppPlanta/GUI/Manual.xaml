@@ -4,31 +4,31 @@
              x:Class="AppPlanta.GUI.Manual">
   <!--Pages can be added as references or inline-->
     <ContentPage Title="Actuadores">
-        <ScrollView Margin="30">
-            <ListView ItemsSource="lstActuators">
+        <StackLayout Margin="5" VerticalOptions="FillAndExpand" BackgroundColor="Black">
+            <ListView x:Name="lstData" ItemsSource="lstActuators" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="Black">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
-                            <Grid ColumnSpacing="15" RowSpacing="15">
+                            <Grid ColumnSpacing="5" RowSpacing="5" VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="60"/>
+                                    <ColumnDefinition Width="100"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="10"/>
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="30"/>
-                                    <RowDefinition Height="30"/>
+                                    <RowDefinition Height="50"/>
+                                    <RowDefinition Height="50"/>
                                 </Grid.RowDefinitions>
-                                <Image Style="{DynamicResource BaseIcon}" Grid.Column="0" Grid.RowSpan="2"/>
-                                <Label Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="0"/>
-                                <Switch IsToggled="{Binding Satate}" Grid.Column="2" Grid.RowSpan="2"/>
-                                <BoxView BackgroundColor="{Binding BoxColor}"/>
+                                <Image Source="{Binding Icon}" Style="{DynamicResource BaseIcon}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"/>
+                                <Label Text="{Binding Name}" Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="0"/>
+                                <Label Text="{Binding Description}" Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="1"/>
+                                <BoxView BackgroundColor="{Binding BoxColor}" Grid.Column="2" Grid.Row="0" Grid.RowSpan="2"/>
                             </Grid>
                         </ViewCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
-        </ScrollView>
+        </StackLayout>
     </ContentPage>
     <ContentPage Title="Indicadores">
         

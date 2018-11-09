@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Prism.Forms": "7.1.0.431",
+          "Sharp7Library": "1.0.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
@@ -58,6 +59,11 @@
             "fileVersion": "2.0.0.0"
           }
         }
+      },
+      "Sharp7Library/1.0.0": {
+        "runtime": {
+          "Sharp7Library.dll": {}
+        }
       }
     }
   },
@@ -101,6 +107,11 @@
       "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
       "path": "xamarin.forms/3.3.0.967583",
       "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
+    },
+    "Sharp7Library/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

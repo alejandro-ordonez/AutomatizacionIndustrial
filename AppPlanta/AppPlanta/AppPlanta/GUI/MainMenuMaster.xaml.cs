@@ -6,6 +6,7 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using AppPlanta.Models;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -20,7 +21,7 @@ namespace AppPlanta.GUI
         public MainMenuMaster()
         {
             InitializeComponent();
-
+            NavigationPage.SetHasNavigationBar(this, false);
             BindingContext = new MainMenuMasterViewModel();
             ListView = MenuItemsListView;
         }
@@ -33,11 +34,9 @@ namespace AppPlanta.GUI
             {
                 MenuItems = new ObservableCollection<MainMenuMenuItem>(new[]
                 {
-                    new MainMenuMenuItem { Id = 0, Title = "Page 1" },
-                    new MainMenuMenuItem { Id = 1, Title = "Page 2" },
-                    new MainMenuMenuItem { Id = 2, Title = "Page 3" },
-                    new MainMenuMenuItem { Id = 3, Title = "Page 4" },
-                    new MainMenuMenuItem { Id = 4, Title = "Page 5" },
+                    new MainMenuMenuItem { Id = 0, Title = "Manual", TargetType=typeof(Manual) },
+                    new MainMenuMenuItem { Id = 1, Title = "Automatico", TargetType=typeof(Automatic)},
+                    new MainMenuMenuItem { Id = 2, Title = "Informacion", TargetType=typeof(About) }
                 });
             }
             

@@ -15,7 +15,10 @@
         </Style>
         <Style TargetType="Label" BasedOn="Titles" x:Key="Normal">
             <Setter Property="FontSize" Value="Medium"/>
-            <Setter Property="TextColor" Value="Black"/>
+            <Setter Property="TextColor" Value="White"/>
+            <Setter Property="HorizontalTextAlignment" Value="Start"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            
         </Style>
         <Style TargetType="Image" x:Key="BaseIcon">
             <Setter Property="Aspect" Value="AspectFill"/>

@@ -17,12 +17,14 @@ namespace AppPlanta.GUI
         public ObservableCollection<Actuador> lstActuators;
         public Manual ()
         {
+            setList();
             InitializeComponent();
+            lstData.ItemsSource = lstActuators;
         }
         public void setList()
         {
-            ImageSource Valve = "";
-            ImageSource Pump = "";
+            ImageSource Valve = "Valve.jpg";
+            ImageSource Pump = "Pump.jpg";
             lstActuators = new ObservableCollection<Actuador>()
             {
                 new Actuador{ Name="Bomba 1", Icon= Pump, Satate=false, Description= "Valvula numero 1", BoxColor=Color.Red},
