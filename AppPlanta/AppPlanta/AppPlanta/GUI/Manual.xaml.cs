@@ -13,7 +13,7 @@ using Xamarin.Forms.Xaml;
 namespace AppPlanta.GUI
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class Manual : TabbedPage
+    public partial class Manual : ContentPage
     {
 
         public Manual ()
@@ -26,13 +26,14 @@ namespace AppPlanta.GUI
             ImageSource Valve = "Valve.jpg";
             var image = sender as Image;
             var Ac = image?.BindingContext as Actuador;
-            Ac.OnClickableImage.Execute(image);
             Debug.WriteLine(Ac.Name);
             await image.FadeTo(0.3, 100);
             await image.FadeTo(1, 100);
             var up = this.BindingContext as ListActuatorViewModel;
             Debug.WriteLine(up?.MyProperty);
             up?.UpdateElement.Execute(Ac);
+            lstData.ItemsSource = null;
+            lstData.ItemsSource = up.lstActuators;
 
         }
 

@@ -14,10 +14,10 @@ namespace AppPlanta.GUI {
     
     
     [global::Xamarin.Forms.Xaml.XamlFilePathAttribute("GUI\\Manual.xaml")]
-    public partial class Manual : global::Xamarin.Forms.TabbedPage {
+    public partial class Manual : global::Xamarin.Forms.ContentPage {
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
-        private global::Xamarin.Forms.TabbedPage ManualView;
+        private global::Xamarin.Forms.ContentPage ManualView;
         
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private global::Xamarin.Forms.ListView lstData;
@@ -25,7 +25,7 @@ namespace AppPlanta.GUI {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             global::Xamarin.Forms.Xaml.Extensions.LoadFromXaml(this, typeof(Manual));
-            ManualView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.TabbedPage>(this, "ManualView");
+            ManualView = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ContentPage>(this, "ManualView");
             lstData = global::Xamarin.Forms.NameScopeExtensions.FindByName<global::Xamarin.Forms.ListView>(this, "lstData");
         }
     }

@@ -10,7 +10,6 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Main.xaml.g.cs
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\XamlC.stamp
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Automatic.xaml.g.cs
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenu.xaml.g.cs
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenuDetail.xaml.g.cs

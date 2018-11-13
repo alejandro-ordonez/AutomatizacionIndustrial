@@ -24,6 +24,15 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "S7netplus/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -152,6 +161,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Prism.Forms": "7.1.0.431",
+          "S7netplus": "0.3.0",
           "Sharp7Library": "1.0.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
@@ -196,6 +206,15 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "S7netplus/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -324,6 +343,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Prism.Forms": "7.1.0.431",
+          "S7netplus": "0.3.0",
           "Sharp7Library": "1.0.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
@@ -368,6 +388,15 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "S7netplus/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -496,6 +525,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Prism.Forms": "7.1.0.431",
+          "S7netplus": "0.3.0",
           "Sharp7Library": "1.0.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
@@ -540,6 +570,15 @@
           "lib/netstandard2.0/Prism.Forms.dll": {}
         }
       },
+      "S7netplus/0.3.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
       "Xamarin.Forms/3.3.0.967583": {
         "type": "package",
         "compile": {
@@ -668,6 +707,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "Prism.Forms": "7.1.0.431",
+          "S7netplus": "0.3.0",
           "Sharp7Library": "1.0.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
@@ -732,6 +772,21 @@
         "lib/netstandard2.0/Prism.Forms.xml",
         "prism.forms.7.1.0.431.nupkg.sha512",
         "prism.forms.nuspec"
+      ]
+    },
+    "S7netplus/0.3.0": {
+      "sha512": "geoLQoJkWU34251xD49ffUeHYOS5MDCupCaHQQ1dk92eXdhmzmdJETV1vKbHRuRiiV9xUvdEOZ5NHaH7rX/Cqw==",
+      "type": "package",
+      "path": "s7netplus/0.3.0",
+      "files": [
+        "lib/net452/S7.Net.dll",
+        "lib/net452/S7.Net.pdb",
+        "lib/netstandard1.3/S7.Net.dll",
+        "lib/netstandard1.3/S7.Net.pdb",
+        "lib/netstandard2.0/S7.Net.dll",
+        "lib/netstandard2.0/S7.Net.pdb",
+        "s7netplus.0.3.0.nupkg.sha512",
+        "s7netplus.nuspec"
       ]
     },
     "Xamarin.Forms/3.3.0.967583": {
@@ -896,6 +951,7 @@
     "Xamarin.iOS,Version=v1.0": [
       "AppPlanta >= 1.0.0",
       "Prism.Forms >= 7.1.0.431",
+      "S7netplus >= 0.3.0",
       "Sharp7Library >= 1.0.0",
       "Xamarin.Forms >= 3.3.0.967583"
     ]
@@ -943,6 +999,10 @@
           "Prism.Forms": {
             "target": "Package",
             "version": "[7.1.0.431, )"
+          },
+          "S7netplus": {
+            "target": "Package",
+            "version": "[0.3.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

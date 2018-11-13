@@ -5,11 +5,13 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using Xamarin.Forms;
+using S7.Net;
 
 namespace AppPlanta.Models
 {
     public class ListActuatorViewModel
     {
+        public Plc s7PLC1200 = new Plc(CpuType.S71500, "192.168.0.10", 0, 1); //192.168.1.1
         public ObservableCollection<Actuador> lstActuators { get; set; }
         public int MyProperty { get; set; }
         private Command<Actuador> _UpdateElement;
@@ -19,7 +21,7 @@ namespace AppPlanta.Models
             ImageSource Pump = "Pump.jpg";
             lstActuators = new ObservableCollection<Actuador>()
             {
-                new Actuador{ Name="Bomba 1", Icon= Pump, State=false, Description= "Valvula numero 1", BoxColor=Color.Red},
+                new Actuador{ Name="Bomba 1", Icon= Pump, State=false, Description= "Valvula numero 1", BoxColor=Color.Green},
                 new Actuador{ Name="Bomba 2", Icon= Pump, State=false, Description= "Valvula numero 2", BoxColor=Color.Red},
                 new Actuador{ Name="Valvula 1", Icon= Valve, State=false, Description= "Valvula numero 1", BoxColor=Color.Red},
                 new Actuador{ Name="Valvula 2", Icon= Valve, State=false, Description= "Valvula numero 1", BoxColor=Color.Red},
@@ -49,21 +51,24 @@ namespace AppPlanta.Models
         }
         public void ChangeColor(Actuador a)
         {
+            Actuador x = new Actuador { Name = "Guardando.." };
             Debug.WriteLine("Working...");
-            lstActuators.Remove(a);
-            /*
-            var s = lstActuators.FirstOrDefault(Actuador => Actuador == a).State;
-            Debug.WriteLine(s);
-            lstActuators.FirstOrDefault(Actuador => Actuador == a).State = !s;
-            if (s)
+            var act = lstActuators.FirstOrDefault(Actuador => Actuador == a);
+            int i = lstActuators.IndexOf(act);
+            Debug.WriteLine(lstActuators[i].State);
+            lstActuators[i].State = !lstActuators[i].State;
+            
+            Debug.WriteLine(lstActuators.FirstOrDefault(Actuador => Actuador == a).State);
+            if (lstActuators.FirstOrDefault(Actuador => Actuador == a).State)
             {
-                lstActuators.FirstOrDefault(Actuador => Actuador == a).BoxColor = Color.Green;
+                lstActuators[i].BoxColor = Color.Green;
+
             }
             else
             {
                 lstActuators.FirstOrDefault(Actuador => Actuador == a).BoxColor = Color.Red;
             }
-            */
+            
         }
     }
 }
