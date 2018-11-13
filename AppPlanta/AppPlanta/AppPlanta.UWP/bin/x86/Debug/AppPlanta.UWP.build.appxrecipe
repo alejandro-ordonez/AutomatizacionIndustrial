@@ -652,6 +652,15 @@
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\BackgroundApp.jpg">
+      <PackagePath>BackgroundApp.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Pump.jpg">
+      <PackagePath>Pump.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Valve.jpg">
+      <PackagePath>Valve.jpg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
