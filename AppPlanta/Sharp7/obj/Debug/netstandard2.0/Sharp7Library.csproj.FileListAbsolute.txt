@@ -6,3 +6,12 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\ne
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.AssemblyInfo.cs
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.pdb
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.deps.json
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.dll
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.pdb
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.AssemblyInfo.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.dll
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.pdb
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\Sharp7\obj\Debug\netstandard2.0\Sharp7Library.csprojAssemblyReference.cache

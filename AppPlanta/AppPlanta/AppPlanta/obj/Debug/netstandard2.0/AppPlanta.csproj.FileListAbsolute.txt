@@ -20,3 +20,25 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\Sharp7Library.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\Sharp7Library.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csproj.CopyComplete
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.deps.json
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.pdb
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\Sharp7Library.dll
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\Sharp7Library.pdb
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\About.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Automatic.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Home.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Main.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenu.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenuDetail.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\MainMenuMaster.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\GUI\Manual.xaml.g.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csproj.CoreCompileInputs.cache
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.AssemblyInfoInputs.cache
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.AssemblyInfo.cs
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.csproj.CopyComplete
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.dll
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\obj\Debug\netstandard2.0\AppPlanta.pdb

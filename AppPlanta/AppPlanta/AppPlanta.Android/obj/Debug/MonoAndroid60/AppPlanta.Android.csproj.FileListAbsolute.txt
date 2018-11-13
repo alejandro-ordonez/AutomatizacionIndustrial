@@ -1,0 +1,2 @@
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid60\AppPlanta.Android.csprojAssemblyReference.cache
+C:\Users\HP\Documents\Corel\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid60\res.flag
