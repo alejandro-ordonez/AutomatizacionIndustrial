@@ -5,21 +5,23 @@
     <ContentPage.Content>
         <RelativeLayout>
             <Image Source="BackgroundApp.jpg" Aspect="AspectFill"  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"/>
-            <StackLayout>
+            <ScrollView Orientation="Vertical">
+                <StackLayout>
                 <Label Style="{DynamicResource Titles}" Text="{DynamicResource Title}" HorizontalOptions="Center" Margin="20,50,20,80"/>
                 <StackLayout BackgroundColor="LightGray" Opacity="0.5" Padding="10">
                     <ScrollView>
-                        <Label Style="{DynamicResource Normal}" Text="{DynamicResource DescriptionApp}" HorizontalTextAlignment="Start" LineBreakMode="WordWrap" HorizontalOptions="Center"/>
+                        <Label Style="{DynamicResource Normal}" Text="{DynamicResource DescriptionApp}" TextColor="Black" HorizontalTextAlignment="Start" LineBreakMode="WordWrap" HorizontalOptions="Center" />
                     </ScrollView>
                 </StackLayout>
                 <Button x:Name="Ok" Text="Aceptar" Clicked="Ok_Clicked" />
                 <StackLayout.Padding>
                     <OnPlatform x:TypeArguments="Thickness">
-                        <On Platform="UWP" Value="100,0,100,0"/>
+                        <On Platform="UWP" Value="400,0,400,0"/>
                         <On Platform="Android" Value="20,0,20,0"/>
                     </OnPlatform>
                 </StackLayout.Padding>
-            </StackLayout>
+                </StackLayout>
+            </ScrollView>
         </RelativeLayout>
     </ContentPage.Content>
 </ContentPage>

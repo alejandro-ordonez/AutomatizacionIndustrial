@@ -112,9 +112,7 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Xamarin.Forms.Xaml.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\res\drawable\valve.jpg
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\res\drawable\pump.jpg
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\linksrc\AppPlanta.Android.pdb
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\bin\Debug\AppPlanta.dll.mdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\linksrc\AppPlanta.dll.mdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\linksrc\FormsViewGroup.dll.mdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\linksrc\Prism.dll.mdb
