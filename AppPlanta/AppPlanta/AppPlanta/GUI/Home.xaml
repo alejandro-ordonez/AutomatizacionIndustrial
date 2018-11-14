@@ -4,22 +4,6 @@
              x:Class="AppPlanta.GUI.Home">
     <ContentPage.Content>
         <RelativeLayout>
-<<<<<<< HEAD
-            <Image Source="BackGraund1.png" Aspect="AspectFill" RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"/>
-            <ScrollView Orientation="Vertical">
-            <StackLayout>
-                    <Label  Text="Control y Monitoreo   Planta Multiproposito" HorizontalTextAlignment="Center" HorizontalOptions="CenterAndExpand" Margin="0,50,0,80" FontSize="Medium" TextColor="White"/>
-                    <RelativeLayout>
-                        <Button x:Name="Ok" Text="Ingresar" Clicked="Ok_Clicked" AnchorX="15"  VerticalOptions="End"/>
-                        <Button x:Name="about" Text="About" Clicked="about_Clicked" AnchorX="15"  VerticalOptions="End"/>
-                    </RelativeLayout>
-                    <StackLayout.Padding>
-                    <OnPlatform x:TypeArguments="Thickness">
-                        <On Platform="UWP" Value="100,0,100,0"/>
-                    </OnPlatform>
-                </StackLayout.Padding>
-            </StackLayout>
-=======
             <Image Source="BackgroundApp.jpg" Aspect="AspectFill"  RelativeLayout.HeightConstraint="{ConstraintExpression Type=RelativeToParent, Property=Height}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width}"/>
             <ScrollView Orientation="Vertical">
                 <StackLayout>
@@ -37,7 +21,6 @@
                     </OnPlatform>
                 </StackLayout.Padding>
                 </StackLayout>
->>>>>>> d9ca6aa94bb464134a090b5479899155a1a04802
             </ScrollView>
         </RelativeLayout>
     </ContentPage.Content>

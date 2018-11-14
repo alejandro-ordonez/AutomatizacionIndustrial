@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "600c81eb0c6626fba2b2ad4a72f16b04eb3050ce"
+    "signature": "5969783d2932c3fecf28e14f86314d60e441256a"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,6 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "Prism.Forms": "7.1.0.431",
+          "S7netplus": "0.3.0",
           "Sharp7Library": "1.0.0",
           "Xamarin.Forms": "3.3.0.967583"
         },
@@ -41,6 +42,14 @@
           "lib/netstandard2.0/Prism.Forms.dll": {
             "assemblyVersion": "7.1.0.431",
             "fileVersion": "7.1.0.431"
+          }
+        }
+      },
+      "S7netplus/0.3.0": {
+        "runtime": {
+          "lib/netstandard2.0/S7.Net.dll": {
+            "assemblyVersion": "0.3.0.0",
+            "fileVersion": "0.3.0.0"
           }
         }
       },
@@ -76,7 +85,7 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
@@ -100,6 +109,13 @@
       "sha512": "sha512-sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
       "path": "prism.forms/7.1.0.431",
       "hashPath": "prism.forms.7.1.0.431.nupkg.sha512"
+    },
+    "S7netplus/0.3.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-geoLQoJkWU34251xD49ffUeHYOS5MDCupCaHQQ1dk92eXdhmzmdJETV1vKbHRuRiiV9xUvdEOZ5NHaH7rX/Cqw==",
+      "path": "s7netplus/0.3.0",
+      "hashPath": "s7netplus.0.3.0.nupkg.sha512"
     },
     "Xamarin.Forms/3.3.0.967583": {
       "type": "package",

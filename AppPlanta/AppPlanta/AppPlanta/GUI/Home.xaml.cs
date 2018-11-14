@@ -22,10 +22,5 @@ namespace AppPlanta.GUI
         {
             await Navigation.PushAsync(new GUI.MainMenu());
         }
-
-        private void about_Clicked(object sender, EventArgs e)
-        {
-
-        }
     }
 }

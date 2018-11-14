@@ -887,20 +887,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\HP\\.nuget\\packages\\": {}
+    "C:\\Users\\Alejandro Ordoñez\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta.Android\\AppPlanta.Android.csproj",
+      "projectUniqueName": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta.Android\\AppPlanta.Android.csproj",
       "projectName": "AppPlanta.Android",
-      "projectPath": "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta.Android\\AppPlanta.Android.csproj",
-      "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta.Android\\obj\\",
+      "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta.Android\\AppPlanta.Android.csproj",
+      "packagesPath": "C:\\Users\\Alejandro Ordoñez\\.nuget\\packages\\",
+      "outputPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "configFilePaths": [
-        "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alejandro Ordoñez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -913,11 +913,11 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj": {
-              "projectPath": "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj"
+            "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj"
             },
-            "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj": {
-              "projectPath": "C:\\Users\\HP\\Documents\\Corel\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj"
+            "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj": {
+              "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj"
             }
           }
         }

@@ -111,6 +111,7 @@ class MonoPackageManager_Resources {
 		"FormsViewGroup.dll",
 		"Prism.dll",
 		"Prism.Forms.dll",
+		"S7.Net.dll",
 		"Sharp7Library.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
