@@ -6,6 +6,7 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Prism.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Prism.Forms.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\S7.Net.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Sharp7Library.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.dll

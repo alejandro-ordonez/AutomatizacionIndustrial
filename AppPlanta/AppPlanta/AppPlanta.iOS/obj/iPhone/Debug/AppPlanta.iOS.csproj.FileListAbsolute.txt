@@ -62,3 +62,5 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhone\Debug\AppPlanta.iOS.csproj.CopyComplete
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhone\Debug\AppPlanta.iOS.exe
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhone\Debug\AppPlanta.iOS.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhone\Debug\S7.Net.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhone\Debug\S7.Net.pdb

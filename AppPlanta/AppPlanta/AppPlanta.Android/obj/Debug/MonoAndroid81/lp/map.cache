@@ -2,6 +2,7 @@ AppPlanta
 FormsViewGroup
 Prism
 Prism.Forms
+S7.Net
 Sharp7Library
 System.Runtime
 Xamarin.Android.Arch.Core.Common
@@ -28,4 +29,3 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
-S7.Net

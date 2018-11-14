@@ -11,7 +11,6 @@ namespace AppPlanta.Models
 {
     public class ListActuatorViewModel
     {
-        public Plc s7PLC1200 = new Plc(CpuType.S71500, "192.168.0.10", 0, 1); //192.168.1.1
         public ObservableCollection<Actuador> lstActuators { get; set; }
         public int MyProperty { get; set; }
         private Command<Actuador> _UpdateElement;
@@ -49,6 +48,7 @@ namespace AppPlanta.Models
         {
             get { return _UpdateElement?? (_UpdateElement = new Command<Actuador>((actuador) => ChangeColor(actuador))); }
         }
+
         public void ChangeColor(Actuador a)
         {
             Actuador x = new Actuador { Name = "Guardando.." };
@@ -70,5 +70,6 @@ namespace AppPlanta.Models
             }
             
         }
+
     }
 }

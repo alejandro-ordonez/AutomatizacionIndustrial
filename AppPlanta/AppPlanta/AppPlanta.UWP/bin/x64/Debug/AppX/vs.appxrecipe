@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-14T00:17:48.431</Modified>
+      <Modified>2018-11-14T00:41:22.114</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\AppPlanta.UWP.exe">
       <PackagePath>entrypoint\AppPlanta.UWP.exe</PackagePath>
-      <Modified>2018-11-14T00:17:47.626</Modified>
+      <Modified>2018-11-14T00:41:19.366</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\prism.core\7.1.0.431\lib\uap10.0.16299\Prism.dll">
       <PackagePath>Prism.dll</PackagePath>
@@ -725,7 +725,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll">
       <PackagePath>AppPlanta.dll</PackagePath>
-      <Modified>2018-11-14T00:17:43.468</Modified>
+      <Modified>2018-11-14T00:41:12.066</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.dll">
       <PackagePath>Sharp7Library.dll</PackagePath>
@@ -888,11 +888,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-14T00:17:47.483</Modified>
+      <Modified>2018-11-14T00:41:19.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-14T00:17:47.483</Modified>
+      <Modified>2018-11-14T00:41:19.220</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -909,7 +909,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\Core\AppPlanta.UWP.exe">
       <PackagePath>AppPlanta.UWP.exe</PackagePath>
-      <Modified>2018-11-14T00:17:48.428</Modified>
+      <Modified>2018-11-14T00:41:22.109</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
