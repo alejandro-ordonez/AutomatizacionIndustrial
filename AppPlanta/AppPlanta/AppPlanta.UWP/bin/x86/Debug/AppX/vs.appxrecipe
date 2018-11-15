@@ -31,13 +31,13 @@
     <AppXManifest Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-09T23:36:34.225</Modified>
+      <Modified>2018-11-15T04:11:49.066</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\AppPlanta.UWP.exe">
       <PackagePath>entrypoint\AppPlanta.UWP.exe</PackagePath>
-      <Modified>2018-11-09T23:36:28.827</Modified>
+      <Modified>2018-11-15T04:11:39.127</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\prism.core\7.1.0.431\lib\uap10.0.16299\Prism.dll">
       <PackagePath>Prism.dll</PackagePath>
@@ -703,6 +703,10 @@
       <PackagePath>netstandard.dll</PackagePath>
       <Modified>2018-10-04T18:37:40.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\s7netplus\0.3.0\lib\netstandard2.0\S7.Net.dll">
+      <PackagePath>S7.Net.dll</PackagePath>
+      <Modified>2018-07-12T02:00:30.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-10-30T05:21:48.000</Modified>
@@ -721,11 +725,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll">
       <PackagePath>AppPlanta.dll</PackagePath>
-      <Modified>2018-11-09T23:36:20.893</Modified>
+      <Modified>2018-11-14T01:06:01.480</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.dll">
       <PackagePath>Sharp7Library.dll</PackagePath>
-      <Modified>2018-11-09T01:20:34.573</Modified>
+      <Modified>2018-11-14T00:16:02.984</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -884,11 +888,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-09T23:36:28.634</Modified>
+      <Modified>2018-11-15T04:11:38.038</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-09T23:36:28.635</Modified>
+      <Modified>2018-11-15T04:11:38.039</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -901,11 +905,11 @@
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-09T23:36:32.359</Modified>
+      <Modified>2018-11-15T04:11:46.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Core\AppPlanta.UWP.exe">
       <PackagePath>AppPlanta.UWP.exe</PackagePath>
-      <Modified>2018-11-09T23:36:34.221</Modified>
+      <Modified>2018-11-15T04:11:49.060</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>
