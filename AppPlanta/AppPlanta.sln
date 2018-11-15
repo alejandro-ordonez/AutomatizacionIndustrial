@@ -11,7 +11,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppPlanta.UWP", "AppPlanta\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppPlanta", "AppPlanta\AppPlanta\AppPlanta.csproj", "{F9E00FAE-6469-4043-8266-224AB23BEC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sharp7Library", "Sharp7\Sharp7Library.csproj", "{A2688244-A163-4291-9365-712937B8D506}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sharp7Library", "Sharp7\Sharp7Library.csproj", "{A2688244-A163-4291-9365-712937B8D506}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
