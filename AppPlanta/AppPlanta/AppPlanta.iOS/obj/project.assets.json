@@ -2,28 +2,6 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
-      "Prism.Core/7.1.0.431": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Prism.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.dll": {}
-        }
-      },
-      "Prism.Forms/7.1.0.431": {
-        "type": "package",
-        "dependencies": {
-          "Prism.Core": "7.1.0.431",
-          "Xamarin.Forms": "3.2.0.839982"
-        },
-        "compile": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        }
-      },
       "S7netplus/0.3.0": {
         "type": "package",
         "compile": {
@@ -31,6 +9,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -160,9 +164,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.Forms": "7.1.0.431",
           "S7netplus": "0.3.0",
-          "Sharp7Library": "1.0.0",
+          "Syncfusion.Xamarin.SfGauge": "16.3.0.29",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -170,42 +173,10 @@
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
-        }
-      },
-      "Sharp7Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Sharp7Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
-      "Prism.Core/7.1.0.431": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Prism.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.dll": {}
-        }
-      },
-      "Prism.Forms/7.1.0.431": {
-        "type": "package",
-        "dependencies": {
-          "Prism.Core": "7.1.0.431",
-          "Xamarin.Forms": "3.2.0.839982"
-        },
-        "compile": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        }
-      },
       "S7netplus/0.3.0": {
         "type": "package",
         "compile": {
@@ -213,6 +184,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -342,9 +339,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.Forms": "7.1.0.431",
           "S7netplus": "0.3.0",
-          "Sharp7Library": "1.0.0",
+          "Syncfusion.Xamarin.SfGauge": "16.3.0.29",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -352,42 +348,10 @@
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
-        }
-      },
-      "Sharp7Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Sharp7Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
-      "Prism.Core/7.1.0.431": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Prism.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.dll": {}
-        }
-      },
-      "Prism.Forms/7.1.0.431": {
-        "type": "package",
-        "dependencies": {
-          "Prism.Core": "7.1.0.431",
-          "Xamarin.Forms": "3.2.0.839982"
-        },
-        "compile": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        }
-      },
       "S7netplus/0.3.0": {
         "type": "package",
         "compile": {
@@ -395,6 +359,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -524,9 +514,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.Forms": "7.1.0.431",
           "S7netplus": "0.3.0",
-          "Sharp7Library": "1.0.0",
+          "Syncfusion.Xamarin.SfGauge": "16.3.0.29",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -534,42 +523,10 @@
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
-        }
-      },
-      "Sharp7Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Sharp7Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
-      "Prism.Core/7.1.0.431": {
-        "type": "package",
-        "compile": {
-          "lib/netstandard2.0/Prism.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.dll": {}
-        }
-      },
-      "Prism.Forms/7.1.0.431": {
-        "type": "package",
-        "dependencies": {
-          "Prism.Core": "7.1.0.431",
-          "Xamarin.Forms": "3.2.0.839982"
-        },
-        "compile": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.Forms.dll": {}
-        }
-      },
       "S7netplus/0.3.0": {
         "type": "package",
         "compile": {
@@ -577,6 +534,32 @@
         },
         "runtime": {
           "lib/netstandard2.0/S7.Net.dll": {}
+        }
+      },
+      "Syncfusion.Licensing/16.3.0.29": {
+        "type": "package",
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.Licensing.dll": {}
+        }
+      },
+      "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+        "type": "package",
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Xamarin.Forms": "2.4.0.280"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll": {},
+          "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll": {}
         }
       },
       "Xamarin.Forms/3.3.0.967583": {
@@ -706,9 +689,8 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Prism.Forms": "7.1.0.431",
           "S7netplus": "0.3.0",
-          "Sharp7Library": "1.0.0",
+          "Syncfusion.Xamarin.SfGauge": "16.3.0.29",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "compile": {
@@ -716,64 +698,11 @@
         },
         "runtime": {
           "bin/placeholder/AppPlanta.dll": {}
-        }
-      },
-      "Sharp7Library/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/Sharp7Library.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Sharp7Library.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "Prism.Core/7.1.0.431": {
-      "sha512": "tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
-      "type": "package",
-      "path": "prism.core/7.1.0.431",
-      "files": [
-        ".signature.p7s",
-        "lib/net45/Prism.dll",
-        "lib/net45/Prism.pdb",
-        "lib/net45/Prism.xml",
-        "lib/netstandard1.0/Prism.dll",
-        "lib/netstandard1.0/Prism.pdb",
-        "lib/netstandard1.0/Prism.xml",
-        "lib/netstandard2.0/Prism.dll",
-        "lib/netstandard2.0/Prism.pdb",
-        "lib/netstandard2.0/Prism.xml",
-        "lib/uap10.0.15063/Prism.dll",
-        "lib/uap10.0.15063/Prism.pdb",
-        "lib/uap10.0.15063/Prism.pri",
-        "lib/uap10.0.15063/Prism.xml",
-        "lib/uap10.0.16299/Prism.dll",
-        "lib/uap10.0.16299/Prism.pdb",
-        "lib/uap10.0.16299/Prism.pri",
-        "lib/uap10.0.16299/Prism.xml",
-        "prism.core.7.1.0.431.nupkg.sha512",
-        "prism.core.nuspec"
-      ]
-    },
-    "Prism.Forms/7.1.0.431": {
-      "sha512": "sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
-      "type": "package",
-      "path": "prism.forms/7.1.0.431",
-      "files": [
-        ".signature.p7s",
-        "lib/netstandard1.0/Prism.Forms.dll",
-        "lib/netstandard1.0/Prism.Forms.pdb",
-        "lib/netstandard1.0/Prism.Forms.xml",
-        "lib/netstandard2.0/Prism.Forms.dll",
-        "lib/netstandard2.0/Prism.Forms.pdb",
-        "lib/netstandard2.0/Prism.Forms.xml",
-        "prism.forms.7.1.0.431.nupkg.sha512",
-        "prism.forms.nuspec"
-      ]
-    },
     "S7netplus/0.3.0": {
       "sha512": "geoLQoJkWU34251xD49ffUeHYOS5MDCupCaHQQ1dk92eXdhmzmdJETV1vKbHRuRiiV9xUvdEOZ5NHaH7rX/Cqw==",
       "type": "package",
@@ -787,6 +716,69 @@
         "lib/netstandard2.0/S7.Net.pdb",
         "s7netplus.0.3.0.nupkg.sha512",
         "s7netplus.nuspec"
+      ]
+    },
+    "Syncfusion.Licensing/16.3.0.29": {
+      "sha512": "k5F4Laz8YSE7+bdn3NTqNAWgN+IOlI4HLhJaVH7GnvLuI+Zyby4DMjfJWBt6mb9IOeRLKrkE6sg3Ih6rWaCK/A==",
+      "type": "package",
+      "path": "syncfusion.licensing/16.3.0.29",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.Licensing.dll",
+        "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
+        "lib/Xamarin.iOS10/Syncfusion.Licensing.dll",
+        "lib/net20/Syncfusion.Licensing.dll",
+        "lib/net35/Syncfusion.Licensing.dll",
+        "lib/net40/Syncfusion.Licensing.dll",
+        "lib/net45/Syncfusion.Licensing.dll",
+        "lib/net451/Syncfusion.Licensing.dll",
+        "lib/net46/Syncfusion.Licensing.dll",
+        "lib/netstandard1.0/Syncfusion.Licensing.dll",
+        "lib/netstandard1.4/Syncfusion.Licensing.dll",
+        "lib/netstandard2.0/Syncfusion.Licensing.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.Licensing.dll",
+        "lib/uap10.0/Syncfusion.Licensing.dll",
+        "syncfusion.licensing.16.3.0.29.nupkg.sha512",
+        "syncfusion.licensing.nuspec"
+      ]
+    },
+    "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+      "sha512": "tCh+04PeBhNpAPRZ04o264m38lEmViHRIHKHcpM8KHTEETOvNiKNDKUkPEii5HnGCS3UVQPO4tWUiq6OJdx9IQ==",
+      "type": "package",
+      "path": "syncfusion.xamarin.sfgauge/16.3.0.29",
+      "files": [
+        ".signature.p7s",
+        "lib/MonoAndroid10/Syncfusion.SfGauge.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.Android.dll",
+        "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.dll",
+        "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.iOS.dll",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.XForms.xml",
+        "lib/Xamarin.iOS10/Syncfusion.SfGauge.iOS.dll",
+        "lib/netstandard1.0/Syncfusion.SfGauge.XForms.dll",
+        "lib/netstandard1.0/Syncfusion.SfGauge.XForms.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGauge.XForms.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81/Syncfusion.SfGauge.XForms.xml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP.pri",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/CircularGauge/Themes/CircularGauge.xaml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/CircularGauge/Themes/CircularGauge.xbf",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/DigitalGauge/Themes/DigitalGauge.xaml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/DigitalGauge/Themes/DigitalGauge.xbf",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/LinearGauge/Themes/LinearGauge.xaml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/LinearGauge/Themes/LinearGauge.xbf",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/Properties/Syncfusion.SfGauge.UWP.rd.xml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/Syncfusion.SfGauge.UWP.XML",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/Syncfusion.SfGauge.UWP.xr.xml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/Themes/Generic.xaml",
+        "lib/uap10.0/Syncfusion.SfGauge.UWP/Themes/Generic.xbf",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.UWP.dll",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.dll",
+        "lib/uap10.0/Syncfusion.SfGauge.XForms.xml",
+        "syncfusion.xamarin.sfgauge.16.3.0.29.nupkg.sha512",
+        "syncfusion.xamarin.sfgauge.nuspec"
       ]
     },
     "Xamarin.Forms/3.3.0.967583": {
@@ -940,19 +932,13 @@
       "type": "project",
       "path": "../AppPlanta/AppPlanta.csproj",
       "msbuildProject": "../AppPlanta/AppPlanta.csproj"
-    },
-    "Sharp7Library/1.0.0": {
-      "type": "project",
-      "path": "../../Sharp7/Sharp7Library.csproj",
-      "msbuildProject": "../../Sharp7/Sharp7Library.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
       "AppPlanta >= 1.0.0",
-      "Prism.Forms >= 7.1.0.431",
       "S7netplus >= 0.3.0",
-      "Sharp7Library >= 1.0.0",
+      "Syncfusion.Xamarin.SfGauge >= 16.3.0.29",
       "Xamarin.Forms >= 3.3.0.967583"
     ]
   },
@@ -978,16 +964,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.syncfusion.com/nuget_xamarin/nuget/getsyncfusionpackages/xamarin": {}
       },
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
             "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj": {
               "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\AppPlanta\\AppPlanta\\AppPlanta.csproj"
-            },
-            "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj": {
-              "projectPath": "D:\\Visual Studio Projects\\AutomatizacionIndustrial\\AppPlanta\\Sharp7\\Sharp7Library.csproj"
             }
           }
         }
@@ -996,13 +980,13 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
-          "Prism.Forms": {
-            "target": "Package",
-            "version": "[7.1.0.431, )"
-          },
           "S7netplus": {
             "target": "Package",
             "version": "[0.3.0, )"
+          },
+          "Syncfusion.Xamarin.SfGauge": {
+            "target": "Package",
+            "version": "[16.3.0.29, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

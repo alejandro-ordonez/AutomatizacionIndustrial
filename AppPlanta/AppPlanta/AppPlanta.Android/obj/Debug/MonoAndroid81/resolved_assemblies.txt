@@ -3,11 +3,13 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\FormsViewGroup.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Java.Interop.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Android.Export.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\mscorlib.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Prism.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Prism.Forms.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\S7.Net.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Sharp7Library.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Syncfusion.Licensing.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Syncfusion.SfGauge.Android.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Syncfusion.SfGauge.XForms.Android.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Syncfusion.SfGauge.XForms.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Core.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Xml.dll
@@ -67,4 +69,8 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.InteropServices.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Runtime.Extensions.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Reflection.Extensions.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Resources.ResourceManager.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Text.RegularExpressions.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Text.Encoding.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\System.Threading.Tasks.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.Android\obj\Debug\MonoAndroid81\android\assets\Mono.Security.dll

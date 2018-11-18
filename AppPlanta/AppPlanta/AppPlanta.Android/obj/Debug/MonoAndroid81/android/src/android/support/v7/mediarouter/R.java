@@ -360,6 +360,57 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int barLength=0x7f0100d5;
+        /** Determines the bar pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int barPointerColor=0x7f0101e0;
+        /**  Determines the corner radius for the bar pointer . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int barPointerCornerRadius=0x7f0101e3;
+        /** Determines the corner radius type for the bar pointer.
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int barPointerCornerRadiusType=0x7f0101e2;
+        /** Determines the bar pointer stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int barPointerStrokeWidth=0x7f0101e1;
+        /** Determines the bar pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int barPointerValue=0x7f0101df;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -556,6 +607,57 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int cardUseCompatPadding=0x7f01001b;
+        /** Determines the character height of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int characterHeight=0x7f0101eb;
+        /** Determines the character spacing of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int characterSpacing=0x7f0101ec;
+        /** Determines the character stroke color of the digital gauge.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int characterStrokeColor=0x7f0101ea;
+        /** Determines the character type of the digital gauge .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>segmentSeven</code></td><td>0</td><td></td></tr>
+<tr><td><code>segmentFourteen</code></td><td>1</td><td></td></tr>
+<tr><td><code>segmentSixteen</code></td><td>2</td><td></td></tr>
+<tr><td><code>eightCrossEightDotMatrix</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int characterType=0x7f0101f1;
+        /** Determines the character width of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int characterWidth=0x7f0101ed;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -564,6 +666,184 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int checkedTextViewStyle=0x7f0100be;
+        /** Determines the scale direction for the scale .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>clockwise</code></td><td>0</td><td></td></tr>
+<tr><td><code>anticlockwise</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int circularGaugeScaleDirection=0x7f010179;
+        /** Determines the interval for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleInterval=0x7f010177;
+        /**  Determines the label offset for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleLabelOffset=0x7f010182;
+        /** Determines the postfix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleLabelPostfix=0x7f010180;
+        /** Determines the prefix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleLabelPrefix=0x7f01017f;
+        /**  Determines the label color for the scale . 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleLabelTextColor=0x7f010183;
+        /**  Determines the label text size for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleLabelTextSize=0x7f010181;
+        /** Determines the major tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleMajorTickColor=0x7f010185;
+        /** Determines the major tick offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleMajorTickOffset=0x7f010187;
+        /**  Determines the maximum labels for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleMaximumLabels=0x7f010193;
+        /** Determines the minor tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleMinorTickColor=0x7f01018b;
+        /** Determines the minor tick offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleMinorTickOffset=0x7f01018d;
+        /**  Determines the minor ticks per interval for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleMinorTicksPerInterval=0x7f010192;
+        /** Determines the range color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleRangeColor=0x7f01019d;
+        /** Determines the range end value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleRangeEndValue=0x7f01019a;
+        /** Determines the range offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleRangeOffset=0x7f01019c;
+        /** Determines the range start value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleRangeStartValue=0x7f010199;
+        /** Determines the label for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleShowLabels=0x7f010194;
+        /** Determines the ticks for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int circularScaleShowTicks=0x7f010195;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -888,6 +1168,25 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int dialogTheme=0x7f01007f;
+        /** Determines the dimmed segment color of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int dimmedSegmentAlpha=0x7f0101f0;
+        /** Determines the dimmed segment color of the digital gauge.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int dimmedSegmentColor=0x7f0101ef;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1591,6 +1890,68 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int logoDescription=0x7f010110;
+        /** Determines the marker pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int markerPointerColor=0x7f0101b9;
+        /** Determines the marker pointer height for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int markerPointerHeight=0x7f0101ba;
+        /** Determines the marker pointer offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int markerPointerOffset=0x7f0101bc;
+        /** Determines the marker pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int markerPointerValue=0x7f0101b7;
+        /** Determines the marker pointer width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int markerPointerWidth=0x7f0101bb;
+        /** Determines the marker shapes for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>triangle</code></td><td>0</td><td></td></tr>
+<tr><td><code>rectangle</code></td><td>1</td><td></td></tr>
+<tr><td><code>circle</code></td><td>2</td><td></td></tr>
+<tr><td><code>diamond</code></td><td>3</td><td></td></tr>
+<tr><td><code>invertedTriangle</code></td><td>4</td><td></td></tr>
+<tr><td><code>image</code></td><td>5</td><td></td></tr>
+</table>
+         */
+        public static int markerShape=0x7f0101b8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1611,6 +1972,15 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int maxButtonHeight=0x7f01010a;
+        /**  Determines the maximum labels for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int maximumLabels=0x7f0101d3;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1708,6 +2078,131 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static int navigationMode=0x7f010026;
+        /** Determines the needle pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerColor=0x7f0101a4;
+        /** Determines the needle pointer knob color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerKnobColor=0x7f0101a9;
+        /** Determines the needle pointer knob radius for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerKnobRadius=0x7f0101a7;
+        /** Determines the needle pointer knob stroke color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerKnobStrokeColor=0x7f0101a8;
+        /** Determines the needle pointer knob stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerKnobStrokeWidth=0x7f0101aa;
+        /** Determines the needle pointer length factor for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerLengthFactor=0x7f0101a6;
+        /** Determines the needle pointer tail color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerTailColor=0x7f0101ab;
+        /** Determines the needle pointer tail length factor for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerTailLengthFactor=0x7f0101ac;
+        /** Determines the needle pointer tail stroke color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerTailStrokeColor=0x7f0101ae;
+        /** Determines the needle pointer tail stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerTailStrokeWidth=0x7f0101ad;
+        /** Determines the needle pointer type for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bar</code></td><td>0</td><td></td></tr>
+<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int needlePointerType=0x7f0101a3;
+        /** Determines the needle pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerValue=0x7f0101a2;
+        /** Determines the needle pointer width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int needlePointerWidth=0x7f0101a5;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1892,6 +2387,184 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int radioButtonStyle=0x7f0100c0;
+        /** Determines the range color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeColor=0x7f0101de;
+        /** Determines the range end value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeEndValue=0x7f0101da;
+        /** Determines the range end width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeEndWidth=0x7f0101dc;
+        /** Determines the range inner end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeInnerEndOffset=0x7f01019f;
+        /** Determines the range inner start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeInnerStartOffset=0x7f01019e;
+        /** Determines the range offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeOffset=0x7f0101dd;
+        /** Determines the range outer end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeOuterEndOffset=0x7f0101a1;
+        /** Determines the range outer start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeOuterStartOffset=0x7f0101a0;
+        /** Determines the range pointer caps for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int rangePointerCap=0x7f0101b6;
+        /** Determines the range pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerColor=0x7f0101b1;
+        /** Determines the range pointer end offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerEndOffset=0x7f0101b5;
+        /** Determines the range pointer offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerOffset=0x7f0101b3;
+        /** Determines the range pointer start offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerStartOffset=0x7f0101b4;
+        /** Determines the range pointer start value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerStartValue=0x7f0101af;
+        /** Determines the range pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerValue=0x7f0101b0;
+        /** Determines the range pointer width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangePointerWidth=0x7f0101b2;
+        /** Determines the range start value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeStartValue=0x7f0101d9;
+        /** Determines the range start width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeStartWidth=0x7f0101db;
+        /** Determines the range width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int rangeWidth=0x7f01019b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1921,6 +2594,481 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static int rippleColor=0x7f01013c;
+        /** Determines the auto angle for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleAutoAngle=0x7f01017e;
+        /** Determines the auto interval for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleAutoInterval=0x7f010178;
+        /** Determines the scale bar color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleBarColor=0x7f0101c8;
+        /** Determines the scale bar length for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleBarLength=0x7f0101ca;
+        /** Determines the scale bar size for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleBarSize=0x7f0101c9;
+        /**  Determines the corner radius for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleCornerRadius=0x7f0101d7;
+        /** Determines the corner radius type for the scale.
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static int scaleCornerRadiusType=0x7f0101d6;
+        /** Determines the direction for the scale.
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>backward</code></td><td>0</td><td></td></tr>
+<tr><td><code>forward</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int scaleDirection=0x7f0101d5;
+        /**  Determines the end angle for the scale. 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleEndAngle=0x7f010174;
+        /** Determines the scale end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleEndOffset=0x7f01017d;
+        /** Determines the maximum for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleEndValue=0x7f010176;
+        /** Determines the interval for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleInterval=0x7f0101bf;
+        /** Determines the label color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleLabelColor=0x7f0101cb;
+        /**  Determines the label font size for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleLabelFontSize=0x7f0101ce;
+        /**  Determines the label offset for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleLabelOffset=0x7f0101cf;
+        /** Determines the postfix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleLabelPostfix=0x7f0101cd;
+        /** Determines the prefix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleLabelPrefix=0x7f0101cc;
+        /** Determines the major tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickColor=0x7f0101c1;
+        /** Determines the major tick end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickEndOffset=0x7f010189;
+        /** Determines the major tick length for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickLength=0x7f0101c0;
+        /** Determines the major tick stroke offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickOffset=0x7f0101c3;
+        /** Determines the major tick size for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickSize=0x7f010184;
+        /** Determines the major tick start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickStartOffset=0x7f010188;
+        /** Determines the major tick stroke width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickStrokeWidth=0x7f0101c2;
+        /** Determines the major tick width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMajorTickWidth=0x7f010186;
+        /** Determines the maximum for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMaximum=0x7f0101be;
+        /** Determines the minimum for the scale. 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinimum=0x7f0101bd;
+        /** Determines the minor tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickColor=0x7f0101c5;
+        /** Determines the minor tick end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickEndOffset=0x7f01018f;
+        /** Determines the minor tick length for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickLength=0x7f0101c4;
+        /** Determines the minor tick stroke offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickOffset=0x7f0101c7;
+        /** Determines the minor tick size for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickSize=0x7f01018a;
+        /** Determines the minor tick start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickStartOffset=0x7f01018e;
+        /** Determines the minor tick stroke width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickStrokeWidth=0x7f0101c6;
+        /** Determines the minor tick width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTickWidth=0x7f01018c;
+        /**  Determines the minor ticks per interval for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleMinorTicksPerInterval=0x7f0101d2;
+        /** Determines the number of decimal digits for the scale.
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleNumberofDecimalDigits=0x7f010198;
+        /**  Determines the offset for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleOffset=0x7f0101d8;
+        /** Determines the opposite position for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleOpposedPosition=0x7f0101d4;
+        /** Determines the scale orientation for the scale .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
+<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int scaleOrientation=0x7f0101e9;
+        /** Determines the radius factor for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleRadiusFactor=0x7f010197;
+        /**  Determines the rim color for the scale . 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleRimColor=0x7f010190;
+        /**  Determines the rim width for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleRimWidth=0x7f010191;
+        /** Determines the first label behaviour for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleShowFirstLabel=0x7f01017a;
+        /** Determines the label for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleShowLabels=0x7f0101d0;
+        /** Determines the last label behaviour for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleShowLastLabel=0x7f01017b;
+        /** Determines the rim for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleShowRim=0x7f010196;
+        /** Determines the ticks visibility for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleShowTicks=0x7f0101d1;
+        /** Determines the start angle for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleStartAngle=0x7f010173;
+        /** Determines the scale start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleStartOffset=0x7f01017c;
+        /** Determines the minimum for the scale. 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int scaleStartValue=0x7f010175;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1955,6 +3103,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int seekBarStyle=0x7f0100c4;
+        /** Determines the segment stroke width of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int segmentStrokeWidth=0x7f0101ee;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2156,6 +3313,55 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static int switchTextAppearance=0x7f0100fd;
+        /** Determines the symbol pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int symbolPointerColor=0x7f0101e5;
+        /** Determines the symbol pointer offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int symbolPointerOffset=0x7f0101e7;
+        /** Determines the symbol pointer stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int symbolPointerStrokeWidth=0x7f0101e6;
+        /** Determines the symbol pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static int symbolPointerValue=0x7f0101e4;
+        /** Determines the symbol position for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>far</code></td><td>0</td><td></td></tr>
+<tr><td><code>away</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static int symbolPosition=0x7f0101e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -3001,6 +4207,8 @@ containing a value of this type.
         public static int notification_subtext_size=0x7f0800a1;
         public static int notification_top_pad=0x7f0800a2;
         public static int notification_top_pad_large_text=0x7f0800a3;
+        public static int pading_bottom=0x7f0800a5;
+        public static int pading_top=0x7f0800a4;
         public static int tooltip_corner_radius=0x7f080062;
         public static int tooltip_horizontal_padding=0x7f080063;
         public static int tooltip_margin=0x7f080064;
@@ -3331,201 +4539,225 @@ containing a value of this type.
         public static int META=0x7f090035;
         public static int SHIFT=0x7f090036;
         public static int SYM=0x7f090037;
-        public static int action0=0x7f0900b6;
-        public static int action_bar=0x7f09007c;
+        public static int action0=0x7f0900ce;
+        public static int action_bar=0x7f09008f;
         public static int action_bar_activity_content=0x7f090001;
-        public static int action_bar_container=0x7f09007b;
-        public static int action_bar_root=0x7f090077;
+        public static int action_bar_container=0x7f09008e;
+        public static int action_bar_root=0x7f09008a;
         public static int action_bar_spinner=0x7f090002;
-        public static int action_bar_subtitle=0x7f09005b;
-        public static int action_bar_title=0x7f09005a;
-        public static int action_container=0x7f0900b3;
-        public static int action_context_bar=0x7f09007d;
-        public static int action_divider=0x7f0900ba;
-        public static int action_image=0x7f0900b4;
+        public static int action_bar_subtitle=0x7f09006f;
+        public static int action_bar_title=0x7f09006e;
+        public static int action_container=0x7f0900cb;
+        public static int action_context_bar=0x7f090090;
+        public static int action_divider=0x7f0900d2;
+        public static int action_image=0x7f0900cc;
         public static int action_menu_divider=0x7f090003;
         public static int action_menu_presenter=0x7f090004;
-        public static int action_mode_bar=0x7f090079;
-        public static int action_mode_bar_stub=0x7f090078;
-        public static int action_mode_close_button=0x7f09005c;
-        public static int action_text=0x7f0900b5;
-        public static int actions=0x7f0900c3;
-        public static int activity_chooser_view_content=0x7f09005d;
+        public static int action_mode_bar=0x7f09008c;
+        public static int action_mode_bar_stub=0x7f09008b;
+        public static int action_mode_close_button=0x7f090070;
+        public static int action_text=0x7f0900cd;
+        public static int actions=0x7f0900db;
+        public static int activity_chooser_view_content=0x7f090071;
         public static int add=0x7f090027;
-        public static int alertTitle=0x7f090070;
+        public static int alertTitle=0x7f090083;
         public static int all=0x7f090052;
         public static int always=0x7f090038;
+        public static int anticlockwise=0x7f09005a;
         public static int async=0x7f090056;
         public static int auto=0x7f090044;
+        public static int away=0x7f090066;
+        public static int backward=0x7f090064;
+        public static int bar=0x7f09005c;
         public static int beginning=0x7f09002f;
         public static int blocking=0x7f090057;
+        public static int both=0x7f09005e;
         public static int bottom=0x7f09003d;
-        public static int buttonPanel=0x7f090063;
-        public static int cancel_action=0x7f0900b7;
+        public static int buttonPanel=0x7f090076;
+        public static int cancel_action=0x7f0900cf;
         public static int center=0x7f090045;
         public static int center_horizontal=0x7f090046;
         public static int center_vertical=0x7f090047;
-        public static int checkbox=0x7f090073;
-        public static int chronometer=0x7f0900bf;
+        public static int checkbox=0x7f090086;
+        public static int chronometer=0x7f0900d7;
+        public static int circle=0x7f09005f;
         public static int clip_horizontal=0x7f09004e;
         public static int clip_vertical=0x7f09004f;
+        public static int clockwise=0x7f09005b;
         public static int collapseActionView=0x7f090039;
-        public static int container=0x7f09008d;
-        public static int contentPanel=0x7f090066;
-        public static int coordinator=0x7f09008e;
-        public static int custom=0x7f09006d;
-        public static int customPanel=0x7f09006c;
-        public static int decor_content_parent=0x7f09007a;
-        public static int default_activity_button=0x7f090060;
-        public static int design_bottom_sheet=0x7f090090;
-        public static int design_menu_item_action_area=0x7f090097;
-        public static int design_menu_item_action_area_stub=0x7f090096;
-        public static int design_menu_item_text=0x7f090095;
-        public static int design_navigation_view=0x7f090094;
+        public static int container=0x7f0900a1;
+        public static int contentPanel=0x7f090079;
+        public static int coordinator=0x7f0900a2;
+        public static int custom=0x7f090080;
+        public static int customPanel=0x7f09007f;
+        public static int decor_content_parent=0x7f09008d;
+        public static int default_activity_button=0x7f090073;
+        public static int design_bottom_sheet=0x7f0900a4;
+        public static int design_menu_item_action_area=0x7f0900ab;
+        public static int design_menu_item_action_area_stub=0x7f0900aa;
+        public static int design_menu_item_text=0x7f0900a9;
+        public static int design_navigation_view=0x7f0900a8;
+        public static int diamond=0x7f090060;
         public static int disableHome=0x7f090020;
-        public static int edit_query=0x7f09007e;
+        public static int edit_query=0x7f090091;
+        public static int eightCrossEightDotMatrix=0x7f09006a;
+        public static int eightsegment=0x7f0900ae;
         public static int end=0x7f090030;
-        public static int end_padder=0x7f0900c5;
+        public static int end_padder=0x7f0900dd;
         public static int enterAlways=0x7f09003f;
         public static int enterAlwaysCollapsed=0x7f090040;
         public static int exitUntilCollapsed=0x7f090041;
-        public static int expand_activities_button=0x7f09005e;
-        public static int expanded_menu=0x7f090072;
+        public static int expand_activities_button=0x7f090072;
+        public static int expanded_menu=0x7f090085;
+        public static int far=0x7f090067;
         public static int fill=0x7f090050;
         public static int fill_horizontal=0x7f090051;
         public static int fill_vertical=0x7f090048;
         public static int fixed=0x7f090054;
         public static int forever=0x7f090058;
+        public static int forward=0x7f090065;
+        public static int fourteensegment=0x7f0900af;
         public static int ghost_view=0x7f09000a;
         public static int home=0x7f090005;
         public static int homeAsUp=0x7f090021;
-        public static int icon=0x7f090062;
-        public static int icon_group=0x7f0900c4;
+        public static int horizontal=0x7f090068;
+        public static int icon=0x7f090075;
+        public static int icon_group=0x7f0900dc;
         public static int ifRoom=0x7f09003a;
-        public static int image=0x7f09005f;
-        public static int info=0x7f0900c0;
+        public static int image=0x7f090061;
+        public static int info=0x7f0900d8;
+        public static int invertedTriangle=0x7f090062;
         public static int italic=0x7f090059;
         public static int item_touch_helper_previous_elevation=0x7f090000;
-        public static int largeLabel=0x7f09008c;
+        public static int largeLabel=0x7f0900a0;
         public static int left=0x7f090049;
         public static int line1=0x7f090017;
         public static int line3=0x7f090018;
         public static int listMode=0x7f09001d;
-        public static int list_item=0x7f090061;
-        public static int masked=0x7f0900ca;
-        public static int media_actions=0x7f0900b9;
-        public static int message=0x7f0900c8;
+        public static int list_item=0x7f090074;
+        public static int masked=0x7f0900e2;
+        public static int media_actions=0x7f0900d1;
+        public static int message=0x7f0900e0;
         public static int middle=0x7f090031;
         public static int mini=0x7f090053;
-        public static int mr_art=0x7f0900a5;
-        public static int mr_chooser_list=0x7f09009a;
-        public static int mr_chooser_route_desc=0x7f09009d;
-        public static int mr_chooser_route_icon=0x7f09009b;
-        public static int mr_chooser_route_name=0x7f09009c;
-        public static int mr_chooser_title=0x7f090099;
-        public static int mr_close=0x7f0900a2;
-        public static int mr_control_divider=0x7f0900a8;
-        public static int mr_control_playback_ctrl=0x7f0900ae;
-        public static int mr_control_subtitle=0x7f0900b1;
-        public static int mr_control_title=0x7f0900b0;
-        public static int mr_control_title_container=0x7f0900af;
-        public static int mr_custom_control=0x7f0900a3;
-        public static int mr_default_control=0x7f0900a4;
-        public static int mr_dialog_area=0x7f09009f;
-        public static int mr_expandable_area=0x7f09009e;
-        public static int mr_group_expand_collapse=0x7f0900b2;
-        public static int mr_media_main_control=0x7f0900a6;
-        public static int mr_name=0x7f0900a1;
-        public static int mr_playback_control=0x7f0900a7;
-        public static int mr_title_bar=0x7f0900a0;
-        public static int mr_volume_control=0x7f0900a9;
-        public static int mr_volume_group_list=0x7f0900aa;
-        public static int mr_volume_item_icon=0x7f0900ac;
-        public static int mr_volume_slider=0x7f0900ad;
+        public static int mr_art=0x7f0900bd;
+        public static int mr_chooser_list=0x7f0900b2;
+        public static int mr_chooser_route_desc=0x7f0900b5;
+        public static int mr_chooser_route_icon=0x7f0900b3;
+        public static int mr_chooser_route_name=0x7f0900b4;
+        public static int mr_chooser_title=0x7f0900b1;
+        public static int mr_close=0x7f0900ba;
+        public static int mr_control_divider=0x7f0900c0;
+        public static int mr_control_playback_ctrl=0x7f0900c6;
+        public static int mr_control_subtitle=0x7f0900c9;
+        public static int mr_control_title=0x7f0900c8;
+        public static int mr_control_title_container=0x7f0900c7;
+        public static int mr_custom_control=0x7f0900bb;
+        public static int mr_default_control=0x7f0900bc;
+        public static int mr_dialog_area=0x7f0900b7;
+        public static int mr_expandable_area=0x7f0900b6;
+        public static int mr_group_expand_collapse=0x7f0900ca;
+        public static int mr_media_main_control=0x7f0900be;
+        public static int mr_name=0x7f0900b9;
+        public static int mr_playback_control=0x7f0900bf;
+        public static int mr_title_bar=0x7f0900b8;
+        public static int mr_volume_control=0x7f0900c1;
+        public static int mr_volume_group_list=0x7f0900c2;
+        public static int mr_volume_item_icon=0x7f0900c4;
+        public static int mr_volume_slider=0x7f0900c5;
         public static int multiply=0x7f090028;
-        public static int navigation_header_container=0x7f090093;
+        public static int navigation_header_container=0x7f0900a7;
         public static int never=0x7f09003b;
         public static int none=0x7f090022;
         public static int normal=0x7f09001e;
-        public static int notification_background=0x7f0900c2;
-        public static int notification_main_column=0x7f0900bc;
-        public static int notification_main_column_container=0x7f0900bb;
+        public static int notification_background=0x7f0900da;
+        public static int notification_main_column=0x7f0900d4;
+        public static int notification_main_column_container=0x7f0900d3;
         public static int parallax=0x7f09004c;
-        public static int parentPanel=0x7f090065;
+        public static int parentPanel=0x7f090078;
         public static int parent_matrix=0x7f09000b;
         public static int pin=0x7f09004d;
         public static int progress_circular=0x7f090006;
         public static int progress_horizontal=0x7f090007;
-        public static int radio=0x7f090075;
+        public static int radio=0x7f090088;
+        public static int rectangle=0x7f090063;
         public static int right=0x7f09004a;
-        public static int right_icon=0x7f0900c1;
-        public static int right_side=0x7f0900bd;
+        public static int right_icon=0x7f0900d9;
+        public static int right_side=0x7f0900d5;
+        public static int rootLayout=0x7f09009e;
         public static int save_image_matrix=0x7f09000c;
         public static int save_non_transition_alpha=0x7f09000d;
         public static int save_scale_type=0x7f09000e;
         public static int screen=0x7f090029;
         public static int scroll=0x7f090042;
-        public static int scrollIndicatorDown=0x7f09006b;
-        public static int scrollIndicatorUp=0x7f090067;
-        public static int scrollView=0x7f090068;
+        public static int scrollIndicatorDown=0x7f09007e;
+        public static int scrollIndicatorUp=0x7f09007a;
+        public static int scrollView=0x7f09007b;
         public static int scrollable=0x7f090055;
-        public static int search_badge=0x7f090080;
-        public static int search_bar=0x7f09007f;
-        public static int search_button=0x7f090081;
-        public static int search_close_btn=0x7f090086;
-        public static int search_edit_frame=0x7f090082;
-        public static int search_go_btn=0x7f090088;
-        public static int search_mag_icon=0x7f090083;
-        public static int search_plate=0x7f090084;
-        public static int search_src_text=0x7f090085;
-        public static int search_voice_btn=0x7f090089;
-        public static int select_dialog_listview=0x7f09008a;
-        public static int shortcut=0x7f090074;
+        public static int search_badge=0x7f090093;
+        public static int search_bar=0x7f090092;
+        public static int search_button=0x7f090094;
+        public static int search_close_btn=0x7f090099;
+        public static int search_edit_frame=0x7f090095;
+        public static int search_go_btn=0x7f09009b;
+        public static int search_mag_icon=0x7f090096;
+        public static int search_plate=0x7f090097;
+        public static int search_src_text=0x7f090098;
+        public static int search_voice_btn=0x7f09009c;
+        public static int segmentFourteen=0x7f09006b;
+        public static int segmentSeven=0x7f09006c;
+        public static int segmentSixteen=0x7f09006d;
+        public static int select_dialog_listview=0x7f09009d;
+        public static int sevensegment=0x7f0900ad;
+        public static int shortcut=0x7f090087;
         public static int showCustom=0x7f090023;
         public static int showHome=0x7f090024;
         public static int showTitle=0x7f090025;
-        public static int sliding_tabs=0x7f0900c6;
-        public static int smallLabel=0x7f09008b;
-        public static int snackbar_action=0x7f090092;
-        public static int snackbar_text=0x7f090091;
+        public static int sixteensegment=0x7f0900b0;
+        public static int sliding_tabs=0x7f0900de;
+        public static int smallLabel=0x7f09009f;
+        public static int snackbar_action=0x7f0900a6;
+        public static int snackbar_text=0x7f0900a5;
         public static int snap=0x7f090043;
-        public static int spacer=0x7f090064;
+        public static int spacer=0x7f090077;
         public static int split_action_bar=0x7f090008;
         public static int src_atop=0x7f09002a;
         public static int src_in=0x7f09002b;
         public static int src_over=0x7f09002c;
         public static int start=0x7f09004b;
-        public static int status_bar_latest_event_content=0x7f0900b8;
-        public static int submenuarrow=0x7f090076;
-        public static int submit_area=0x7f090087;
+        public static int status_bar_latest_event_content=0x7f0900d0;
+        public static int submenuarrow=0x7f090089;
+        public static int submit_area=0x7f09009a;
         public static int tabMode=0x7f09001f;
         public static int tag_transition_group=0x7f090019;
         public static int text=0x7f09001a;
         public static int text2=0x7f09001b;
-        public static int textSpacerNoButtons=0x7f09006a;
-        public static int textSpacerNoTitle=0x7f090069;
-        public static int text_input_password_toggle=0x7f090098;
+        public static int textSpacerNoButtons=0x7f09007d;
+        public static int textSpacerNoTitle=0x7f09007c;
+        public static int text_input_password_toggle=0x7f0900ac;
         public static int textinput_counter=0x7f090014;
         public static int textinput_error=0x7f090015;
-        public static int time=0x7f0900be;
+        public static int time=0x7f0900d6;
         public static int title=0x7f09001c;
-        public static int titleDividerNoCustom=0x7f090071;
-        public static int title_template=0x7f09006f;
-        public static int toolbar=0x7f0900c7;
+        public static int titleDividerNoCustom=0x7f090084;
+        public static int title_template=0x7f090082;
+        public static int toolbar=0x7f0900df;
         public static int top=0x7f09003e;
-        public static int topPanel=0x7f09006e;
-        public static int touch_outside=0x7f09008f;
+        public static int topPanel=0x7f090081;
+        public static int touch_outside=0x7f0900a3;
         public static int transition_current_scene=0x7f09000f;
         public static int transition_layout_save=0x7f090010;
         public static int transition_position=0x7f090011;
         public static int transition_scene_layoutid_cache=0x7f090012;
         public static int transition_transform=0x7f090013;
+        public static int triangle=0x7f09005d;
         public static int uniform=0x7f09002d;
         public static int up=0x7f090009;
         public static int useLogo=0x7f090026;
+        public static int vertical=0x7f090069;
         public static int view_offset_helper=0x7f090016;
-        public static int visible=0x7f0900c9;
-        public static int volume_item_container=0x7f0900ab;
+        public static int visible=0x7f0900e1;
+        public static int volume_item_container=0x7f0900c3;
         public static int withText=0x7f09003c;
         public static int wrap_content=0x7f09002e;
     }
@@ -3575,48 +4807,50 @@ containing a value of this type.
         public static int abc_search_dropdown_item_icons_2line=0x7f040017;
         public static int abc_search_view=0x7f040018;
         public static int abc_select_dialog_material=0x7f040019;
-        public static int design_bottom_navigation_item=0x7f04001a;
-        public static int design_bottom_sheet_dialog=0x7f04001b;
-        public static int design_layout_snackbar=0x7f04001c;
-        public static int design_layout_snackbar_include=0x7f04001d;
-        public static int design_layout_tab_icon=0x7f04001e;
-        public static int design_layout_tab_text=0x7f04001f;
-        public static int design_menu_item_action_area=0x7f040020;
-        public static int design_navigation_item=0x7f040021;
-        public static int design_navigation_item_header=0x7f040022;
-        public static int design_navigation_item_separator=0x7f040023;
-        public static int design_navigation_item_subheader=0x7f040024;
-        public static int design_navigation_menu=0x7f040025;
-        public static int design_navigation_menu_item=0x7f040026;
-        public static int design_text_input_password_icon=0x7f040027;
-        public static int mr_chooser_dialog=0x7f040028;
-        public static int mr_chooser_list_item=0x7f040029;
-        public static int mr_controller_material_dialog_b=0x7f04002a;
-        public static int mr_controller_volume_item=0x7f04002b;
-        public static int mr_playback_control=0x7f04002c;
-        public static int mr_volume_control=0x7f04002d;
-        public static int notification_action=0x7f04002e;
-        public static int notification_action_tombstone=0x7f04002f;
-        public static int notification_media_action=0x7f040030;
-        public static int notification_media_cancel_action=0x7f040031;
-        public static int notification_template_big_media=0x7f040032;
-        public static int notification_template_big_media_custom=0x7f040033;
-        public static int notification_template_big_media_narrow=0x7f040034;
-        public static int notification_template_big_media_narrow_custom=0x7f040035;
-        public static int notification_template_custom_big=0x7f040036;
-        public static int notification_template_icon_group=0x7f040037;
-        public static int notification_template_lines_media=0x7f040038;
-        public static int notification_template_media=0x7f040039;
-        public static int notification_template_media_custom=0x7f04003a;
-        public static int notification_template_part_chronometer=0x7f04003b;
-        public static int notification_template_part_time=0x7f04003c;
-        public static int select_dialog_item_material=0x7f04003d;
-        public static int select_dialog_multichoice_material=0x7f04003e;
-        public static int select_dialog_singlechoice_material=0x7f04003f;
-        public static int support_simple_spinner_dropdown_item=0x7f040040;
-        public static int tabbar=0x7f040041;
-        public static int toolbar=0x7f040042;
-        public static int tooltip=0x7f040043;
+        public static int circulargauge_layout=0x7f04001a;
+        public static int design_bottom_navigation_item=0x7f04001b;
+        public static int design_bottom_sheet_dialog=0x7f04001c;
+        public static int design_layout_snackbar=0x7f04001d;
+        public static int design_layout_snackbar_include=0x7f04001e;
+        public static int design_layout_tab_icon=0x7f04001f;
+        public static int design_layout_tab_text=0x7f040020;
+        public static int design_menu_item_action_area=0x7f040021;
+        public static int design_navigation_item=0x7f040022;
+        public static int design_navigation_item_header=0x7f040023;
+        public static int design_navigation_item_separator=0x7f040024;
+        public static int design_navigation_item_subheader=0x7f040025;
+        public static int design_navigation_menu=0x7f040026;
+        public static int design_navigation_menu_item=0x7f040027;
+        public static int design_text_input_password_icon=0x7f040028;
+        public static int digitalgauge_layout=0x7f040029;
+        public static int mr_chooser_dialog=0x7f04002a;
+        public static int mr_chooser_list_item=0x7f04002b;
+        public static int mr_controller_material_dialog_b=0x7f04002c;
+        public static int mr_controller_volume_item=0x7f04002d;
+        public static int mr_playback_control=0x7f04002e;
+        public static int mr_volume_control=0x7f04002f;
+        public static int notification_action=0x7f040030;
+        public static int notification_action_tombstone=0x7f040031;
+        public static int notification_media_action=0x7f040032;
+        public static int notification_media_cancel_action=0x7f040033;
+        public static int notification_template_big_media=0x7f040034;
+        public static int notification_template_big_media_custom=0x7f040035;
+        public static int notification_template_big_media_narrow=0x7f040036;
+        public static int notification_template_big_media_narrow_custom=0x7f040037;
+        public static int notification_template_custom_big=0x7f040038;
+        public static int notification_template_icon_group=0x7f040039;
+        public static int notification_template_lines_media=0x7f04003a;
+        public static int notification_template_media=0x7f04003b;
+        public static int notification_template_media_custom=0x7f04003c;
+        public static int notification_template_part_chronometer=0x7f04003d;
+        public static int notification_template_part_time=0x7f04003e;
+        public static int select_dialog_item_material=0x7f04003f;
+        public static int select_dialog_multichoice_material=0x7f040040;
+        public static int select_dialog_singlechoice_material=0x7f040041;
+        public static int support_simple_spinner_dropdown_item=0x7f040042;
+        public static int tabbar=0x7f040043;
+        public static int toolbar=0x7f040044;
+        public static int tooltip=0x7f040045;
     }
     public static final class mipmap {
         public static int icon=0x7f030000;
@@ -3624,6 +4858,8 @@ containing a value of this type.
         public static int launcher_foreground=0x7f030002;
     }
     public static final class string {
+        public static int ApplicationName=0x7f0a003d;
+        public static int Hello=0x7f0a003c;
         public static int abc_action_bar_home_description=0x7f0a0015;
         public static int abc_action_bar_up_description=0x7f0a0016;
         public static int abc_action_menu_overflow_description=0x7f0a0017;
@@ -10024,6 +11260,2418 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name android.support.v7.mediarouter:voiceIcon
         */
         public static int SearchView_voiceIcon = 12;
+        /** Attributes that can be used with a SfCircularGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularGaugeScaleDirection android.support.v7.mediarouter:circularGaugeScaleDirection}</code></td><td>Determines the scale direction for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleInterval android.support.v7.mediarouter:circularScaleInterval}</code></td><td>Determines the interval for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelOffset android.support.v7.mediarouter:circularScaleLabelOffset}</code></td><td> Determines the label offset for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelPostfix android.support.v7.mediarouter:circularScaleLabelPostfix}</code></td><td>Determines the postfix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelPrefix android.support.v7.mediarouter:circularScaleLabelPrefix}</code></td><td>Determines the prefix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelTextColor android.support.v7.mediarouter:circularScaleLabelTextColor}</code></td><td> Determines the label color for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelTextSize android.support.v7.mediarouter:circularScaleLabelTextSize}</code></td><td> Determines the label text size for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMajorTickColor android.support.v7.mediarouter:circularScaleMajorTickColor}</code></td><td>Determines the major tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMajorTickOffset android.support.v7.mediarouter:circularScaleMajorTickOffset}</code></td><td>Determines the major tick offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMaximumLabels android.support.v7.mediarouter:circularScaleMaximumLabels}</code></td><td> Determines the maximum labels for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTickColor android.support.v7.mediarouter:circularScaleMinorTickColor}</code></td><td>Determines the minor tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTickOffset android.support.v7.mediarouter:circularScaleMinorTickOffset}</code></td><td>Determines the minor tick offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTicksPerInterval android.support.v7.mediarouter:circularScaleMinorTicksPerInterval}</code></td><td> Determines the minor ticks per interval for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeColor android.support.v7.mediarouter:circularScaleRangeColor}</code></td><td>Determines the range color for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeEndValue android.support.v7.mediarouter:circularScaleRangeEndValue}</code></td><td>Determines the range end value for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeOffset android.support.v7.mediarouter:circularScaleRangeOffset}</code></td><td>Determines the range offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeStartValue android.support.v7.mediarouter:circularScaleRangeStartValue}</code></td><td>Determines the range start value for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleShowLabels android.support.v7.mediarouter:circularScaleShowLabels}</code></td><td>Determines the label for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleShowTicks android.support.v7.mediarouter:circularScaleShowTicks}</code></td><td>Determines the ticks for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerColor android.support.v7.mediarouter:markerPointerColor}</code></td><td>Determines the marker pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerHeight android.support.v7.mediarouter:markerPointerHeight}</code></td><td>Determines the marker pointer height for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerOffset android.support.v7.mediarouter:markerPointerOffset}</code></td><td>Determines the marker pointer offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerValue android.support.v7.mediarouter:markerPointerValue}</code></td><td>Determines the marker pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerWidth android.support.v7.mediarouter:markerPointerWidth}</code></td><td>Determines the marker pointer width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerShape android.support.v7.mediarouter:markerShape}</code></td><td>Determines the marker shapes for the pointer .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerColor android.support.v7.mediarouter:needlePointerColor}</code></td><td>Determines the needle pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobColor android.support.v7.mediarouter:needlePointerKnobColor}</code></td><td>Determines the needle pointer knob color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobRadius android.support.v7.mediarouter:needlePointerKnobRadius}</code></td><td>Determines the needle pointer knob radius for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobStrokeColor android.support.v7.mediarouter:needlePointerKnobStrokeColor}</code></td><td>Determines the needle pointer knob stroke color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobStrokeWidth android.support.v7.mediarouter:needlePointerKnobStrokeWidth}</code></td><td>Determines the needle pointer knob stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerLengthFactor android.support.v7.mediarouter:needlePointerLengthFactor}</code></td><td>Determines the needle pointer length factor for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailColor android.support.v7.mediarouter:needlePointerTailColor}</code></td><td>Determines the needle pointer tail color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailLengthFactor android.support.v7.mediarouter:needlePointerTailLengthFactor}</code></td><td>Determines the needle pointer tail length factor for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailStrokeColor android.support.v7.mediarouter:needlePointerTailStrokeColor}</code></td><td>Determines the needle pointer tail stroke color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailStrokeWidth android.support.v7.mediarouter:needlePointerTailStrokeWidth}</code></td><td>Determines the needle pointer tail stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerType android.support.v7.mediarouter:needlePointerType}</code></td><td>Determines the needle pointer type for the pointer .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerValue android.support.v7.mediarouter:needlePointerValue}</code></td><td>Determines the needle pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerWidth android.support.v7.mediarouter:needlePointerWidth}</code></td><td>Determines the needle pointer width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeInnerEndOffset android.support.v7.mediarouter:rangeInnerEndOffset}</code></td><td>Determines the range inner end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeInnerStartOffset android.support.v7.mediarouter:rangeInnerStartOffset}</code></td><td>Determines the range inner start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeOuterEndOffset android.support.v7.mediarouter:rangeOuterEndOffset}</code></td><td>Determines the range outer end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeOuterStartOffset android.support.v7.mediarouter:rangeOuterStartOffset}</code></td><td>Determines the range outer start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerCap android.support.v7.mediarouter:rangePointerCap}</code></td><td>Determines the range pointer caps for the pointer .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerColor android.support.v7.mediarouter:rangePointerColor}</code></td><td>Determines the range pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerEndOffset android.support.v7.mediarouter:rangePointerEndOffset}</code></td><td>Determines the range pointer end offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerOffset android.support.v7.mediarouter:rangePointerOffset}</code></td><td>Determines the range pointer offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerStartOffset android.support.v7.mediarouter:rangePointerStartOffset}</code></td><td>Determines the range pointer start offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerStartValue android.support.v7.mediarouter:rangePointerStartValue}</code></td><td>Determines the range pointer start value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerValue android.support.v7.mediarouter:rangePointerValue}</code></td><td>Determines the range pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerWidth android.support.v7.mediarouter:rangePointerWidth}</code></td><td>Determines the range pointer width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeWidth android.support.v7.mediarouter:rangeWidth}</code></td><td>Determines the range width for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleAutoAngle android.support.v7.mediarouter:scaleAutoAngle}</code></td><td>Determines the auto angle for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleAutoInterval android.support.v7.mediarouter:scaleAutoInterval}</code></td><td>Determines the auto interval for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleEndAngle android.support.v7.mediarouter:scaleEndAngle}</code></td><td> Determines the end angle for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleEndOffset android.support.v7.mediarouter:scaleEndOffset}</code></td><td>Determines the scale end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleEndValue android.support.v7.mediarouter:scaleEndValue}</code></td><td>Determines the maximum for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickEndOffset android.support.v7.mediarouter:scaleMajorTickEndOffset}</code></td><td>Determines the major tick end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickSize android.support.v7.mediarouter:scaleMajorTickSize}</code></td><td>Determines the major tick size for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickStartOffset android.support.v7.mediarouter:scaleMajorTickStartOffset}</code></td><td>Determines the major tick start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickWidth android.support.v7.mediarouter:scaleMajorTickWidth}</code></td><td>Determines the major tick width for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickEndOffset android.support.v7.mediarouter:scaleMinorTickEndOffset}</code></td><td>Determines the minor tick end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickSize android.support.v7.mediarouter:scaleMinorTickSize}</code></td><td>Determines the minor tick size for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickStartOffset android.support.v7.mediarouter:scaleMinorTickStartOffset}</code></td><td>Determines the minor tick start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickWidth android.support.v7.mediarouter:scaleMinorTickWidth}</code></td><td>Determines the minor tick width for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleNumberofDecimalDigits android.support.v7.mediarouter:scaleNumberofDecimalDigits}</code></td><td>Determines the number of decimal digits for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleRadiusFactor android.support.v7.mediarouter:scaleRadiusFactor}</code></td><td>Determines the radius factor for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleRimColor android.support.v7.mediarouter:scaleRimColor}</code></td><td> Determines the rim color for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleRimWidth android.support.v7.mediarouter:scaleRimWidth}</code></td><td> Determines the rim width for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleShowFirstLabel android.support.v7.mediarouter:scaleShowFirstLabel}</code></td><td>Determines the first label behaviour for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleShowLastLabel android.support.v7.mediarouter:scaleShowLastLabel}</code></td><td>Determines the last label behaviour for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleShowRim android.support.v7.mediarouter:scaleShowRim}</code></td><td>Determines the rim for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleStartAngle android.support.v7.mediarouter:scaleStartAngle}</code></td><td>Determines the start angle for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleStartOffset android.support.v7.mediarouter:scaleStartOffset}</code></td><td>Determines the scale start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleStartValue android.support.v7.mediarouter:scaleStartValue}</code></td><td>Determines the minimum for the scale.</td></tr>
+           </table>
+           @see #SfCircularGauge_circularGaugeScaleDirection
+           @see #SfCircularGauge_circularScaleInterval
+           @see #SfCircularGauge_circularScaleLabelOffset
+           @see #SfCircularGauge_circularScaleLabelPostfix
+           @see #SfCircularGauge_circularScaleLabelPrefix
+           @see #SfCircularGauge_circularScaleLabelTextColor
+           @see #SfCircularGauge_circularScaleLabelTextSize
+           @see #SfCircularGauge_circularScaleMajorTickColor
+           @see #SfCircularGauge_circularScaleMajorTickOffset
+           @see #SfCircularGauge_circularScaleMaximumLabels
+           @see #SfCircularGauge_circularScaleMinorTickColor
+           @see #SfCircularGauge_circularScaleMinorTickOffset
+           @see #SfCircularGauge_circularScaleMinorTicksPerInterval
+           @see #SfCircularGauge_circularScaleRangeColor
+           @see #SfCircularGauge_circularScaleRangeEndValue
+           @see #SfCircularGauge_circularScaleRangeOffset
+           @see #SfCircularGauge_circularScaleRangeStartValue
+           @see #SfCircularGauge_circularScaleShowLabels
+           @see #SfCircularGauge_circularScaleShowTicks
+           @see #SfCircularGauge_markerPointerColor
+           @see #SfCircularGauge_markerPointerHeight
+           @see #SfCircularGauge_markerPointerOffset
+           @see #SfCircularGauge_markerPointerValue
+           @see #SfCircularGauge_markerPointerWidth
+           @see #SfCircularGauge_markerShape
+           @see #SfCircularGauge_needlePointerColor
+           @see #SfCircularGauge_needlePointerKnobColor
+           @see #SfCircularGauge_needlePointerKnobRadius
+           @see #SfCircularGauge_needlePointerKnobStrokeColor
+           @see #SfCircularGauge_needlePointerKnobStrokeWidth
+           @see #SfCircularGauge_needlePointerLengthFactor
+           @see #SfCircularGauge_needlePointerTailColor
+           @see #SfCircularGauge_needlePointerTailLengthFactor
+           @see #SfCircularGauge_needlePointerTailStrokeColor
+           @see #SfCircularGauge_needlePointerTailStrokeWidth
+           @see #SfCircularGauge_needlePointerType
+           @see #SfCircularGauge_needlePointerValue
+           @see #SfCircularGauge_needlePointerWidth
+           @see #SfCircularGauge_rangeInnerEndOffset
+           @see #SfCircularGauge_rangeInnerStartOffset
+           @see #SfCircularGauge_rangeOuterEndOffset
+           @see #SfCircularGauge_rangeOuterStartOffset
+           @see #SfCircularGauge_rangePointerCap
+           @see #SfCircularGauge_rangePointerColor
+           @see #SfCircularGauge_rangePointerEndOffset
+           @see #SfCircularGauge_rangePointerOffset
+           @see #SfCircularGauge_rangePointerStartOffset
+           @see #SfCircularGauge_rangePointerStartValue
+           @see #SfCircularGauge_rangePointerValue
+           @see #SfCircularGauge_rangePointerWidth
+           @see #SfCircularGauge_rangeWidth
+           @see #SfCircularGauge_scaleAutoAngle
+           @see #SfCircularGauge_scaleAutoInterval
+           @see #SfCircularGauge_scaleEndAngle
+           @see #SfCircularGauge_scaleEndOffset
+           @see #SfCircularGauge_scaleEndValue
+           @see #SfCircularGauge_scaleMajorTickEndOffset
+           @see #SfCircularGauge_scaleMajorTickSize
+           @see #SfCircularGauge_scaleMajorTickStartOffset
+           @see #SfCircularGauge_scaleMajorTickWidth
+           @see #SfCircularGauge_scaleMinorTickEndOffset
+           @see #SfCircularGauge_scaleMinorTickSize
+           @see #SfCircularGauge_scaleMinorTickStartOffset
+           @see #SfCircularGauge_scaleMinorTickWidth
+           @see #SfCircularGauge_scaleNumberofDecimalDigits
+           @see #SfCircularGauge_scaleRadiusFactor
+           @see #SfCircularGauge_scaleRimColor
+           @see #SfCircularGauge_scaleRimWidth
+           @see #SfCircularGauge_scaleShowFirstLabel
+           @see #SfCircularGauge_scaleShowLastLabel
+           @see #SfCircularGauge_scaleShowRim
+           @see #SfCircularGauge_scaleStartAngle
+           @see #SfCircularGauge_scaleStartOffset
+           @see #SfCircularGauge_scaleStartValue
+         */
+        public static final int[] SfCircularGauge = {
+            0x7f010173, 0x7f010174, 0x7f010175, 0x7f010176,
+            0x7f010177, 0x7f010178, 0x7f010179, 0x7f01017a,
+            0x7f01017b, 0x7f01017c, 0x7f01017d, 0x7f01017e,
+            0x7f01017f, 0x7f010180, 0x7f010181, 0x7f010182,
+            0x7f010183, 0x7f010184, 0x7f010185, 0x7f010186,
+            0x7f010187, 0x7f010188, 0x7f010189, 0x7f01018a,
+            0x7f01018b, 0x7f01018c, 0x7f01018d, 0x7f01018e,
+            0x7f01018f, 0x7f010190, 0x7f010191, 0x7f010192,
+            0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196,
+            0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a,
+            0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e,
+            0x7f01019f, 0x7f0101a0, 0x7f0101a1, 0x7f0101a2,
+            0x7f0101a3, 0x7f0101a4, 0x7f0101a5, 0x7f0101a6,
+            0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa,
+            0x7f0101ab, 0x7f0101ac, 0x7f0101ad, 0x7f0101ae,
+            0x7f0101af, 0x7f0101b0, 0x7f0101b1, 0x7f0101b2,
+            0x7f0101b3, 0x7f0101b4, 0x7f0101b5, 0x7f0101b6,
+            0x7f0101b7, 0x7f0101b8, 0x7f0101b9, 0x7f0101ba,
+            0x7f0101bb, 0x7f0101bc
+        };
+        /**
+          <p>
+          @attr description
+          Determines the scale direction for the scale .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>clockwise</code></td><td>0</td><td></td></tr>
+<tr><td><code>anticlockwise</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularGaugeScaleDirection
+        */
+        public static int SfCircularGauge_circularGaugeScaleDirection = 6;
+        /**
+          <p>
+          @attr description
+          Determines the interval for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleInterval
+        */
+        public static int SfCircularGauge_circularScaleInterval = 4;
+        /**
+          <p>
+          @attr description
+           Determines the label offset for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleLabelOffset
+        */
+        public static int SfCircularGauge_circularScaleLabelOffset = 15;
+        /**
+          <p>
+          @attr description
+          Determines the postfix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleLabelPostfix
+        */
+        public static int SfCircularGauge_circularScaleLabelPostfix = 13;
+        /**
+          <p>
+          @attr description
+          Determines the prefix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleLabelPrefix
+        */
+        public static int SfCircularGauge_circularScaleLabelPrefix = 12;
+        /**
+          <p>
+          @attr description
+           Determines the label color for the scale . 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleLabelTextColor
+        */
+        public static int SfCircularGauge_circularScaleLabelTextColor = 16;
+        /**
+          <p>
+          @attr description
+           Determines the label text size for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleLabelTextSize
+        */
+        public static int SfCircularGauge_circularScaleLabelTextSize = 14;
+        /**
+          <p>
+          @attr description
+          Determines the major tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleMajorTickColor
+        */
+        public static int SfCircularGauge_circularScaleMajorTickColor = 18;
+        /**
+          <p>
+          @attr description
+          Determines the major tick offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleMajorTickOffset
+        */
+        public static int SfCircularGauge_circularScaleMajorTickOffset = 20;
+        /**
+          <p>
+          @attr description
+           Determines the maximum labels for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleMaximumLabels
+        */
+        public static int SfCircularGauge_circularScaleMaximumLabels = 32;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleMinorTickColor
+        */
+        public static int SfCircularGauge_circularScaleMinorTickColor = 24;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleMinorTickOffset
+        */
+        public static int SfCircularGauge_circularScaleMinorTickOffset = 26;
+        /**
+          <p>
+          @attr description
+           Determines the minor ticks per interval for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleMinorTicksPerInterval
+        */
+        public static int SfCircularGauge_circularScaleMinorTicksPerInterval = 31;
+        /**
+          <p>
+          @attr description
+          Determines the range color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleRangeColor
+        */
+        public static int SfCircularGauge_circularScaleRangeColor = 42;
+        /**
+          <p>
+          @attr description
+          Determines the range end value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleRangeEndValue
+        */
+        public static int SfCircularGauge_circularScaleRangeEndValue = 39;
+        /**
+          <p>
+          @attr description
+          Determines the range offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleRangeOffset
+        */
+        public static int SfCircularGauge_circularScaleRangeOffset = 41;
+        /**
+          <p>
+          @attr description
+          Determines the range start value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleRangeStartValue
+        */
+        public static int SfCircularGauge_circularScaleRangeStartValue = 38;
+        /**
+          <p>
+          @attr description
+          Determines the label for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleShowLabels
+        */
+        public static int SfCircularGauge_circularScaleShowLabels = 33;
+        /**
+          <p>
+          @attr description
+          Determines the ticks for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:circularScaleShowTicks
+        */
+        public static int SfCircularGauge_circularScaleShowTicks = 34;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:markerPointerColor
+        */
+        public static int SfCircularGauge_markerPointerColor = 70;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer height for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:markerPointerHeight
+        */
+        public static int SfCircularGauge_markerPointerHeight = 71;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:markerPointerOffset
+        */
+        public static int SfCircularGauge_markerPointerOffset = 73;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:markerPointerValue
+        */
+        public static int SfCircularGauge_markerPointerValue = 68;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:markerPointerWidth
+        */
+        public static int SfCircularGauge_markerPointerWidth = 72;
+        /**
+          <p>
+          @attr description
+          Determines the marker shapes for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>triangle</code></td><td>0</td><td></td></tr>
+<tr><td><code>rectangle</code></td><td>1</td><td></td></tr>
+<tr><td><code>circle</code></td><td>2</td><td></td></tr>
+<tr><td><code>diamond</code></td><td>3</td><td></td></tr>
+<tr><td><code>invertedTriangle</code></td><td>4</td><td></td></tr>
+<tr><td><code>image</code></td><td>5</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:markerShape
+        */
+        public static int SfCircularGauge_markerShape = 69;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerColor
+        */
+        public static int SfCircularGauge_needlePointerColor = 49;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerKnobColor
+        */
+        public static int SfCircularGauge_needlePointerKnobColor = 54;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob radius for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerKnobRadius
+        */
+        public static int SfCircularGauge_needlePointerKnobRadius = 52;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob stroke color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerKnobStrokeColor
+        */
+        public static int SfCircularGauge_needlePointerKnobStrokeColor = 53;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerKnobStrokeWidth
+        */
+        public static int SfCircularGauge_needlePointerKnobStrokeWidth = 55;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer length factor for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerLengthFactor
+        */
+        public static int SfCircularGauge_needlePointerLengthFactor = 51;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerTailColor
+        */
+        public static int SfCircularGauge_needlePointerTailColor = 56;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail length factor for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerTailLengthFactor
+        */
+        public static int SfCircularGauge_needlePointerTailLengthFactor = 57;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail stroke color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerTailStrokeColor
+        */
+        public static int SfCircularGauge_needlePointerTailStrokeColor = 59;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerTailStrokeWidth
+        */
+        public static int SfCircularGauge_needlePointerTailStrokeWidth = 58;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer type for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bar</code></td><td>0</td><td></td></tr>
+<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerType
+        */
+        public static int SfCircularGauge_needlePointerType = 48;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerValue
+        */
+        public static int SfCircularGauge_needlePointerValue = 47;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:needlePointerWidth
+        */
+        public static int SfCircularGauge_needlePointerWidth = 50;
+        /**
+          <p>
+          @attr description
+          Determines the range inner end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeInnerEndOffset
+        */
+        public static int SfCircularGauge_rangeInnerEndOffset = 44;
+        /**
+          <p>
+          @attr description
+          Determines the range inner start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeInnerStartOffset
+        */
+        public static int SfCircularGauge_rangeInnerStartOffset = 43;
+        /**
+          <p>
+          @attr description
+          Determines the range outer end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeOuterEndOffset
+        */
+        public static int SfCircularGauge_rangeOuterEndOffset = 46;
+        /**
+          <p>
+          @attr description
+          Determines the range outer start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeOuterStartOffset
+        */
+        public static int SfCircularGauge_rangeOuterStartOffset = 45;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer caps for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerCap
+        */
+        public static int SfCircularGauge_rangePointerCap = 67;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerColor
+        */
+        public static int SfCircularGauge_rangePointerColor = 62;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer end offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerEndOffset
+        */
+        public static int SfCircularGauge_rangePointerEndOffset = 66;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerOffset
+        */
+        public static int SfCircularGauge_rangePointerOffset = 64;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer start offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerStartOffset
+        */
+        public static int SfCircularGauge_rangePointerStartOffset = 65;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer start value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerStartValue
+        */
+        public static int SfCircularGauge_rangePointerStartValue = 60;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerValue
+        */
+        public static int SfCircularGauge_rangePointerValue = 61;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangePointerWidth
+        */
+        public static int SfCircularGauge_rangePointerWidth = 63;
+        /**
+          <p>
+          @attr description
+          Determines the range width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeWidth
+        */
+        public static int SfCircularGauge_rangeWidth = 40;
+        /**
+          <p>
+          @attr description
+          Determines the auto angle for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleAutoAngle
+        */
+        public static int SfCircularGauge_scaleAutoAngle = 11;
+        /**
+          <p>
+          @attr description
+          Determines the auto interval for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleAutoInterval
+        */
+        public static int SfCircularGauge_scaleAutoInterval = 5;
+        /**
+          <p>
+          @attr description
+           Determines the end angle for the scale. 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleEndAngle
+        */
+        public static int SfCircularGauge_scaleEndAngle = 1;
+        /**
+          <p>
+          @attr description
+          Determines the scale end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleEndOffset
+        */
+        public static int SfCircularGauge_scaleEndOffset = 10;
+        /**
+          <p>
+          @attr description
+          Determines the maximum for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleEndValue
+        */
+        public static int SfCircularGauge_scaleEndValue = 3;
+        /**
+          <p>
+          @attr description
+          Determines the major tick end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickEndOffset
+        */
+        public static int SfCircularGauge_scaleMajorTickEndOffset = 22;
+        /**
+          <p>
+          @attr description
+          Determines the major tick size for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickSize
+        */
+        public static int SfCircularGauge_scaleMajorTickSize = 17;
+        /**
+          <p>
+          @attr description
+          Determines the major tick start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickStartOffset
+        */
+        public static int SfCircularGauge_scaleMajorTickStartOffset = 21;
+        /**
+          <p>
+          @attr description
+          Determines the major tick width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickWidth
+        */
+        public static int SfCircularGauge_scaleMajorTickWidth = 19;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickEndOffset
+        */
+        public static int SfCircularGauge_scaleMinorTickEndOffset = 28;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick size for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickSize
+        */
+        public static int SfCircularGauge_scaleMinorTickSize = 23;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickStartOffset
+        */
+        public static int SfCircularGauge_scaleMinorTickStartOffset = 27;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickWidth
+        */
+        public static int SfCircularGauge_scaleMinorTickWidth = 25;
+        /**
+          <p>
+          @attr description
+          Determines the number of decimal digits for the scale.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleNumberofDecimalDigits
+        */
+        public static int SfCircularGauge_scaleNumberofDecimalDigits = 37;
+        /**
+          <p>
+          @attr description
+          Determines the radius factor for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleRadiusFactor
+        */
+        public static int SfCircularGauge_scaleRadiusFactor = 36;
+        /**
+          <p>
+          @attr description
+           Determines the rim color for the scale . 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleRimColor
+        */
+        public static int SfCircularGauge_scaleRimColor = 29;
+        /**
+          <p>
+          @attr description
+           Determines the rim width for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleRimWidth
+        */
+        public static int SfCircularGauge_scaleRimWidth = 30;
+        /**
+          <p>
+          @attr description
+          Determines the first label behaviour for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleShowFirstLabel
+        */
+        public static int SfCircularGauge_scaleShowFirstLabel = 7;
+        /**
+          <p>
+          @attr description
+          Determines the last label behaviour for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleShowLastLabel
+        */
+        public static int SfCircularGauge_scaleShowLastLabel = 8;
+        /**
+          <p>
+          @attr description
+          Determines the rim for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleShowRim
+        */
+        public static int SfCircularGauge_scaleShowRim = 35;
+        /**
+          <p>
+          @attr description
+          Determines the start angle for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleStartAngle
+        */
+        public static int SfCircularGauge_scaleStartAngle = 0;
+        /**
+          <p>
+          @attr description
+          Determines the scale start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleStartOffset
+        */
+        public static int SfCircularGauge_scaleStartOffset = 9;
+        /**
+          <p>
+          @attr description
+          Determines the minimum for the scale. 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleStartValue
+        */
+        public static int SfCircularGauge_scaleStartValue = 2;
+        /** Attributes that can be used with a SfDigitalGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterHeight android.support.v7.mediarouter:characterHeight}</code></td><td>Determines the character height of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterSpacing android.support.v7.mediarouter:characterSpacing}</code></td><td>Determines the character spacing of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterStrokeColor android.support.v7.mediarouter:characterStrokeColor}</code></td><td>Determines the character stroke color of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterType android.support.v7.mediarouter:characterType}</code></td><td>Determines the character type of the digital gauge .</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterWidth android.support.v7.mediarouter:characterWidth}</code></td><td>Determines the character width of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_dimmedSegmentAlpha android.support.v7.mediarouter:dimmedSegmentAlpha}</code></td><td>Determines the dimmed segment color of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_dimmedSegmentColor android.support.v7.mediarouter:dimmedSegmentColor}</code></td><td>Determines the dimmed segment color of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_segmentStrokeWidth android.support.v7.mediarouter:segmentStrokeWidth}</code></td><td>Determines the segment stroke width of the digital gauge.</td></tr>
+           </table>
+           @see #SfDigitalGauge_characterHeight
+           @see #SfDigitalGauge_characterSpacing
+           @see #SfDigitalGauge_characterStrokeColor
+           @see #SfDigitalGauge_characterType
+           @see #SfDigitalGauge_characterWidth
+           @see #SfDigitalGauge_dimmedSegmentAlpha
+           @see #SfDigitalGauge_dimmedSegmentColor
+           @see #SfDigitalGauge_segmentStrokeWidth
+         */
+        public static final int[] SfDigitalGauge = {
+            0x7f0101ea, 0x7f0101eb, 0x7f0101ec, 0x7f0101ed,
+            0x7f0101ee, 0x7f0101ef, 0x7f0101f0, 0x7f0101f1
+        };
+        /**
+          <p>
+          @attr description
+          Determines the character height of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:characterHeight
+        */
+        public static int SfDigitalGauge_characterHeight = 1;
+        /**
+          <p>
+          @attr description
+          Determines the character spacing of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:characterSpacing
+        */
+        public static int SfDigitalGauge_characterSpacing = 2;
+        /**
+          <p>
+          @attr description
+          Determines the character stroke color of the digital gauge.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:characterStrokeColor
+        */
+        public static int SfDigitalGauge_characterStrokeColor = 0;
+        /**
+          <p>
+          @attr description
+          Determines the character type of the digital gauge .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>segmentSeven</code></td><td>0</td><td></td></tr>
+<tr><td><code>segmentFourteen</code></td><td>1</td><td></td></tr>
+<tr><td><code>segmentSixteen</code></td><td>2</td><td></td></tr>
+<tr><td><code>eightCrossEightDotMatrix</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:characterType
+        */
+        public static int SfDigitalGauge_characterType = 7;
+        /**
+          <p>
+          @attr description
+          Determines the character width of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:characterWidth
+        */
+        public static int SfDigitalGauge_characterWidth = 3;
+        /**
+          <p>
+          @attr description
+          Determines the dimmed segment color of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:dimmedSegmentAlpha
+        */
+        public static int SfDigitalGauge_dimmedSegmentAlpha = 6;
+        /**
+          <p>
+          @attr description
+          Determines the dimmed segment color of the digital gauge.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:dimmedSegmentColor
+        */
+        public static int SfDigitalGauge_dimmedSegmentColor = 5;
+        /**
+          <p>
+          @attr description
+          Determines the segment stroke width of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:segmentStrokeWidth
+        */
+        public static int SfDigitalGauge_segmentStrokeWidth = 4;
+        /** Attributes that can be used with a SfLinearGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerColor android.support.v7.mediarouter:barPointerColor}</code></td><td>Determines the bar pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerCornerRadius android.support.v7.mediarouter:barPointerCornerRadius}</code></td><td> Determines the corner radius for the bar pointer .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerCornerRadiusType android.support.v7.mediarouter:barPointerCornerRadiusType}</code></td><td>Determines the corner radius type for the bar pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerStrokeWidth android.support.v7.mediarouter:barPointerStrokeWidth}</code></td><td>Determines the bar pointer stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerValue android.support.v7.mediarouter:barPointerValue}</code></td><td>Determines the bar pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_maximumLabels android.support.v7.mediarouter:maximumLabels}</code></td><td> Determines the maximum labels for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeColor android.support.v7.mediarouter:rangeColor}</code></td><td>Determines the range color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeEndValue android.support.v7.mediarouter:rangeEndValue}</code></td><td>Determines the range end value for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeEndWidth android.support.v7.mediarouter:rangeEndWidth}</code></td><td>Determines the range end width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeOffset android.support.v7.mediarouter:rangeOffset}</code></td><td>Determines the range offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeStartValue android.support.v7.mediarouter:rangeStartValue}</code></td><td>Determines the range start value for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeStartWidth android.support.v7.mediarouter:rangeStartWidth}</code></td><td>Determines the range start width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleBarColor android.support.v7.mediarouter:scaleBarColor}</code></td><td>Determines the scale bar color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleBarLength android.support.v7.mediarouter:scaleBarLength}</code></td><td>Determines the scale bar length for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleBarSize android.support.v7.mediarouter:scaleBarSize}</code></td><td>Determines the scale bar size for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleCornerRadius android.support.v7.mediarouter:scaleCornerRadius}</code></td><td> Determines the corner radius for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleCornerRadiusType android.support.v7.mediarouter:scaleCornerRadiusType}</code></td><td>Determines the corner radius type for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleDirection android.support.v7.mediarouter:scaleDirection}</code></td><td>Determines the direction for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleInterval android.support.v7.mediarouter:scaleInterval}</code></td><td>Determines the interval for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelColor android.support.v7.mediarouter:scaleLabelColor}</code></td><td>Determines the label color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelFontSize android.support.v7.mediarouter:scaleLabelFontSize}</code></td><td> Determines the label font size for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelOffset android.support.v7.mediarouter:scaleLabelOffset}</code></td><td> Determines the label offset for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelPostfix android.support.v7.mediarouter:scaleLabelPostfix}</code></td><td>Determines the postfix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelPrefix android.support.v7.mediarouter:scaleLabelPrefix}</code></td><td>Determines the prefix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickColor android.support.v7.mediarouter:scaleMajorTickColor}</code></td><td>Determines the major tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickLength android.support.v7.mediarouter:scaleMajorTickLength}</code></td><td>Determines the major tick length for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickOffset android.support.v7.mediarouter:scaleMajorTickOffset}</code></td><td>Determines the major tick stroke offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickStrokeWidth android.support.v7.mediarouter:scaleMajorTickStrokeWidth}</code></td><td>Determines the major tick stroke width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMaximum android.support.v7.mediarouter:scaleMaximum}</code></td><td>Determines the maximum for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinimum android.support.v7.mediarouter:scaleMinimum}</code></td><td>Determines the minimum for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickColor android.support.v7.mediarouter:scaleMinorTickColor}</code></td><td>Determines the minor tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickLength android.support.v7.mediarouter:scaleMinorTickLength}</code></td><td>Determines the minor tick length for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickOffset android.support.v7.mediarouter:scaleMinorTickOffset}</code></td><td>Determines the minor tick stroke offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickStrokeWidth android.support.v7.mediarouter:scaleMinorTickStrokeWidth}</code></td><td>Determines the minor tick stroke width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTicksPerInterval android.support.v7.mediarouter:scaleMinorTicksPerInterval}</code></td><td> Determines the minor ticks per interval for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleOffset android.support.v7.mediarouter:scaleOffset}</code></td><td> Determines the offset for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleOpposedPosition android.support.v7.mediarouter:scaleOpposedPosition}</code></td><td>Determines the opposite position for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleOrientation android.support.v7.mediarouter:scaleOrientation}</code></td><td>Determines the scale orientation for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleShowLabels android.support.v7.mediarouter:scaleShowLabels}</code></td><td>Determines the label for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleShowTicks android.support.v7.mediarouter:scaleShowTicks}</code></td><td>Determines the ticks visibility for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerColor android.support.v7.mediarouter:symbolPointerColor}</code></td><td>Determines the symbol pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerOffset android.support.v7.mediarouter:symbolPointerOffset}</code></td><td>Determines the symbol pointer offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerStrokeWidth android.support.v7.mediarouter:symbolPointerStrokeWidth}</code></td><td>Determines the symbol pointer stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerValue android.support.v7.mediarouter:symbolPointerValue}</code></td><td>Determines the symbol pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPosition android.support.v7.mediarouter:symbolPosition}</code></td><td>Determines the symbol position for the pointer .</td></tr>
+           </table>
+           @see #SfLinearGauge_barPointerColor
+           @see #SfLinearGauge_barPointerCornerRadius
+           @see #SfLinearGauge_barPointerCornerRadiusType
+           @see #SfLinearGauge_barPointerStrokeWidth
+           @see #SfLinearGauge_barPointerValue
+           @see #SfLinearGauge_maximumLabels
+           @see #SfLinearGauge_rangeColor
+           @see #SfLinearGauge_rangeEndValue
+           @see #SfLinearGauge_rangeEndWidth
+           @see #SfLinearGauge_rangeOffset
+           @see #SfLinearGauge_rangeStartValue
+           @see #SfLinearGauge_rangeStartWidth
+           @see #SfLinearGauge_scaleBarColor
+           @see #SfLinearGauge_scaleBarLength
+           @see #SfLinearGauge_scaleBarSize
+           @see #SfLinearGauge_scaleCornerRadius
+           @see #SfLinearGauge_scaleCornerRadiusType
+           @see #SfLinearGauge_scaleDirection
+           @see #SfLinearGauge_scaleInterval
+           @see #SfLinearGauge_scaleLabelColor
+           @see #SfLinearGauge_scaleLabelFontSize
+           @see #SfLinearGauge_scaleLabelOffset
+           @see #SfLinearGauge_scaleLabelPostfix
+           @see #SfLinearGauge_scaleLabelPrefix
+           @see #SfLinearGauge_scaleMajorTickColor
+           @see #SfLinearGauge_scaleMajorTickLength
+           @see #SfLinearGauge_scaleMajorTickOffset
+           @see #SfLinearGauge_scaleMajorTickStrokeWidth
+           @see #SfLinearGauge_scaleMaximum
+           @see #SfLinearGauge_scaleMinimum
+           @see #SfLinearGauge_scaleMinorTickColor
+           @see #SfLinearGauge_scaleMinorTickLength
+           @see #SfLinearGauge_scaleMinorTickOffset
+           @see #SfLinearGauge_scaleMinorTickStrokeWidth
+           @see #SfLinearGauge_scaleMinorTicksPerInterval
+           @see #SfLinearGauge_scaleOffset
+           @see #SfLinearGauge_scaleOpposedPosition
+           @see #SfLinearGauge_scaleOrientation
+           @see #SfLinearGauge_scaleShowLabels
+           @see #SfLinearGauge_scaleShowTicks
+           @see #SfLinearGauge_symbolPointerColor
+           @see #SfLinearGauge_symbolPointerOffset
+           @see #SfLinearGauge_symbolPointerStrokeWidth
+           @see #SfLinearGauge_symbolPointerValue
+           @see #SfLinearGauge_symbolPosition
+         */
+        public static final int[] SfLinearGauge = {
+            0x7f0101bd, 0x7f0101be, 0x7f0101bf, 0x7f0101c0,
+            0x7f0101c1, 0x7f0101c2, 0x7f0101c3, 0x7f0101c4,
+            0x7f0101c5, 0x7f0101c6, 0x7f0101c7, 0x7f0101c8,
+            0x7f0101c9, 0x7f0101ca, 0x7f0101cb, 0x7f0101cc,
+            0x7f0101cd, 0x7f0101ce, 0x7f0101cf, 0x7f0101d0,
+            0x7f0101d1, 0x7f0101d2, 0x7f0101d3, 0x7f0101d4,
+            0x7f0101d5, 0x7f0101d6, 0x7f0101d7, 0x7f0101d8,
+            0x7f0101d9, 0x7f0101da, 0x7f0101db, 0x7f0101dc,
+            0x7f0101dd, 0x7f0101de, 0x7f0101df, 0x7f0101e0,
+            0x7f0101e1, 0x7f0101e2, 0x7f0101e3, 0x7f0101e4,
+            0x7f0101e5, 0x7f0101e6, 0x7f0101e7, 0x7f0101e8,
+            0x7f0101e9
+        };
+        /**
+          <p>
+          @attr description
+          Determines the bar pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:barPointerColor
+        */
+        public static int SfLinearGauge_barPointerColor = 35;
+        /**
+          <p>
+          @attr description
+           Determines the corner radius for the bar pointer . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:barPointerCornerRadius
+        */
+        public static int SfLinearGauge_barPointerCornerRadius = 38;
+        /**
+          <p>
+          @attr description
+          Determines the corner radius type for the bar pointer.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:barPointerCornerRadiusType
+        */
+        public static int SfLinearGauge_barPointerCornerRadiusType = 37;
+        /**
+          <p>
+          @attr description
+          Determines the bar pointer stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:barPointerStrokeWidth
+        */
+        public static int SfLinearGauge_barPointerStrokeWidth = 36;
+        /**
+          <p>
+          @attr description
+          Determines the bar pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:barPointerValue
+        */
+        public static int SfLinearGauge_barPointerValue = 34;
+        /**
+          <p>
+          @attr description
+           Determines the maximum labels for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:maximumLabels
+        */
+        public static int SfLinearGauge_maximumLabels = 22;
+        /**
+          <p>
+          @attr description
+          Determines the range color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeColor
+        */
+        public static int SfLinearGauge_rangeColor = 33;
+        /**
+          <p>
+          @attr description
+          Determines the range end value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeEndValue
+        */
+        public static int SfLinearGauge_rangeEndValue = 29;
+        /**
+          <p>
+          @attr description
+          Determines the range end width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeEndWidth
+        */
+        public static int SfLinearGauge_rangeEndWidth = 31;
+        /**
+          <p>
+          @attr description
+          Determines the range offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeOffset
+        */
+        public static int SfLinearGauge_rangeOffset = 32;
+        /**
+          <p>
+          @attr description
+          Determines the range start value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeStartValue
+        */
+        public static int SfLinearGauge_rangeStartValue = 28;
+        /**
+          <p>
+          @attr description
+          Determines the range start width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:rangeStartWidth
+        */
+        public static int SfLinearGauge_rangeStartWidth = 30;
+        /**
+          <p>
+          @attr description
+          Determines the scale bar color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleBarColor
+        */
+        public static int SfLinearGauge_scaleBarColor = 11;
+        /**
+          <p>
+          @attr description
+          Determines the scale bar length for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleBarLength
+        */
+        public static int SfLinearGauge_scaleBarLength = 13;
+        /**
+          <p>
+          @attr description
+          Determines the scale bar size for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleBarSize
+        */
+        public static int SfLinearGauge_scaleBarSize = 12;
+        /**
+          <p>
+          @attr description
+           Determines the corner radius for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleCornerRadius
+        */
+        public static int SfLinearGauge_scaleCornerRadius = 26;
+        /**
+          <p>
+          @attr description
+          Determines the corner radius type for the scale.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleCornerRadiusType
+        */
+        public static int SfLinearGauge_scaleCornerRadiusType = 25;
+        /**
+          <p>
+          @attr description
+          Determines the direction for the scale.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>backward</code></td><td>0</td><td></td></tr>
+<tr><td><code>forward</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleDirection
+        */
+        public static int SfLinearGauge_scaleDirection = 24;
+        /**
+          <p>
+          @attr description
+          Determines the interval for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleInterval
+        */
+        public static int SfLinearGauge_scaleInterval = 2;
+        /**
+          <p>
+          @attr description
+          Determines the label color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleLabelColor
+        */
+        public static int SfLinearGauge_scaleLabelColor = 14;
+        /**
+          <p>
+          @attr description
+           Determines the label font size for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleLabelFontSize
+        */
+        public static int SfLinearGauge_scaleLabelFontSize = 17;
+        /**
+          <p>
+          @attr description
+           Determines the label offset for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleLabelOffset
+        */
+        public static int SfLinearGauge_scaleLabelOffset = 18;
+        /**
+          <p>
+          @attr description
+          Determines the postfix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleLabelPostfix
+        */
+        public static int SfLinearGauge_scaleLabelPostfix = 16;
+        /**
+          <p>
+          @attr description
+          Determines the prefix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleLabelPrefix
+        */
+        public static int SfLinearGauge_scaleLabelPrefix = 15;
+        /**
+          <p>
+          @attr description
+          Determines the major tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickColor
+        */
+        public static int SfLinearGauge_scaleMajorTickColor = 4;
+        /**
+          <p>
+          @attr description
+          Determines the major tick length for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickLength
+        */
+        public static int SfLinearGauge_scaleMajorTickLength = 3;
+        /**
+          <p>
+          @attr description
+          Determines the major tick stroke offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickOffset
+        */
+        public static int SfLinearGauge_scaleMajorTickOffset = 6;
+        /**
+          <p>
+          @attr description
+          Determines the major tick stroke width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMajorTickStrokeWidth
+        */
+        public static int SfLinearGauge_scaleMajorTickStrokeWidth = 5;
+        /**
+          <p>
+          @attr description
+          Determines the maximum for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMaximum
+        */
+        public static int SfLinearGauge_scaleMaximum = 1;
+        /**
+          <p>
+          @attr description
+          Determines the minimum for the scale. 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinimum
+        */
+        public static int SfLinearGauge_scaleMinimum = 0;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickColor
+        */
+        public static int SfLinearGauge_scaleMinorTickColor = 8;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick length for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickLength
+        */
+        public static int SfLinearGauge_scaleMinorTickLength = 7;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick stroke offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickOffset
+        */
+        public static int SfLinearGauge_scaleMinorTickOffset = 10;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick stroke width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTickStrokeWidth
+        */
+        public static int SfLinearGauge_scaleMinorTickStrokeWidth = 9;
+        /**
+          <p>
+          @attr description
+           Determines the minor ticks per interval for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleMinorTicksPerInterval
+        */
+        public static int SfLinearGauge_scaleMinorTicksPerInterval = 21;
+        /**
+          <p>
+          @attr description
+           Determines the offset for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleOffset
+        */
+        public static int SfLinearGauge_scaleOffset = 27;
+        /**
+          <p>
+          @attr description
+          Determines the opposite position for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleOpposedPosition
+        */
+        public static int SfLinearGauge_scaleOpposedPosition = 23;
+        /**
+          <p>
+          @attr description
+          Determines the scale orientation for the scale .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
+<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleOrientation
+        */
+        public static int SfLinearGauge_scaleOrientation = 44;
+        /**
+          <p>
+          @attr description
+          Determines the label for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleShowLabels
+        */
+        public static int SfLinearGauge_scaleShowLabels = 19;
+        /**
+          <p>
+          @attr description
+          Determines the ticks visibility for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:scaleShowTicks
+        */
+        public static int SfLinearGauge_scaleShowTicks = 20;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:symbolPointerColor
+        */
+        public static int SfLinearGauge_symbolPointerColor = 40;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:symbolPointerOffset
+        */
+        public static int SfLinearGauge_symbolPointerOffset = 42;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:symbolPointerStrokeWidth
+        */
+        public static int SfLinearGauge_symbolPointerStrokeWidth = 41;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:symbolPointerValue
+        */
+        public static int SfLinearGauge_symbolPointerValue = 39;
+        /**
+          <p>
+          @attr description
+          Determines the symbol position for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>far</code></td><td>0</td><td></td></tr>
+<tr><td><code>away</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name android.support.v7.mediarouter:symbolPosition
+        */
+        public static int SfLinearGauge_symbolPosition = 43;
         /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>

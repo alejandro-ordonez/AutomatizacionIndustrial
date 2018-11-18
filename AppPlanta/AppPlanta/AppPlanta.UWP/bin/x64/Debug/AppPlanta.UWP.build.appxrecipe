@@ -28,12 +28,6 @@
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\AppPlanta.UWP.exe">
       <PackagePath>entrypoint\AppPlanta.UWP.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\prism.core\7.1.0.431\lib\uap10.0.16299\Prism.dll">
-      <PackagePath>Prism.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\prism.forms\7.1.0.431\lib\netstandard2.0\Prism.Forms.dll">
-      <PackagePath>Prism.Forms.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x64\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
     </AppxPackagedFile>
@@ -529,6 +523,18 @@
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\s7netplus\0.3.0\lib\netstandard2.0\S7.Net.dll">
       <PackagePath>S7.Net.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.licensing\16.3.0.29\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP.dll">
+      <PackagePath>Syncfusion.SfGauge.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfGauge.XForms.UWP.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.XForms.dll">
+      <PackagePath>Syncfusion.SfGauge.XForms.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
     </AppxPackagedFile>
@@ -543,9 +549,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll">
       <PackagePath>AppPlanta.dll</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.dll">
-      <PackagePath>Sharp7Library.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -664,6 +667,9 @@
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Valve.jpg">
       <PackagePath>Valve.jpg</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Multiproposito.jpeg">
+      <PackagePath>Multiproposito.jpeg</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -678,6 +684,24 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\CircularGauge\Themes\CircularGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\CircularGauge\Themes\CircularGauge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\DigitalGauge\Themes\DigitalGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\DigitalGauge\Themes\DigitalGauge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\LinearGauge\Themes\LinearGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\LinearGauge\Themes\LinearGauge.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\Themes\Generic.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>

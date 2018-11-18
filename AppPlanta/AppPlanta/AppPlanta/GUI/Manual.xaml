@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppPlanta.GUI.Manual"
              xmlns:Models="clr-namespace:AppPlanta.Models;assembly=AppPlanta"
-             x:Name="ManualView">
+             x:Name="ManualView"
+             Title="Actuadores">
     <ContentPage.BindingContext>
         <Models:ListActuatorViewModel/>
     </ContentPage.BindingContext>

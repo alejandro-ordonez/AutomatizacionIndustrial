@@ -360,6 +360,57 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int barLength=0x7f0100d5;
+        /** Determines the bar pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int barPointerColor=0x7f0101e0;
+        /**  Determines the corner radius for the bar pointer . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int barPointerCornerRadius=0x7f0101e3;
+        /** Determines the corner radius type for the bar pointer.
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int barPointerCornerRadiusType=0x7f0101e2;
+        /** Determines the bar pointer stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int barPointerStrokeWidth=0x7f0101e1;
+        /** Determines the bar pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int barPointerValue=0x7f0101df;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -556,6 +607,57 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int cardUseCompatPadding=0x7f01001b;
+        /** Determines the character height of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int characterHeight=0x7f0101eb;
+        /** Determines the character spacing of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int characterSpacing=0x7f0101ec;
+        /** Determines the character stroke color of the digital gauge.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int characterStrokeColor=0x7f0101ea;
+        /** Determines the character type of the digital gauge .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>segmentSeven</code></td><td>0</td><td></td></tr>
+<tr><td><code>segmentFourteen</code></td><td>1</td><td></td></tr>
+<tr><td><code>segmentSixteen</code></td><td>2</td><td></td></tr>
+<tr><td><code>eightCrossEightDotMatrix</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int characterType=0x7f0101f1;
+        /** Determines the character width of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int characterWidth=0x7f0101ed;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -564,6 +666,184 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int checkedTextViewStyle=0x7f0100be;
+        /** Determines the scale direction for the scale .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>clockwise</code></td><td>0</td><td></td></tr>
+<tr><td><code>anticlockwise</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int circularGaugeScaleDirection=0x7f010179;
+        /** Determines the interval for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleInterval=0x7f010177;
+        /**  Determines the label offset for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleLabelOffset=0x7f010182;
+        /** Determines the postfix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleLabelPostfix=0x7f010180;
+        /** Determines the prefix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleLabelPrefix=0x7f01017f;
+        /**  Determines the label color for the scale . 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleLabelTextColor=0x7f010183;
+        /**  Determines the label text size for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleLabelTextSize=0x7f010181;
+        /** Determines the major tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleMajorTickColor=0x7f010185;
+        /** Determines the major tick offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleMajorTickOffset=0x7f010187;
+        /**  Determines the maximum labels for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleMaximumLabels=0x7f010193;
+        /** Determines the minor tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleMinorTickColor=0x7f01018b;
+        /** Determines the minor tick offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleMinorTickOffset=0x7f01018d;
+        /**  Determines the minor ticks per interval for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleMinorTicksPerInterval=0x7f010192;
+        /** Determines the range color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleRangeColor=0x7f01019d;
+        /** Determines the range end value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleRangeEndValue=0x7f01019a;
+        /** Determines the range offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleRangeOffset=0x7f01019c;
+        /** Determines the range start value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleRangeStartValue=0x7f010199;
+        /** Determines the label for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleShowLabels=0x7f010194;
+        /** Determines the ticks for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int circularScaleShowTicks=0x7f010195;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -888,6 +1168,25 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int dialogTheme=0x7f01007f;
+        /** Determines the dimmed segment color of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dimmedSegmentAlpha=0x7f0101f0;
+        /** Determines the dimmed segment color of the digital gauge.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int dimmedSegmentColor=0x7f0101ef;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1591,6 +1890,68 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int logoDescription=0x7f010110;
+        /** Determines the marker pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int markerPointerColor=0x7f0101b9;
+        /** Determines the marker pointer height for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int markerPointerHeight=0x7f0101ba;
+        /** Determines the marker pointer offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int markerPointerOffset=0x7f0101bc;
+        /** Determines the marker pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int markerPointerValue=0x7f0101b7;
+        /** Determines the marker pointer width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int markerPointerWidth=0x7f0101bb;
+        /** Determines the marker shapes for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>triangle</code></td><td>0</td><td></td></tr>
+<tr><td><code>rectangle</code></td><td>1</td><td></td></tr>
+<tr><td><code>circle</code></td><td>2</td><td></td></tr>
+<tr><td><code>diamond</code></td><td>3</td><td></td></tr>
+<tr><td><code>invertedTriangle</code></td><td>4</td><td></td></tr>
+<tr><td><code>image</code></td><td>5</td><td></td></tr>
+</table>
+         */
+        public static final int markerShape=0x7f0101b8;
         /** <p>Must be a dimension value, which is a floating point number appended with a unit such as "<code>14.5sp</code>".
 Available units are: px (pixels), dp (density-independent pixels), sp (scaled pixels based on preferred font size),
 in (inches), mm (millimeters).
@@ -1611,6 +1972,15 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int maxButtonHeight=0x7f01010a;
+        /**  Determines the maximum labels for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int maximumLabels=0x7f0101d3;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1708,6 +2078,131 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 </table>
          */
         public static final int navigationMode=0x7f010026;
+        /** Determines the needle pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerColor=0x7f0101a4;
+        /** Determines the needle pointer knob color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerKnobColor=0x7f0101a9;
+        /** Determines the needle pointer knob radius for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerKnobRadius=0x7f0101a7;
+        /** Determines the needle pointer knob stroke color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerKnobStrokeColor=0x7f0101a8;
+        /** Determines the needle pointer knob stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerKnobStrokeWidth=0x7f0101aa;
+        /** Determines the needle pointer length factor for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerLengthFactor=0x7f0101a6;
+        /** Determines the needle pointer tail color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerTailColor=0x7f0101ab;
+        /** Determines the needle pointer tail length factor for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerTailLengthFactor=0x7f0101ac;
+        /** Determines the needle pointer tail stroke color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerTailStrokeColor=0x7f0101ae;
+        /** Determines the needle pointer tail stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerTailStrokeWidth=0x7f0101ad;
+        /** Determines the needle pointer type for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bar</code></td><td>0</td><td></td></tr>
+<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int needlePointerType=0x7f0101a3;
+        /** Determines the needle pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerValue=0x7f0101a2;
+        /** Determines the needle pointer width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int needlePointerWidth=0x7f0101a5;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -1892,6 +2387,184 @@ containing a value of this type.
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int radioButtonStyle=0x7f0100c0;
+        /** Determines the range color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeColor=0x7f0101de;
+        /** Determines the range end value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeEndValue=0x7f0101da;
+        /** Determines the range end width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeEndWidth=0x7f0101dc;
+        /** Determines the range inner end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeInnerEndOffset=0x7f01019f;
+        /** Determines the range inner start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeInnerStartOffset=0x7f01019e;
+        /** Determines the range offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeOffset=0x7f0101dd;
+        /** Determines the range outer end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeOuterEndOffset=0x7f0101a1;
+        /** Determines the range outer start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeOuterStartOffset=0x7f0101a0;
+        /** Determines the range pointer caps for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int rangePointerCap=0x7f0101b6;
+        /** Determines the range pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerColor=0x7f0101b1;
+        /** Determines the range pointer end offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerEndOffset=0x7f0101b5;
+        /** Determines the range pointer offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerOffset=0x7f0101b3;
+        /** Determines the range pointer start offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerStartOffset=0x7f0101b4;
+        /** Determines the range pointer start value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerStartValue=0x7f0101af;
+        /** Determines the range pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerValue=0x7f0101b0;
+        /** Determines the range pointer width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangePointerWidth=0x7f0101b2;
+        /** Determines the range start value for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeStartValue=0x7f0101d9;
+        /** Determines the range start width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeStartWidth=0x7f0101db;
+        /** Determines the range width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int rangeWidth=0x7f01019b;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -1921,6 +2594,481 @@ theme attribute (in the form
 containing a value of this type.
          */
         public static final int rippleColor=0x7f01013c;
+        /** Determines the auto angle for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleAutoAngle=0x7f01017e;
+        /** Determines the auto interval for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleAutoInterval=0x7f010178;
+        /** Determines the scale bar color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleBarColor=0x7f0101c8;
+        /** Determines the scale bar length for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleBarLength=0x7f0101ca;
+        /** Determines the scale bar size for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleBarSize=0x7f0101c9;
+        /**  Determines the corner radius for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleCornerRadius=0x7f0101d7;
+        /** Determines the corner radius type for the scale.
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+         */
+        public static final int scaleCornerRadiusType=0x7f0101d6;
+        /** Determines the direction for the scale.
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>backward</code></td><td>0</td><td></td></tr>
+<tr><td><code>forward</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int scaleDirection=0x7f0101d5;
+        /**  Determines the end angle for the scale. 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleEndAngle=0x7f010174;
+        /** Determines the scale end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleEndOffset=0x7f01017d;
+        /** Determines the maximum for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleEndValue=0x7f010176;
+        /** Determines the interval for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleInterval=0x7f0101bf;
+        /** Determines the label color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleLabelColor=0x7f0101cb;
+        /**  Determines the label font size for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleLabelFontSize=0x7f0101ce;
+        /**  Determines the label offset for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleLabelOffset=0x7f0101cf;
+        /** Determines the postfix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleLabelPostfix=0x7f0101cd;
+        /** Determines the prefix for the label of the gauge.
+         <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleLabelPrefix=0x7f0101cc;
+        /** Determines the major tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickColor=0x7f0101c1;
+        /** Determines the major tick end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickEndOffset=0x7f010189;
+        /** Determines the major tick length for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickLength=0x7f0101c0;
+        /** Determines the major tick stroke offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickOffset=0x7f0101c3;
+        /** Determines the major tick size for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickSize=0x7f010184;
+        /** Determines the major tick start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickStartOffset=0x7f010188;
+        /** Determines the major tick stroke width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickStrokeWidth=0x7f0101c2;
+        /** Determines the major tick width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMajorTickWidth=0x7f010186;
+        /** Determines the maximum for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMaximum=0x7f0101be;
+        /** Determines the minimum for the scale. 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinimum=0x7f0101bd;
+        /** Determines the minor tick color for the scale.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickColor=0x7f0101c5;
+        /** Determines the minor tick end offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickEndOffset=0x7f01018f;
+        /** Determines the minor tick length for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickLength=0x7f0101c4;
+        /** Determines the minor tick stroke offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickOffset=0x7f0101c7;
+        /** Determines the minor tick size for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickSize=0x7f01018a;
+        /** Determines the minor tick start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickStartOffset=0x7f01018e;
+        /** Determines the minor tick stroke width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickStrokeWidth=0x7f0101c6;
+        /** Determines the minor tick width for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTickWidth=0x7f01018c;
+        /**  Determines the minor ticks per interval for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleMinorTicksPerInterval=0x7f0101d2;
+        /** Determines the number of decimal digits for the scale.
+         <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleNumberofDecimalDigits=0x7f010198;
+        /**  Determines the offset for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleOffset=0x7f0101d8;
+        /** Determines the opposite position for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleOpposedPosition=0x7f0101d4;
+        /** Determines the scale orientation for the scale .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
+<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int scaleOrientation=0x7f0101e9;
+        /** Determines the radius factor for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleRadiusFactor=0x7f010197;
+        /**  Determines the rim color for the scale . 
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleRimColor=0x7f010190;
+        /**  Determines the rim width for the scale . 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleRimWidth=0x7f010191;
+        /** Determines the first label behaviour for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleShowFirstLabel=0x7f01017a;
+        /** Determines the label for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleShowLabels=0x7f0101d0;
+        /** Determines the last label behaviour for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleShowLastLabel=0x7f01017b;
+        /** Determines the rim for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleShowRim=0x7f010196;
+        /** Determines the ticks visibility for the scale.
+         <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleShowTicks=0x7f0101d1;
+        /** Determines the start angle for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleStartAngle=0x7f010173;
+        /** Determines the scale start offset for the scale.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleStartOffset=0x7f01017c;
+        /** Determines the minimum for the scale. 
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int scaleStartValue=0x7f010175;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -1955,6 +3103,15 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int seekBarStyle=0x7f0100c4;
+        /** Determines the segment stroke width of the digital gauge.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int segmentStrokeWidth=0x7f0101ee;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -2156,6 +3313,55 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
         public static final int switchTextAppearance=0x7f0100fd;
+        /** Determines the symbol pointer color for the pointer.
+         <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int symbolPointerColor=0x7f0101e5;
+        /** Determines the symbol pointer offset for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int symbolPointerOffset=0x7f0101e7;
+        /** Determines the symbol pointer stroke width for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int symbolPointerStrokeWidth=0x7f0101e6;
+        /** Determines the symbol pointer value for the pointer.
+         <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int symbolPointerValue=0x7f0101e4;
+        /** Determines the symbol position for the pointer .
+         <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>far</code></td><td>0</td><td></td></tr>
+<tr><td><code>away</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int symbolPosition=0x7f0101e8;
         /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
 or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
          */
@@ -3001,6 +4207,8 @@ containing a value of this type.
         public static final int notification_subtext_size=0x7f0800a1;
         public static final int notification_top_pad=0x7f0800a2;
         public static final int notification_top_pad_large_text=0x7f0800a3;
+        public static final int pading_bottom=0x7f0800a5;
+        public static final int pading_top=0x7f0800a4;
         public static final int tooltip_corner_radius=0x7f080062;
         public static final int tooltip_horizontal_padding=0x7f080063;
         public static final int tooltip_margin=0x7f080064;
@@ -3331,201 +4539,225 @@ containing a value of this type.
         public static final int META=0x7f090035;
         public static final int SHIFT=0x7f090036;
         public static final int SYM=0x7f090037;
-        public static final int action0=0x7f0900b6;
-        public static final int action_bar=0x7f09007c;
+        public static final int action0=0x7f0900ce;
+        public static final int action_bar=0x7f09008f;
         public static final int action_bar_activity_content=0x7f090001;
-        public static final int action_bar_container=0x7f09007b;
-        public static final int action_bar_root=0x7f090077;
+        public static final int action_bar_container=0x7f09008e;
+        public static final int action_bar_root=0x7f09008a;
         public static final int action_bar_spinner=0x7f090002;
-        public static final int action_bar_subtitle=0x7f09005b;
-        public static final int action_bar_title=0x7f09005a;
-        public static final int action_container=0x7f0900b3;
-        public static final int action_context_bar=0x7f09007d;
-        public static final int action_divider=0x7f0900ba;
-        public static final int action_image=0x7f0900b4;
+        public static final int action_bar_subtitle=0x7f09006f;
+        public static final int action_bar_title=0x7f09006e;
+        public static final int action_container=0x7f0900cb;
+        public static final int action_context_bar=0x7f090090;
+        public static final int action_divider=0x7f0900d2;
+        public static final int action_image=0x7f0900cc;
         public static final int action_menu_divider=0x7f090003;
         public static final int action_menu_presenter=0x7f090004;
-        public static final int action_mode_bar=0x7f090079;
-        public static final int action_mode_bar_stub=0x7f090078;
-        public static final int action_mode_close_button=0x7f09005c;
-        public static final int action_text=0x7f0900b5;
-        public static final int actions=0x7f0900c3;
-        public static final int activity_chooser_view_content=0x7f09005d;
+        public static final int action_mode_bar=0x7f09008c;
+        public static final int action_mode_bar_stub=0x7f09008b;
+        public static final int action_mode_close_button=0x7f090070;
+        public static final int action_text=0x7f0900cd;
+        public static final int actions=0x7f0900db;
+        public static final int activity_chooser_view_content=0x7f090071;
         public static final int add=0x7f090027;
-        public static final int alertTitle=0x7f090070;
+        public static final int alertTitle=0x7f090083;
         public static final int all=0x7f090052;
         public static final int always=0x7f090038;
+        public static final int anticlockwise=0x7f09005a;
         public static final int async=0x7f090056;
         public static final int auto=0x7f090044;
+        public static final int away=0x7f090066;
+        public static final int backward=0x7f090064;
+        public static final int bar=0x7f09005c;
         public static final int beginning=0x7f09002f;
         public static final int blocking=0x7f090057;
+        public static final int both=0x7f09005e;
         public static final int bottom=0x7f09003d;
-        public static final int buttonPanel=0x7f090063;
-        public static final int cancel_action=0x7f0900b7;
+        public static final int buttonPanel=0x7f090076;
+        public static final int cancel_action=0x7f0900cf;
         public static final int center=0x7f090045;
         public static final int center_horizontal=0x7f090046;
         public static final int center_vertical=0x7f090047;
-        public static final int checkbox=0x7f090073;
-        public static final int chronometer=0x7f0900bf;
+        public static final int checkbox=0x7f090086;
+        public static final int chronometer=0x7f0900d7;
+        public static final int circle=0x7f09005f;
         public static final int clip_horizontal=0x7f09004e;
         public static final int clip_vertical=0x7f09004f;
+        public static final int clockwise=0x7f09005b;
         public static final int collapseActionView=0x7f090039;
-        public static final int container=0x7f09008d;
-        public static final int contentPanel=0x7f090066;
-        public static final int coordinator=0x7f09008e;
-        public static final int custom=0x7f09006d;
-        public static final int customPanel=0x7f09006c;
-        public static final int decor_content_parent=0x7f09007a;
-        public static final int default_activity_button=0x7f090060;
-        public static final int design_bottom_sheet=0x7f090090;
-        public static final int design_menu_item_action_area=0x7f090097;
-        public static final int design_menu_item_action_area_stub=0x7f090096;
-        public static final int design_menu_item_text=0x7f090095;
-        public static final int design_navigation_view=0x7f090094;
+        public static final int container=0x7f0900a1;
+        public static final int contentPanel=0x7f090079;
+        public static final int coordinator=0x7f0900a2;
+        public static final int custom=0x7f090080;
+        public static final int customPanel=0x7f09007f;
+        public static final int decor_content_parent=0x7f09008d;
+        public static final int default_activity_button=0x7f090073;
+        public static final int design_bottom_sheet=0x7f0900a4;
+        public static final int design_menu_item_action_area=0x7f0900ab;
+        public static final int design_menu_item_action_area_stub=0x7f0900aa;
+        public static final int design_menu_item_text=0x7f0900a9;
+        public static final int design_navigation_view=0x7f0900a8;
+        public static final int diamond=0x7f090060;
         public static final int disableHome=0x7f090020;
-        public static final int edit_query=0x7f09007e;
+        public static final int edit_query=0x7f090091;
+        public static final int eightCrossEightDotMatrix=0x7f09006a;
+        public static final int eightsegment=0x7f0900ae;
         public static final int end=0x7f090030;
-        public static final int end_padder=0x7f0900c5;
+        public static final int end_padder=0x7f0900dd;
         public static final int enterAlways=0x7f09003f;
         public static final int enterAlwaysCollapsed=0x7f090040;
         public static final int exitUntilCollapsed=0x7f090041;
-        public static final int expand_activities_button=0x7f09005e;
-        public static final int expanded_menu=0x7f090072;
+        public static final int expand_activities_button=0x7f090072;
+        public static final int expanded_menu=0x7f090085;
+        public static final int far=0x7f090067;
         public static final int fill=0x7f090050;
         public static final int fill_horizontal=0x7f090051;
         public static final int fill_vertical=0x7f090048;
         public static final int fixed=0x7f090054;
         public static final int forever=0x7f090058;
+        public static final int forward=0x7f090065;
+        public static final int fourteensegment=0x7f0900af;
         public static final int ghost_view=0x7f09000a;
         public static final int home=0x7f090005;
         public static final int homeAsUp=0x7f090021;
-        public static final int icon=0x7f090062;
-        public static final int icon_group=0x7f0900c4;
+        public static final int horizontal=0x7f090068;
+        public static final int icon=0x7f090075;
+        public static final int icon_group=0x7f0900dc;
         public static final int ifRoom=0x7f09003a;
-        public static final int image=0x7f09005f;
-        public static final int info=0x7f0900c0;
+        public static final int image=0x7f090061;
+        public static final int info=0x7f0900d8;
+        public static final int invertedTriangle=0x7f090062;
         public static final int italic=0x7f090059;
         public static final int item_touch_helper_previous_elevation=0x7f090000;
-        public static final int largeLabel=0x7f09008c;
+        public static final int largeLabel=0x7f0900a0;
         public static final int left=0x7f090049;
         public static final int line1=0x7f090017;
         public static final int line3=0x7f090018;
         public static final int listMode=0x7f09001d;
-        public static final int list_item=0x7f090061;
-        public static final int masked=0x7f0900ca;
-        public static final int media_actions=0x7f0900b9;
-        public static final int message=0x7f0900c8;
+        public static final int list_item=0x7f090074;
+        public static final int masked=0x7f0900e2;
+        public static final int media_actions=0x7f0900d1;
+        public static final int message=0x7f0900e0;
         public static final int middle=0x7f090031;
         public static final int mini=0x7f090053;
-        public static final int mr_art=0x7f0900a5;
-        public static final int mr_chooser_list=0x7f09009a;
-        public static final int mr_chooser_route_desc=0x7f09009d;
-        public static final int mr_chooser_route_icon=0x7f09009b;
-        public static final int mr_chooser_route_name=0x7f09009c;
-        public static final int mr_chooser_title=0x7f090099;
-        public static final int mr_close=0x7f0900a2;
-        public static final int mr_control_divider=0x7f0900a8;
-        public static final int mr_control_playback_ctrl=0x7f0900ae;
-        public static final int mr_control_subtitle=0x7f0900b1;
-        public static final int mr_control_title=0x7f0900b0;
-        public static final int mr_control_title_container=0x7f0900af;
-        public static final int mr_custom_control=0x7f0900a3;
-        public static final int mr_default_control=0x7f0900a4;
-        public static final int mr_dialog_area=0x7f09009f;
-        public static final int mr_expandable_area=0x7f09009e;
-        public static final int mr_group_expand_collapse=0x7f0900b2;
-        public static final int mr_media_main_control=0x7f0900a6;
-        public static final int mr_name=0x7f0900a1;
-        public static final int mr_playback_control=0x7f0900a7;
-        public static final int mr_title_bar=0x7f0900a0;
-        public static final int mr_volume_control=0x7f0900a9;
-        public static final int mr_volume_group_list=0x7f0900aa;
-        public static final int mr_volume_item_icon=0x7f0900ac;
-        public static final int mr_volume_slider=0x7f0900ad;
+        public static final int mr_art=0x7f0900bd;
+        public static final int mr_chooser_list=0x7f0900b2;
+        public static final int mr_chooser_route_desc=0x7f0900b5;
+        public static final int mr_chooser_route_icon=0x7f0900b3;
+        public static final int mr_chooser_route_name=0x7f0900b4;
+        public static final int mr_chooser_title=0x7f0900b1;
+        public static final int mr_close=0x7f0900ba;
+        public static final int mr_control_divider=0x7f0900c0;
+        public static final int mr_control_playback_ctrl=0x7f0900c6;
+        public static final int mr_control_subtitle=0x7f0900c9;
+        public static final int mr_control_title=0x7f0900c8;
+        public static final int mr_control_title_container=0x7f0900c7;
+        public static final int mr_custom_control=0x7f0900bb;
+        public static final int mr_default_control=0x7f0900bc;
+        public static final int mr_dialog_area=0x7f0900b7;
+        public static final int mr_expandable_area=0x7f0900b6;
+        public static final int mr_group_expand_collapse=0x7f0900ca;
+        public static final int mr_media_main_control=0x7f0900be;
+        public static final int mr_name=0x7f0900b9;
+        public static final int mr_playback_control=0x7f0900bf;
+        public static final int mr_title_bar=0x7f0900b8;
+        public static final int mr_volume_control=0x7f0900c1;
+        public static final int mr_volume_group_list=0x7f0900c2;
+        public static final int mr_volume_item_icon=0x7f0900c4;
+        public static final int mr_volume_slider=0x7f0900c5;
         public static final int multiply=0x7f090028;
-        public static final int navigation_header_container=0x7f090093;
+        public static final int navigation_header_container=0x7f0900a7;
         public static final int never=0x7f09003b;
         public static final int none=0x7f090022;
         public static final int normal=0x7f09001e;
-        public static final int notification_background=0x7f0900c2;
-        public static final int notification_main_column=0x7f0900bc;
-        public static final int notification_main_column_container=0x7f0900bb;
+        public static final int notification_background=0x7f0900da;
+        public static final int notification_main_column=0x7f0900d4;
+        public static final int notification_main_column_container=0x7f0900d3;
         public static final int parallax=0x7f09004c;
-        public static final int parentPanel=0x7f090065;
+        public static final int parentPanel=0x7f090078;
         public static final int parent_matrix=0x7f09000b;
         public static final int pin=0x7f09004d;
         public static final int progress_circular=0x7f090006;
         public static final int progress_horizontal=0x7f090007;
-        public static final int radio=0x7f090075;
+        public static final int radio=0x7f090088;
+        public static final int rectangle=0x7f090063;
         public static final int right=0x7f09004a;
-        public static final int right_icon=0x7f0900c1;
-        public static final int right_side=0x7f0900bd;
+        public static final int right_icon=0x7f0900d9;
+        public static final int right_side=0x7f0900d5;
+        public static final int rootLayout=0x7f09009e;
         public static final int save_image_matrix=0x7f09000c;
         public static final int save_non_transition_alpha=0x7f09000d;
         public static final int save_scale_type=0x7f09000e;
         public static final int screen=0x7f090029;
         public static final int scroll=0x7f090042;
-        public static final int scrollIndicatorDown=0x7f09006b;
-        public static final int scrollIndicatorUp=0x7f090067;
-        public static final int scrollView=0x7f090068;
+        public static final int scrollIndicatorDown=0x7f09007e;
+        public static final int scrollIndicatorUp=0x7f09007a;
+        public static final int scrollView=0x7f09007b;
         public static final int scrollable=0x7f090055;
-        public static final int search_badge=0x7f090080;
-        public static final int search_bar=0x7f09007f;
-        public static final int search_button=0x7f090081;
-        public static final int search_close_btn=0x7f090086;
-        public static final int search_edit_frame=0x7f090082;
-        public static final int search_go_btn=0x7f090088;
-        public static final int search_mag_icon=0x7f090083;
-        public static final int search_plate=0x7f090084;
-        public static final int search_src_text=0x7f090085;
-        public static final int search_voice_btn=0x7f090089;
-        public static final int select_dialog_listview=0x7f09008a;
-        public static final int shortcut=0x7f090074;
+        public static final int search_badge=0x7f090093;
+        public static final int search_bar=0x7f090092;
+        public static final int search_button=0x7f090094;
+        public static final int search_close_btn=0x7f090099;
+        public static final int search_edit_frame=0x7f090095;
+        public static final int search_go_btn=0x7f09009b;
+        public static final int search_mag_icon=0x7f090096;
+        public static final int search_plate=0x7f090097;
+        public static final int search_src_text=0x7f090098;
+        public static final int search_voice_btn=0x7f09009c;
+        public static final int segmentFourteen=0x7f09006b;
+        public static final int segmentSeven=0x7f09006c;
+        public static final int segmentSixteen=0x7f09006d;
+        public static final int select_dialog_listview=0x7f09009d;
+        public static final int sevensegment=0x7f0900ad;
+        public static final int shortcut=0x7f090087;
         public static final int showCustom=0x7f090023;
         public static final int showHome=0x7f090024;
         public static final int showTitle=0x7f090025;
-        public static final int sliding_tabs=0x7f0900c6;
-        public static final int smallLabel=0x7f09008b;
-        public static final int snackbar_action=0x7f090092;
-        public static final int snackbar_text=0x7f090091;
+        public static final int sixteensegment=0x7f0900b0;
+        public static final int sliding_tabs=0x7f0900de;
+        public static final int smallLabel=0x7f09009f;
+        public static final int snackbar_action=0x7f0900a6;
+        public static final int snackbar_text=0x7f0900a5;
         public static final int snap=0x7f090043;
-        public static final int spacer=0x7f090064;
+        public static final int spacer=0x7f090077;
         public static final int split_action_bar=0x7f090008;
         public static final int src_atop=0x7f09002a;
         public static final int src_in=0x7f09002b;
         public static final int src_over=0x7f09002c;
         public static final int start=0x7f09004b;
-        public static final int status_bar_latest_event_content=0x7f0900b8;
-        public static final int submenuarrow=0x7f090076;
-        public static final int submit_area=0x7f090087;
+        public static final int status_bar_latest_event_content=0x7f0900d0;
+        public static final int submenuarrow=0x7f090089;
+        public static final int submit_area=0x7f09009a;
         public static final int tabMode=0x7f09001f;
         public static final int tag_transition_group=0x7f090019;
         public static final int text=0x7f09001a;
         public static final int text2=0x7f09001b;
-        public static final int textSpacerNoButtons=0x7f09006a;
-        public static final int textSpacerNoTitle=0x7f090069;
-        public static final int text_input_password_toggle=0x7f090098;
+        public static final int textSpacerNoButtons=0x7f09007d;
+        public static final int textSpacerNoTitle=0x7f09007c;
+        public static final int text_input_password_toggle=0x7f0900ac;
         public static final int textinput_counter=0x7f090014;
         public static final int textinput_error=0x7f090015;
-        public static final int time=0x7f0900be;
+        public static final int time=0x7f0900d6;
         public static final int title=0x7f09001c;
-        public static final int titleDividerNoCustom=0x7f090071;
-        public static final int title_template=0x7f09006f;
-        public static final int toolbar=0x7f0900c7;
+        public static final int titleDividerNoCustom=0x7f090084;
+        public static final int title_template=0x7f090082;
+        public static final int toolbar=0x7f0900df;
         public static final int top=0x7f09003e;
-        public static final int topPanel=0x7f09006e;
-        public static final int touch_outside=0x7f09008f;
+        public static final int topPanel=0x7f090081;
+        public static final int touch_outside=0x7f0900a3;
         public static final int transition_current_scene=0x7f09000f;
         public static final int transition_layout_save=0x7f090010;
         public static final int transition_position=0x7f090011;
         public static final int transition_scene_layoutid_cache=0x7f090012;
         public static final int transition_transform=0x7f090013;
+        public static final int triangle=0x7f09005d;
         public static final int uniform=0x7f09002d;
         public static final int up=0x7f090009;
         public static final int useLogo=0x7f090026;
+        public static final int vertical=0x7f090069;
         public static final int view_offset_helper=0x7f090016;
-        public static final int visible=0x7f0900c9;
-        public static final int volume_item_container=0x7f0900ab;
+        public static final int visible=0x7f0900e1;
+        public static final int volume_item_container=0x7f0900c3;
         public static final int withText=0x7f09003c;
         public static final int wrap_content=0x7f09002e;
     }
@@ -3575,48 +4807,50 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040017;
         public static final int abc_search_view=0x7f040018;
         public static final int abc_select_dialog_material=0x7f040019;
-        public static final int design_bottom_navigation_item=0x7f04001a;
-        public static final int design_bottom_sheet_dialog=0x7f04001b;
-        public static final int design_layout_snackbar=0x7f04001c;
-        public static final int design_layout_snackbar_include=0x7f04001d;
-        public static final int design_layout_tab_icon=0x7f04001e;
-        public static final int design_layout_tab_text=0x7f04001f;
-        public static final int design_menu_item_action_area=0x7f040020;
-        public static final int design_navigation_item=0x7f040021;
-        public static final int design_navigation_item_header=0x7f040022;
-        public static final int design_navigation_item_separator=0x7f040023;
-        public static final int design_navigation_item_subheader=0x7f040024;
-        public static final int design_navigation_menu=0x7f040025;
-        public static final int design_navigation_menu_item=0x7f040026;
-        public static final int design_text_input_password_icon=0x7f040027;
-        public static final int mr_chooser_dialog=0x7f040028;
-        public static final int mr_chooser_list_item=0x7f040029;
-        public static final int mr_controller_material_dialog_b=0x7f04002a;
-        public static final int mr_controller_volume_item=0x7f04002b;
-        public static final int mr_playback_control=0x7f04002c;
-        public static final int mr_volume_control=0x7f04002d;
-        public static final int notification_action=0x7f04002e;
-        public static final int notification_action_tombstone=0x7f04002f;
-        public static final int notification_media_action=0x7f040030;
-        public static final int notification_media_cancel_action=0x7f040031;
-        public static final int notification_template_big_media=0x7f040032;
-        public static final int notification_template_big_media_custom=0x7f040033;
-        public static final int notification_template_big_media_narrow=0x7f040034;
-        public static final int notification_template_big_media_narrow_custom=0x7f040035;
-        public static final int notification_template_custom_big=0x7f040036;
-        public static final int notification_template_icon_group=0x7f040037;
-        public static final int notification_template_lines_media=0x7f040038;
-        public static final int notification_template_media=0x7f040039;
-        public static final int notification_template_media_custom=0x7f04003a;
-        public static final int notification_template_part_chronometer=0x7f04003b;
-        public static final int notification_template_part_time=0x7f04003c;
-        public static final int select_dialog_item_material=0x7f04003d;
-        public static final int select_dialog_multichoice_material=0x7f04003e;
-        public static final int select_dialog_singlechoice_material=0x7f04003f;
-        public static final int support_simple_spinner_dropdown_item=0x7f040040;
-        public static final int tabbar=0x7f040041;
-        public static final int toolbar=0x7f040042;
-        public static final int tooltip=0x7f040043;
+        public static final int circulargauge_layout=0x7f04001a;
+        public static final int design_bottom_navigation_item=0x7f04001b;
+        public static final int design_bottom_sheet_dialog=0x7f04001c;
+        public static final int design_layout_snackbar=0x7f04001d;
+        public static final int design_layout_snackbar_include=0x7f04001e;
+        public static final int design_layout_tab_icon=0x7f04001f;
+        public static final int design_layout_tab_text=0x7f040020;
+        public static final int design_menu_item_action_area=0x7f040021;
+        public static final int design_navigation_item=0x7f040022;
+        public static final int design_navigation_item_header=0x7f040023;
+        public static final int design_navigation_item_separator=0x7f040024;
+        public static final int design_navigation_item_subheader=0x7f040025;
+        public static final int design_navigation_menu=0x7f040026;
+        public static final int design_navigation_menu_item=0x7f040027;
+        public static final int design_text_input_password_icon=0x7f040028;
+        public static final int digitalgauge_layout=0x7f040029;
+        public static final int mr_chooser_dialog=0x7f04002a;
+        public static final int mr_chooser_list_item=0x7f04002b;
+        public static final int mr_controller_material_dialog_b=0x7f04002c;
+        public static final int mr_controller_volume_item=0x7f04002d;
+        public static final int mr_playback_control=0x7f04002e;
+        public static final int mr_volume_control=0x7f04002f;
+        public static final int notification_action=0x7f040030;
+        public static final int notification_action_tombstone=0x7f040031;
+        public static final int notification_media_action=0x7f040032;
+        public static final int notification_media_cancel_action=0x7f040033;
+        public static final int notification_template_big_media=0x7f040034;
+        public static final int notification_template_big_media_custom=0x7f040035;
+        public static final int notification_template_big_media_narrow=0x7f040036;
+        public static final int notification_template_big_media_narrow_custom=0x7f040037;
+        public static final int notification_template_custom_big=0x7f040038;
+        public static final int notification_template_icon_group=0x7f040039;
+        public static final int notification_template_lines_media=0x7f04003a;
+        public static final int notification_template_media=0x7f04003b;
+        public static final int notification_template_media_custom=0x7f04003c;
+        public static final int notification_template_part_chronometer=0x7f04003d;
+        public static final int notification_template_part_time=0x7f04003e;
+        public static final int select_dialog_item_material=0x7f04003f;
+        public static final int select_dialog_multichoice_material=0x7f040040;
+        public static final int select_dialog_singlechoice_material=0x7f040041;
+        public static final int support_simple_spinner_dropdown_item=0x7f040042;
+        public static final int tabbar=0x7f040043;
+        public static final int toolbar=0x7f040044;
+        public static final int tooltip=0x7f040045;
     }
     public static final class mipmap {
         public static final int icon=0x7f030000;
@@ -3624,6 +4858,8 @@ containing a value of this type.
         public static final int launcher_foreground=0x7f030002;
     }
     public static final class string {
+        public static final int ApplicationName=0x7f0a003d;
+        public static final int Hello=0x7f0a003c;
         public static final int abc_action_bar_home_description=0x7f0a0015;
         public static final int abc_action_bar_up_description=0x7f0a0016;
         public static final int abc_action_menu_overflow_description=0x7f0a0017;
@@ -10024,6 +11260,2418 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
           @attr name com.companyname.AppPlanta:voiceIcon
         */
         public static final int SearchView_voiceIcon = 12;
+        /** Attributes that can be used with a SfCircularGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularGaugeScaleDirection com.companyname.AppPlanta:circularGaugeScaleDirection}</code></td><td>Determines the scale direction for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleInterval com.companyname.AppPlanta:circularScaleInterval}</code></td><td>Determines the interval for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelOffset com.companyname.AppPlanta:circularScaleLabelOffset}</code></td><td> Determines the label offset for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelPostfix com.companyname.AppPlanta:circularScaleLabelPostfix}</code></td><td>Determines the postfix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelPrefix com.companyname.AppPlanta:circularScaleLabelPrefix}</code></td><td>Determines the prefix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelTextColor com.companyname.AppPlanta:circularScaleLabelTextColor}</code></td><td> Determines the label color for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleLabelTextSize com.companyname.AppPlanta:circularScaleLabelTextSize}</code></td><td> Determines the label text size for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMajorTickColor com.companyname.AppPlanta:circularScaleMajorTickColor}</code></td><td>Determines the major tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMajorTickOffset com.companyname.AppPlanta:circularScaleMajorTickOffset}</code></td><td>Determines the major tick offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMaximumLabels com.companyname.AppPlanta:circularScaleMaximumLabels}</code></td><td> Determines the maximum labels for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTickColor com.companyname.AppPlanta:circularScaleMinorTickColor}</code></td><td>Determines the minor tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTickOffset com.companyname.AppPlanta:circularScaleMinorTickOffset}</code></td><td>Determines the minor tick offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleMinorTicksPerInterval com.companyname.AppPlanta:circularScaleMinorTicksPerInterval}</code></td><td> Determines the minor ticks per interval for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeColor com.companyname.AppPlanta:circularScaleRangeColor}</code></td><td>Determines the range color for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeEndValue com.companyname.AppPlanta:circularScaleRangeEndValue}</code></td><td>Determines the range end value for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeOffset com.companyname.AppPlanta:circularScaleRangeOffset}</code></td><td>Determines the range offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleRangeStartValue com.companyname.AppPlanta:circularScaleRangeStartValue}</code></td><td>Determines the range start value for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleShowLabels com.companyname.AppPlanta:circularScaleShowLabels}</code></td><td>Determines the label for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_circularScaleShowTicks com.companyname.AppPlanta:circularScaleShowTicks}</code></td><td>Determines the ticks for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerColor com.companyname.AppPlanta:markerPointerColor}</code></td><td>Determines the marker pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerHeight com.companyname.AppPlanta:markerPointerHeight}</code></td><td>Determines the marker pointer height for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerOffset com.companyname.AppPlanta:markerPointerOffset}</code></td><td>Determines the marker pointer offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerValue com.companyname.AppPlanta:markerPointerValue}</code></td><td>Determines the marker pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerPointerWidth com.companyname.AppPlanta:markerPointerWidth}</code></td><td>Determines the marker pointer width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_markerShape com.companyname.AppPlanta:markerShape}</code></td><td>Determines the marker shapes for the pointer .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerColor com.companyname.AppPlanta:needlePointerColor}</code></td><td>Determines the needle pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobColor com.companyname.AppPlanta:needlePointerKnobColor}</code></td><td>Determines the needle pointer knob color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobRadius com.companyname.AppPlanta:needlePointerKnobRadius}</code></td><td>Determines the needle pointer knob radius for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobStrokeColor com.companyname.AppPlanta:needlePointerKnobStrokeColor}</code></td><td>Determines the needle pointer knob stroke color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerKnobStrokeWidth com.companyname.AppPlanta:needlePointerKnobStrokeWidth}</code></td><td>Determines the needle pointer knob stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerLengthFactor com.companyname.AppPlanta:needlePointerLengthFactor}</code></td><td>Determines the needle pointer length factor for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailColor com.companyname.AppPlanta:needlePointerTailColor}</code></td><td>Determines the needle pointer tail color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailLengthFactor com.companyname.AppPlanta:needlePointerTailLengthFactor}</code></td><td>Determines the needle pointer tail length factor for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailStrokeColor com.companyname.AppPlanta:needlePointerTailStrokeColor}</code></td><td>Determines the needle pointer tail stroke color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerTailStrokeWidth com.companyname.AppPlanta:needlePointerTailStrokeWidth}</code></td><td>Determines the needle pointer tail stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerType com.companyname.AppPlanta:needlePointerType}</code></td><td>Determines the needle pointer type for the pointer .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerValue com.companyname.AppPlanta:needlePointerValue}</code></td><td>Determines the needle pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_needlePointerWidth com.companyname.AppPlanta:needlePointerWidth}</code></td><td>Determines the needle pointer width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeInnerEndOffset com.companyname.AppPlanta:rangeInnerEndOffset}</code></td><td>Determines the range inner end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeInnerStartOffset com.companyname.AppPlanta:rangeInnerStartOffset}</code></td><td>Determines the range inner start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeOuterEndOffset com.companyname.AppPlanta:rangeOuterEndOffset}</code></td><td>Determines the range outer end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeOuterStartOffset com.companyname.AppPlanta:rangeOuterStartOffset}</code></td><td>Determines the range outer start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerCap com.companyname.AppPlanta:rangePointerCap}</code></td><td>Determines the range pointer caps for the pointer .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerColor com.companyname.AppPlanta:rangePointerColor}</code></td><td>Determines the range pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerEndOffset com.companyname.AppPlanta:rangePointerEndOffset}</code></td><td>Determines the range pointer end offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerOffset com.companyname.AppPlanta:rangePointerOffset}</code></td><td>Determines the range pointer offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerStartOffset com.companyname.AppPlanta:rangePointerStartOffset}</code></td><td>Determines the range pointer start offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerStartValue com.companyname.AppPlanta:rangePointerStartValue}</code></td><td>Determines the range pointer start value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerValue com.companyname.AppPlanta:rangePointerValue}</code></td><td>Determines the range pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangePointerWidth com.companyname.AppPlanta:rangePointerWidth}</code></td><td>Determines the range pointer width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_rangeWidth com.companyname.AppPlanta:rangeWidth}</code></td><td>Determines the range width for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleAutoAngle com.companyname.AppPlanta:scaleAutoAngle}</code></td><td>Determines the auto angle for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleAutoInterval com.companyname.AppPlanta:scaleAutoInterval}</code></td><td>Determines the auto interval for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleEndAngle com.companyname.AppPlanta:scaleEndAngle}</code></td><td> Determines the end angle for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleEndOffset com.companyname.AppPlanta:scaleEndOffset}</code></td><td>Determines the scale end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleEndValue com.companyname.AppPlanta:scaleEndValue}</code></td><td>Determines the maximum for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickEndOffset com.companyname.AppPlanta:scaleMajorTickEndOffset}</code></td><td>Determines the major tick end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickSize com.companyname.AppPlanta:scaleMajorTickSize}</code></td><td>Determines the major tick size for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickStartOffset com.companyname.AppPlanta:scaleMajorTickStartOffset}</code></td><td>Determines the major tick start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMajorTickWidth com.companyname.AppPlanta:scaleMajorTickWidth}</code></td><td>Determines the major tick width for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickEndOffset com.companyname.AppPlanta:scaleMinorTickEndOffset}</code></td><td>Determines the minor tick end offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickSize com.companyname.AppPlanta:scaleMinorTickSize}</code></td><td>Determines the minor tick size for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickStartOffset com.companyname.AppPlanta:scaleMinorTickStartOffset}</code></td><td>Determines the minor tick start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleMinorTickWidth com.companyname.AppPlanta:scaleMinorTickWidth}</code></td><td>Determines the minor tick width for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleNumberofDecimalDigits com.companyname.AppPlanta:scaleNumberofDecimalDigits}</code></td><td>Determines the number of decimal digits for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleRadiusFactor com.companyname.AppPlanta:scaleRadiusFactor}</code></td><td>Determines the radius factor for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleRimColor com.companyname.AppPlanta:scaleRimColor}</code></td><td> Determines the rim color for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleRimWidth com.companyname.AppPlanta:scaleRimWidth}</code></td><td> Determines the rim width for the scale .</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleShowFirstLabel com.companyname.AppPlanta:scaleShowFirstLabel}</code></td><td>Determines the first label behaviour for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleShowLastLabel com.companyname.AppPlanta:scaleShowLastLabel}</code></td><td>Determines the last label behaviour for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleShowRim com.companyname.AppPlanta:scaleShowRim}</code></td><td>Determines the rim for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleStartAngle com.companyname.AppPlanta:scaleStartAngle}</code></td><td>Determines the start angle for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleStartOffset com.companyname.AppPlanta:scaleStartOffset}</code></td><td>Determines the scale start offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfCircularGauge_scaleStartValue com.companyname.AppPlanta:scaleStartValue}</code></td><td>Determines the minimum for the scale.</td></tr>
+           </table>
+           @see #SfCircularGauge_circularGaugeScaleDirection
+           @see #SfCircularGauge_circularScaleInterval
+           @see #SfCircularGauge_circularScaleLabelOffset
+           @see #SfCircularGauge_circularScaleLabelPostfix
+           @see #SfCircularGauge_circularScaleLabelPrefix
+           @see #SfCircularGauge_circularScaleLabelTextColor
+           @see #SfCircularGauge_circularScaleLabelTextSize
+           @see #SfCircularGauge_circularScaleMajorTickColor
+           @see #SfCircularGauge_circularScaleMajorTickOffset
+           @see #SfCircularGauge_circularScaleMaximumLabels
+           @see #SfCircularGauge_circularScaleMinorTickColor
+           @see #SfCircularGauge_circularScaleMinorTickOffset
+           @see #SfCircularGauge_circularScaleMinorTicksPerInterval
+           @see #SfCircularGauge_circularScaleRangeColor
+           @see #SfCircularGauge_circularScaleRangeEndValue
+           @see #SfCircularGauge_circularScaleRangeOffset
+           @see #SfCircularGauge_circularScaleRangeStartValue
+           @see #SfCircularGauge_circularScaleShowLabels
+           @see #SfCircularGauge_circularScaleShowTicks
+           @see #SfCircularGauge_markerPointerColor
+           @see #SfCircularGauge_markerPointerHeight
+           @see #SfCircularGauge_markerPointerOffset
+           @see #SfCircularGauge_markerPointerValue
+           @see #SfCircularGauge_markerPointerWidth
+           @see #SfCircularGauge_markerShape
+           @see #SfCircularGauge_needlePointerColor
+           @see #SfCircularGauge_needlePointerKnobColor
+           @see #SfCircularGauge_needlePointerKnobRadius
+           @see #SfCircularGauge_needlePointerKnobStrokeColor
+           @see #SfCircularGauge_needlePointerKnobStrokeWidth
+           @see #SfCircularGauge_needlePointerLengthFactor
+           @see #SfCircularGauge_needlePointerTailColor
+           @see #SfCircularGauge_needlePointerTailLengthFactor
+           @see #SfCircularGauge_needlePointerTailStrokeColor
+           @see #SfCircularGauge_needlePointerTailStrokeWidth
+           @see #SfCircularGauge_needlePointerType
+           @see #SfCircularGauge_needlePointerValue
+           @see #SfCircularGauge_needlePointerWidth
+           @see #SfCircularGauge_rangeInnerEndOffset
+           @see #SfCircularGauge_rangeInnerStartOffset
+           @see #SfCircularGauge_rangeOuterEndOffset
+           @see #SfCircularGauge_rangeOuterStartOffset
+           @see #SfCircularGauge_rangePointerCap
+           @see #SfCircularGauge_rangePointerColor
+           @see #SfCircularGauge_rangePointerEndOffset
+           @see #SfCircularGauge_rangePointerOffset
+           @see #SfCircularGauge_rangePointerStartOffset
+           @see #SfCircularGauge_rangePointerStartValue
+           @see #SfCircularGauge_rangePointerValue
+           @see #SfCircularGauge_rangePointerWidth
+           @see #SfCircularGauge_rangeWidth
+           @see #SfCircularGauge_scaleAutoAngle
+           @see #SfCircularGauge_scaleAutoInterval
+           @see #SfCircularGauge_scaleEndAngle
+           @see #SfCircularGauge_scaleEndOffset
+           @see #SfCircularGauge_scaleEndValue
+           @see #SfCircularGauge_scaleMajorTickEndOffset
+           @see #SfCircularGauge_scaleMajorTickSize
+           @see #SfCircularGauge_scaleMajorTickStartOffset
+           @see #SfCircularGauge_scaleMajorTickWidth
+           @see #SfCircularGauge_scaleMinorTickEndOffset
+           @see #SfCircularGauge_scaleMinorTickSize
+           @see #SfCircularGauge_scaleMinorTickStartOffset
+           @see #SfCircularGauge_scaleMinorTickWidth
+           @see #SfCircularGauge_scaleNumberofDecimalDigits
+           @see #SfCircularGauge_scaleRadiusFactor
+           @see #SfCircularGauge_scaleRimColor
+           @see #SfCircularGauge_scaleRimWidth
+           @see #SfCircularGauge_scaleShowFirstLabel
+           @see #SfCircularGauge_scaleShowLastLabel
+           @see #SfCircularGauge_scaleShowRim
+           @see #SfCircularGauge_scaleStartAngle
+           @see #SfCircularGauge_scaleStartOffset
+           @see #SfCircularGauge_scaleStartValue
+         */
+        public static final int[] SfCircularGauge = {
+            0x7f010173, 0x7f010174, 0x7f010175, 0x7f010176,
+            0x7f010177, 0x7f010178, 0x7f010179, 0x7f01017a,
+            0x7f01017b, 0x7f01017c, 0x7f01017d, 0x7f01017e,
+            0x7f01017f, 0x7f010180, 0x7f010181, 0x7f010182,
+            0x7f010183, 0x7f010184, 0x7f010185, 0x7f010186,
+            0x7f010187, 0x7f010188, 0x7f010189, 0x7f01018a,
+            0x7f01018b, 0x7f01018c, 0x7f01018d, 0x7f01018e,
+            0x7f01018f, 0x7f010190, 0x7f010191, 0x7f010192,
+            0x7f010193, 0x7f010194, 0x7f010195, 0x7f010196,
+            0x7f010197, 0x7f010198, 0x7f010199, 0x7f01019a,
+            0x7f01019b, 0x7f01019c, 0x7f01019d, 0x7f01019e,
+            0x7f01019f, 0x7f0101a0, 0x7f0101a1, 0x7f0101a2,
+            0x7f0101a3, 0x7f0101a4, 0x7f0101a5, 0x7f0101a6,
+            0x7f0101a7, 0x7f0101a8, 0x7f0101a9, 0x7f0101aa,
+            0x7f0101ab, 0x7f0101ac, 0x7f0101ad, 0x7f0101ae,
+            0x7f0101af, 0x7f0101b0, 0x7f0101b1, 0x7f0101b2,
+            0x7f0101b3, 0x7f0101b4, 0x7f0101b5, 0x7f0101b6,
+            0x7f0101b7, 0x7f0101b8, 0x7f0101b9, 0x7f0101ba,
+            0x7f0101bb, 0x7f0101bc
+        };
+        /**
+          <p>
+          @attr description
+          Determines the scale direction for the scale .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>clockwise</code></td><td>0</td><td></td></tr>
+<tr><td><code>anticlockwise</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularGaugeScaleDirection
+        */
+        public static final int SfCircularGauge_circularGaugeScaleDirection = 6;
+        /**
+          <p>
+          @attr description
+          Determines the interval for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleInterval
+        */
+        public static final int SfCircularGauge_circularScaleInterval = 4;
+        /**
+          <p>
+          @attr description
+           Determines the label offset for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleLabelOffset
+        */
+        public static final int SfCircularGauge_circularScaleLabelOffset = 15;
+        /**
+          <p>
+          @attr description
+          Determines the postfix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleLabelPostfix
+        */
+        public static final int SfCircularGauge_circularScaleLabelPostfix = 13;
+        /**
+          <p>
+          @attr description
+          Determines the prefix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleLabelPrefix
+        */
+        public static final int SfCircularGauge_circularScaleLabelPrefix = 12;
+        /**
+          <p>
+          @attr description
+           Determines the label color for the scale . 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleLabelTextColor
+        */
+        public static final int SfCircularGauge_circularScaleLabelTextColor = 16;
+        /**
+          <p>
+          @attr description
+           Determines the label text size for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleLabelTextSize
+        */
+        public static final int SfCircularGauge_circularScaleLabelTextSize = 14;
+        /**
+          <p>
+          @attr description
+          Determines the major tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleMajorTickColor
+        */
+        public static final int SfCircularGauge_circularScaleMajorTickColor = 18;
+        /**
+          <p>
+          @attr description
+          Determines the major tick offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleMajorTickOffset
+        */
+        public static final int SfCircularGauge_circularScaleMajorTickOffset = 20;
+        /**
+          <p>
+          @attr description
+           Determines the maximum labels for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleMaximumLabels
+        */
+        public static final int SfCircularGauge_circularScaleMaximumLabels = 32;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleMinorTickColor
+        */
+        public static final int SfCircularGauge_circularScaleMinorTickColor = 24;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleMinorTickOffset
+        */
+        public static final int SfCircularGauge_circularScaleMinorTickOffset = 26;
+        /**
+          <p>
+          @attr description
+           Determines the minor ticks per interval for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleMinorTicksPerInterval
+        */
+        public static final int SfCircularGauge_circularScaleMinorTicksPerInterval = 31;
+        /**
+          <p>
+          @attr description
+          Determines the range color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleRangeColor
+        */
+        public static final int SfCircularGauge_circularScaleRangeColor = 42;
+        /**
+          <p>
+          @attr description
+          Determines the range end value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleRangeEndValue
+        */
+        public static final int SfCircularGauge_circularScaleRangeEndValue = 39;
+        /**
+          <p>
+          @attr description
+          Determines the range offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleRangeOffset
+        */
+        public static final int SfCircularGauge_circularScaleRangeOffset = 41;
+        /**
+          <p>
+          @attr description
+          Determines the range start value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleRangeStartValue
+        */
+        public static final int SfCircularGauge_circularScaleRangeStartValue = 38;
+        /**
+          <p>
+          @attr description
+          Determines the label for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleShowLabels
+        */
+        public static final int SfCircularGauge_circularScaleShowLabels = 33;
+        /**
+          <p>
+          @attr description
+          Determines the ticks for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:circularScaleShowTicks
+        */
+        public static final int SfCircularGauge_circularScaleShowTicks = 34;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:markerPointerColor
+        */
+        public static final int SfCircularGauge_markerPointerColor = 70;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer height for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:markerPointerHeight
+        */
+        public static final int SfCircularGauge_markerPointerHeight = 71;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:markerPointerOffset
+        */
+        public static final int SfCircularGauge_markerPointerOffset = 73;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:markerPointerValue
+        */
+        public static final int SfCircularGauge_markerPointerValue = 68;
+        /**
+          <p>
+          @attr description
+          Determines the marker pointer width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:markerPointerWidth
+        */
+        public static final int SfCircularGauge_markerPointerWidth = 72;
+        /**
+          <p>
+          @attr description
+          Determines the marker shapes for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>triangle</code></td><td>0</td><td></td></tr>
+<tr><td><code>rectangle</code></td><td>1</td><td></td></tr>
+<tr><td><code>circle</code></td><td>2</td><td></td></tr>
+<tr><td><code>diamond</code></td><td>3</td><td></td></tr>
+<tr><td><code>invertedTriangle</code></td><td>4</td><td></td></tr>
+<tr><td><code>image</code></td><td>5</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:markerShape
+        */
+        public static final int SfCircularGauge_markerShape = 69;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerColor
+        */
+        public static final int SfCircularGauge_needlePointerColor = 49;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerKnobColor
+        */
+        public static final int SfCircularGauge_needlePointerKnobColor = 54;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob radius for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerKnobRadius
+        */
+        public static final int SfCircularGauge_needlePointerKnobRadius = 52;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob stroke color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerKnobStrokeColor
+        */
+        public static final int SfCircularGauge_needlePointerKnobStrokeColor = 53;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer knob stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerKnobStrokeWidth
+        */
+        public static final int SfCircularGauge_needlePointerKnobStrokeWidth = 55;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer length factor for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerLengthFactor
+        */
+        public static final int SfCircularGauge_needlePointerLengthFactor = 51;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerTailColor
+        */
+        public static final int SfCircularGauge_needlePointerTailColor = 56;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail length factor for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerTailLengthFactor
+        */
+        public static final int SfCircularGauge_needlePointerTailLengthFactor = 57;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail stroke color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerTailStrokeColor
+        */
+        public static final int SfCircularGauge_needlePointerTailStrokeColor = 59;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer tail stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerTailStrokeWidth
+        */
+        public static final int SfCircularGauge_needlePointerTailStrokeWidth = 58;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer type for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>bar</code></td><td>0</td><td></td></tr>
+<tr><td><code>triangle</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerType
+        */
+        public static final int SfCircularGauge_needlePointerType = 48;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerValue
+        */
+        public static final int SfCircularGauge_needlePointerValue = 47;
+        /**
+          <p>
+          @attr description
+          Determines the needle pointer width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:needlePointerWidth
+        */
+        public static final int SfCircularGauge_needlePointerWidth = 50;
+        /**
+          <p>
+          @attr description
+          Determines the range inner end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeInnerEndOffset
+        */
+        public static final int SfCircularGauge_rangeInnerEndOffset = 44;
+        /**
+          <p>
+          @attr description
+          Determines the range inner start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeInnerStartOffset
+        */
+        public static final int SfCircularGauge_rangeInnerStartOffset = 43;
+        /**
+          <p>
+          @attr description
+          Determines the range outer end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeOuterEndOffset
+        */
+        public static final int SfCircularGauge_rangeOuterEndOffset = 46;
+        /**
+          <p>
+          @attr description
+          Determines the range outer start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeOuterStartOffset
+        */
+        public static final int SfCircularGauge_rangeOuterStartOffset = 45;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer caps for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerCap
+        */
+        public static final int SfCircularGauge_rangePointerCap = 67;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerColor
+        */
+        public static final int SfCircularGauge_rangePointerColor = 62;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer end offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerEndOffset
+        */
+        public static final int SfCircularGauge_rangePointerEndOffset = 66;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerOffset
+        */
+        public static final int SfCircularGauge_rangePointerOffset = 64;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer start offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerStartOffset
+        */
+        public static final int SfCircularGauge_rangePointerStartOffset = 65;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer start value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerStartValue
+        */
+        public static final int SfCircularGauge_rangePointerStartValue = 60;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerValue
+        */
+        public static final int SfCircularGauge_rangePointerValue = 61;
+        /**
+          <p>
+          @attr description
+          Determines the range pointer width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangePointerWidth
+        */
+        public static final int SfCircularGauge_rangePointerWidth = 63;
+        /**
+          <p>
+          @attr description
+          Determines the range width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeWidth
+        */
+        public static final int SfCircularGauge_rangeWidth = 40;
+        /**
+          <p>
+          @attr description
+          Determines the auto angle for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleAutoAngle
+        */
+        public static final int SfCircularGauge_scaleAutoAngle = 11;
+        /**
+          <p>
+          @attr description
+          Determines the auto interval for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleAutoInterval
+        */
+        public static final int SfCircularGauge_scaleAutoInterval = 5;
+        /**
+          <p>
+          @attr description
+           Determines the end angle for the scale. 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleEndAngle
+        */
+        public static final int SfCircularGauge_scaleEndAngle = 1;
+        /**
+          <p>
+          @attr description
+          Determines the scale end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleEndOffset
+        */
+        public static final int SfCircularGauge_scaleEndOffset = 10;
+        /**
+          <p>
+          @attr description
+          Determines the maximum for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleEndValue
+        */
+        public static final int SfCircularGauge_scaleEndValue = 3;
+        /**
+          <p>
+          @attr description
+          Determines the major tick end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickEndOffset
+        */
+        public static final int SfCircularGauge_scaleMajorTickEndOffset = 22;
+        /**
+          <p>
+          @attr description
+          Determines the major tick size for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickSize
+        */
+        public static final int SfCircularGauge_scaleMajorTickSize = 17;
+        /**
+          <p>
+          @attr description
+          Determines the major tick start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickStartOffset
+        */
+        public static final int SfCircularGauge_scaleMajorTickStartOffset = 21;
+        /**
+          <p>
+          @attr description
+          Determines the major tick width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickWidth
+        */
+        public static final int SfCircularGauge_scaleMajorTickWidth = 19;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick end offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickEndOffset
+        */
+        public static final int SfCircularGauge_scaleMinorTickEndOffset = 28;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick size for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickSize
+        */
+        public static final int SfCircularGauge_scaleMinorTickSize = 23;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickStartOffset
+        */
+        public static final int SfCircularGauge_scaleMinorTickStartOffset = 27;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickWidth
+        */
+        public static final int SfCircularGauge_scaleMinorTickWidth = 25;
+        /**
+          <p>
+          @attr description
+          Determines the number of decimal digits for the scale.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleNumberofDecimalDigits
+        */
+        public static final int SfCircularGauge_scaleNumberofDecimalDigits = 37;
+        /**
+          <p>
+          @attr description
+          Determines the radius factor for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleRadiusFactor
+        */
+        public static final int SfCircularGauge_scaleRadiusFactor = 36;
+        /**
+          <p>
+          @attr description
+           Determines the rim color for the scale . 
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleRimColor
+        */
+        public static final int SfCircularGauge_scaleRimColor = 29;
+        /**
+          <p>
+          @attr description
+           Determines the rim width for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleRimWidth
+        */
+        public static final int SfCircularGauge_scaleRimWidth = 30;
+        /**
+          <p>
+          @attr description
+          Determines the first label behaviour for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleShowFirstLabel
+        */
+        public static final int SfCircularGauge_scaleShowFirstLabel = 7;
+        /**
+          <p>
+          @attr description
+          Determines the last label behaviour for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleShowLastLabel
+        */
+        public static final int SfCircularGauge_scaleShowLastLabel = 8;
+        /**
+          <p>
+          @attr description
+          Determines the rim for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleShowRim
+        */
+        public static final int SfCircularGauge_scaleShowRim = 35;
+        /**
+          <p>
+          @attr description
+          Determines the start angle for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleStartAngle
+        */
+        public static final int SfCircularGauge_scaleStartAngle = 0;
+        /**
+          <p>
+          @attr description
+          Determines the scale start offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleStartOffset
+        */
+        public static final int SfCircularGauge_scaleStartOffset = 9;
+        /**
+          <p>
+          @attr description
+          Determines the minimum for the scale. 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleStartValue
+        */
+        public static final int SfCircularGauge_scaleStartValue = 2;
+        /** Attributes that can be used with a SfDigitalGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterHeight com.companyname.AppPlanta:characterHeight}</code></td><td>Determines the character height of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterSpacing com.companyname.AppPlanta:characterSpacing}</code></td><td>Determines the character spacing of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterStrokeColor com.companyname.AppPlanta:characterStrokeColor}</code></td><td>Determines the character stroke color of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterType com.companyname.AppPlanta:characterType}</code></td><td>Determines the character type of the digital gauge .</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_characterWidth com.companyname.AppPlanta:characterWidth}</code></td><td>Determines the character width of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_dimmedSegmentAlpha com.companyname.AppPlanta:dimmedSegmentAlpha}</code></td><td>Determines the dimmed segment color of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_dimmedSegmentColor com.companyname.AppPlanta:dimmedSegmentColor}</code></td><td>Determines the dimmed segment color of the digital gauge.</td></tr>
+           <tr><td><code>{@link #SfDigitalGauge_segmentStrokeWidth com.companyname.AppPlanta:segmentStrokeWidth}</code></td><td>Determines the segment stroke width of the digital gauge.</td></tr>
+           </table>
+           @see #SfDigitalGauge_characterHeight
+           @see #SfDigitalGauge_characterSpacing
+           @see #SfDigitalGauge_characterStrokeColor
+           @see #SfDigitalGauge_characterType
+           @see #SfDigitalGauge_characterWidth
+           @see #SfDigitalGauge_dimmedSegmentAlpha
+           @see #SfDigitalGauge_dimmedSegmentColor
+           @see #SfDigitalGauge_segmentStrokeWidth
+         */
+        public static final int[] SfDigitalGauge = {
+            0x7f0101ea, 0x7f0101eb, 0x7f0101ec, 0x7f0101ed,
+            0x7f0101ee, 0x7f0101ef, 0x7f0101f0, 0x7f0101f1
+        };
+        /**
+          <p>
+          @attr description
+          Determines the character height of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:characterHeight
+        */
+        public static final int SfDigitalGauge_characterHeight = 1;
+        /**
+          <p>
+          @attr description
+          Determines the character spacing of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:characterSpacing
+        */
+        public static final int SfDigitalGauge_characterSpacing = 2;
+        /**
+          <p>
+          @attr description
+          Determines the character stroke color of the digital gauge.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:characterStrokeColor
+        */
+        public static final int SfDigitalGauge_characterStrokeColor = 0;
+        /**
+          <p>
+          @attr description
+          Determines the character type of the digital gauge .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>segmentSeven</code></td><td>0</td><td></td></tr>
+<tr><td><code>segmentFourteen</code></td><td>1</td><td></td></tr>
+<tr><td><code>segmentSixteen</code></td><td>2</td><td></td></tr>
+<tr><td><code>eightCrossEightDotMatrix</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:characterType
+        */
+        public static final int SfDigitalGauge_characterType = 7;
+        /**
+          <p>
+          @attr description
+          Determines the character width of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:characterWidth
+        */
+        public static final int SfDigitalGauge_characterWidth = 3;
+        /**
+          <p>
+          @attr description
+          Determines the dimmed segment color of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:dimmedSegmentAlpha
+        */
+        public static final int SfDigitalGauge_dimmedSegmentAlpha = 6;
+        /**
+          <p>
+          @attr description
+          Determines the dimmed segment color of the digital gauge.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:dimmedSegmentColor
+        */
+        public static final int SfDigitalGauge_dimmedSegmentColor = 5;
+        /**
+          <p>
+          @attr description
+          Determines the segment stroke width of the digital gauge.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:segmentStrokeWidth
+        */
+        public static final int SfDigitalGauge_segmentStrokeWidth = 4;
+        /** Attributes that can be used with a SfLinearGauge.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerColor com.companyname.AppPlanta:barPointerColor}</code></td><td>Determines the bar pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerCornerRadius com.companyname.AppPlanta:barPointerCornerRadius}</code></td><td> Determines the corner radius for the bar pointer .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerCornerRadiusType com.companyname.AppPlanta:barPointerCornerRadiusType}</code></td><td>Determines the corner radius type for the bar pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerStrokeWidth com.companyname.AppPlanta:barPointerStrokeWidth}</code></td><td>Determines the bar pointer stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_barPointerValue com.companyname.AppPlanta:barPointerValue}</code></td><td>Determines the bar pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_maximumLabels com.companyname.AppPlanta:maximumLabels}</code></td><td> Determines the maximum labels for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeColor com.companyname.AppPlanta:rangeColor}</code></td><td>Determines the range color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeEndValue com.companyname.AppPlanta:rangeEndValue}</code></td><td>Determines the range end value for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeEndWidth com.companyname.AppPlanta:rangeEndWidth}</code></td><td>Determines the range end width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeOffset com.companyname.AppPlanta:rangeOffset}</code></td><td>Determines the range offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeStartValue com.companyname.AppPlanta:rangeStartValue}</code></td><td>Determines the range start value for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_rangeStartWidth com.companyname.AppPlanta:rangeStartWidth}</code></td><td>Determines the range start width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleBarColor com.companyname.AppPlanta:scaleBarColor}</code></td><td>Determines the scale bar color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleBarLength com.companyname.AppPlanta:scaleBarLength}</code></td><td>Determines the scale bar length for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleBarSize com.companyname.AppPlanta:scaleBarSize}</code></td><td>Determines the scale bar size for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleCornerRadius com.companyname.AppPlanta:scaleCornerRadius}</code></td><td> Determines the corner radius for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleCornerRadiusType com.companyname.AppPlanta:scaleCornerRadiusType}</code></td><td>Determines the corner radius type for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleDirection com.companyname.AppPlanta:scaleDirection}</code></td><td>Determines the direction for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleInterval com.companyname.AppPlanta:scaleInterval}</code></td><td>Determines the interval for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelColor com.companyname.AppPlanta:scaleLabelColor}</code></td><td>Determines the label color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelFontSize com.companyname.AppPlanta:scaleLabelFontSize}</code></td><td> Determines the label font size for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelOffset com.companyname.AppPlanta:scaleLabelOffset}</code></td><td> Determines the label offset for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelPostfix com.companyname.AppPlanta:scaleLabelPostfix}</code></td><td>Determines the postfix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleLabelPrefix com.companyname.AppPlanta:scaleLabelPrefix}</code></td><td>Determines the prefix for the label of the gauge.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickColor com.companyname.AppPlanta:scaleMajorTickColor}</code></td><td>Determines the major tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickLength com.companyname.AppPlanta:scaleMajorTickLength}</code></td><td>Determines the major tick length for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickOffset com.companyname.AppPlanta:scaleMajorTickOffset}</code></td><td>Determines the major tick stroke offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMajorTickStrokeWidth com.companyname.AppPlanta:scaleMajorTickStrokeWidth}</code></td><td>Determines the major tick stroke width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMaximum com.companyname.AppPlanta:scaleMaximum}</code></td><td>Determines the maximum for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinimum com.companyname.AppPlanta:scaleMinimum}</code></td><td>Determines the minimum for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickColor com.companyname.AppPlanta:scaleMinorTickColor}</code></td><td>Determines the minor tick color for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickLength com.companyname.AppPlanta:scaleMinorTickLength}</code></td><td>Determines the minor tick length for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickOffset com.companyname.AppPlanta:scaleMinorTickOffset}</code></td><td>Determines the minor tick stroke offset for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTickStrokeWidth com.companyname.AppPlanta:scaleMinorTickStrokeWidth}</code></td><td>Determines the minor tick stroke width for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleMinorTicksPerInterval com.companyname.AppPlanta:scaleMinorTicksPerInterval}</code></td><td> Determines the minor ticks per interval for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleOffset com.companyname.AppPlanta:scaleOffset}</code></td><td> Determines the offset for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleOpposedPosition com.companyname.AppPlanta:scaleOpposedPosition}</code></td><td>Determines the opposite position for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleOrientation com.companyname.AppPlanta:scaleOrientation}</code></td><td>Determines the scale orientation for the scale .</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleShowLabels com.companyname.AppPlanta:scaleShowLabels}</code></td><td>Determines the label for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_scaleShowTicks com.companyname.AppPlanta:scaleShowTicks}</code></td><td>Determines the ticks visibility for the scale.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerColor com.companyname.AppPlanta:symbolPointerColor}</code></td><td>Determines the symbol pointer color for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerOffset com.companyname.AppPlanta:symbolPointerOffset}</code></td><td>Determines the symbol pointer offset for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerStrokeWidth com.companyname.AppPlanta:symbolPointerStrokeWidth}</code></td><td>Determines the symbol pointer stroke width for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPointerValue com.companyname.AppPlanta:symbolPointerValue}</code></td><td>Determines the symbol pointer value for the pointer.</td></tr>
+           <tr><td><code>{@link #SfLinearGauge_symbolPosition com.companyname.AppPlanta:symbolPosition}</code></td><td>Determines the symbol position for the pointer .</td></tr>
+           </table>
+           @see #SfLinearGauge_barPointerColor
+           @see #SfLinearGauge_barPointerCornerRadius
+           @see #SfLinearGauge_barPointerCornerRadiusType
+           @see #SfLinearGauge_barPointerStrokeWidth
+           @see #SfLinearGauge_barPointerValue
+           @see #SfLinearGauge_maximumLabels
+           @see #SfLinearGauge_rangeColor
+           @see #SfLinearGauge_rangeEndValue
+           @see #SfLinearGauge_rangeEndWidth
+           @see #SfLinearGauge_rangeOffset
+           @see #SfLinearGauge_rangeStartValue
+           @see #SfLinearGauge_rangeStartWidth
+           @see #SfLinearGauge_scaleBarColor
+           @see #SfLinearGauge_scaleBarLength
+           @see #SfLinearGauge_scaleBarSize
+           @see #SfLinearGauge_scaleCornerRadius
+           @see #SfLinearGauge_scaleCornerRadiusType
+           @see #SfLinearGauge_scaleDirection
+           @see #SfLinearGauge_scaleInterval
+           @see #SfLinearGauge_scaleLabelColor
+           @see #SfLinearGauge_scaleLabelFontSize
+           @see #SfLinearGauge_scaleLabelOffset
+           @see #SfLinearGauge_scaleLabelPostfix
+           @see #SfLinearGauge_scaleLabelPrefix
+           @see #SfLinearGauge_scaleMajorTickColor
+           @see #SfLinearGauge_scaleMajorTickLength
+           @see #SfLinearGauge_scaleMajorTickOffset
+           @see #SfLinearGauge_scaleMajorTickStrokeWidth
+           @see #SfLinearGauge_scaleMaximum
+           @see #SfLinearGauge_scaleMinimum
+           @see #SfLinearGauge_scaleMinorTickColor
+           @see #SfLinearGauge_scaleMinorTickLength
+           @see #SfLinearGauge_scaleMinorTickOffset
+           @see #SfLinearGauge_scaleMinorTickStrokeWidth
+           @see #SfLinearGauge_scaleMinorTicksPerInterval
+           @see #SfLinearGauge_scaleOffset
+           @see #SfLinearGauge_scaleOpposedPosition
+           @see #SfLinearGauge_scaleOrientation
+           @see #SfLinearGauge_scaleShowLabels
+           @see #SfLinearGauge_scaleShowTicks
+           @see #SfLinearGauge_symbolPointerColor
+           @see #SfLinearGauge_symbolPointerOffset
+           @see #SfLinearGauge_symbolPointerStrokeWidth
+           @see #SfLinearGauge_symbolPointerValue
+           @see #SfLinearGauge_symbolPosition
+         */
+        public static final int[] SfLinearGauge = {
+            0x7f0101bd, 0x7f0101be, 0x7f0101bf, 0x7f0101c0,
+            0x7f0101c1, 0x7f0101c2, 0x7f0101c3, 0x7f0101c4,
+            0x7f0101c5, 0x7f0101c6, 0x7f0101c7, 0x7f0101c8,
+            0x7f0101c9, 0x7f0101ca, 0x7f0101cb, 0x7f0101cc,
+            0x7f0101cd, 0x7f0101ce, 0x7f0101cf, 0x7f0101d0,
+            0x7f0101d1, 0x7f0101d2, 0x7f0101d3, 0x7f0101d4,
+            0x7f0101d5, 0x7f0101d6, 0x7f0101d7, 0x7f0101d8,
+            0x7f0101d9, 0x7f0101da, 0x7f0101db, 0x7f0101dc,
+            0x7f0101dd, 0x7f0101de, 0x7f0101df, 0x7f0101e0,
+            0x7f0101e1, 0x7f0101e2, 0x7f0101e3, 0x7f0101e4,
+            0x7f0101e5, 0x7f0101e6, 0x7f0101e7, 0x7f0101e8,
+            0x7f0101e9
+        };
+        /**
+          <p>
+          @attr description
+          Determines the bar pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:barPointerColor
+        */
+        public static final int SfLinearGauge_barPointerColor = 35;
+        /**
+          <p>
+          @attr description
+           Determines the corner radius for the bar pointer . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:barPointerCornerRadius
+        */
+        public static final int SfLinearGauge_barPointerCornerRadius = 38;
+        /**
+          <p>
+          @attr description
+          Determines the corner radius type for the bar pointer.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:barPointerCornerRadiusType
+        */
+        public static final int SfLinearGauge_barPointerCornerRadiusType = 37;
+        /**
+          <p>
+          @attr description
+          Determines the bar pointer stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:barPointerStrokeWidth
+        */
+        public static final int SfLinearGauge_barPointerStrokeWidth = 36;
+        /**
+          <p>
+          @attr description
+          Determines the bar pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:barPointerValue
+        */
+        public static final int SfLinearGauge_barPointerValue = 34;
+        /**
+          <p>
+          @attr description
+           Determines the maximum labels for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:maximumLabels
+        */
+        public static final int SfLinearGauge_maximumLabels = 22;
+        /**
+          <p>
+          @attr description
+          Determines the range color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeColor
+        */
+        public static final int SfLinearGauge_rangeColor = 33;
+        /**
+          <p>
+          @attr description
+          Determines the range end value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeEndValue
+        */
+        public static final int SfLinearGauge_rangeEndValue = 29;
+        /**
+          <p>
+          @attr description
+          Determines the range end width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeEndWidth
+        */
+        public static final int SfLinearGauge_rangeEndWidth = 31;
+        /**
+          <p>
+          @attr description
+          Determines the range offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeOffset
+        */
+        public static final int SfLinearGauge_rangeOffset = 32;
+        /**
+          <p>
+          @attr description
+          Determines the range start value for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeStartValue
+        */
+        public static final int SfLinearGauge_rangeStartValue = 28;
+        /**
+          <p>
+          @attr description
+          Determines the range start width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:rangeStartWidth
+        */
+        public static final int SfLinearGauge_rangeStartWidth = 30;
+        /**
+          <p>
+          @attr description
+          Determines the scale bar color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleBarColor
+        */
+        public static final int SfLinearGauge_scaleBarColor = 11;
+        /**
+          <p>
+          @attr description
+          Determines the scale bar length for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleBarLength
+        */
+        public static final int SfLinearGauge_scaleBarLength = 13;
+        /**
+          <p>
+          @attr description
+          Determines the scale bar size for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleBarSize
+        */
+        public static final int SfLinearGauge_scaleBarSize = 12;
+        /**
+          <p>
+          @attr description
+           Determines the corner radius for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleCornerRadius
+        */
+        public static final int SfLinearGauge_scaleCornerRadius = 26;
+        /**
+          <p>
+          @attr description
+          Determines the corner radius type for the scale.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>start</code></td><td>0</td><td></td></tr>
+<tr><td><code>end</code></td><td>1</td><td></td></tr>
+<tr><td><code>both</code></td><td>2</td><td></td></tr>
+<tr><td><code>none</code></td><td>3</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleCornerRadiusType
+        */
+        public static final int SfLinearGauge_scaleCornerRadiusType = 25;
+        /**
+          <p>
+          @attr description
+          Determines the direction for the scale.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>backward</code></td><td>0</td><td></td></tr>
+<tr><td><code>forward</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleDirection
+        */
+        public static final int SfLinearGauge_scaleDirection = 24;
+        /**
+          <p>
+          @attr description
+          Determines the interval for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleInterval
+        */
+        public static final int SfLinearGauge_scaleInterval = 2;
+        /**
+          <p>
+          @attr description
+          Determines the label color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleLabelColor
+        */
+        public static final int SfLinearGauge_scaleLabelColor = 14;
+        /**
+          <p>
+          @attr description
+           Determines the label font size for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleLabelFontSize
+        */
+        public static final int SfLinearGauge_scaleLabelFontSize = 17;
+        /**
+          <p>
+          @attr description
+           Determines the label offset for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleLabelOffset
+        */
+        public static final int SfLinearGauge_scaleLabelOffset = 18;
+        /**
+          <p>
+          @attr description
+          Determines the postfix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleLabelPostfix
+        */
+        public static final int SfLinearGauge_scaleLabelPostfix = 16;
+        /**
+          <p>
+          @attr description
+          Determines the prefix for the label of the gauge.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleLabelPrefix
+        */
+        public static final int SfLinearGauge_scaleLabelPrefix = 15;
+        /**
+          <p>
+          @attr description
+          Determines the major tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickColor
+        */
+        public static final int SfLinearGauge_scaleMajorTickColor = 4;
+        /**
+          <p>
+          @attr description
+          Determines the major tick length for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickLength
+        */
+        public static final int SfLinearGauge_scaleMajorTickLength = 3;
+        /**
+          <p>
+          @attr description
+          Determines the major tick stroke offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickOffset
+        */
+        public static final int SfLinearGauge_scaleMajorTickOffset = 6;
+        /**
+          <p>
+          @attr description
+          Determines the major tick stroke width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMajorTickStrokeWidth
+        */
+        public static final int SfLinearGauge_scaleMajorTickStrokeWidth = 5;
+        /**
+          <p>
+          @attr description
+          Determines the maximum for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMaximum
+        */
+        public static final int SfLinearGauge_scaleMaximum = 1;
+        /**
+          <p>
+          @attr description
+          Determines the minimum for the scale. 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinimum
+        */
+        public static final int SfLinearGauge_scaleMinimum = 0;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick color for the scale.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickColor
+        */
+        public static final int SfLinearGauge_scaleMinorTickColor = 8;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick length for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickLength
+        */
+        public static final int SfLinearGauge_scaleMinorTickLength = 7;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick stroke offset for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickOffset
+        */
+        public static final int SfLinearGauge_scaleMinorTickOffset = 10;
+        /**
+          <p>
+          @attr description
+          Determines the minor tick stroke width for the scale.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTickStrokeWidth
+        */
+        public static final int SfLinearGauge_scaleMinorTickStrokeWidth = 9;
+        /**
+          <p>
+          @attr description
+           Determines the minor ticks per interval for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleMinorTicksPerInterval
+        */
+        public static final int SfLinearGauge_scaleMinorTicksPerInterval = 21;
+        /**
+          <p>
+          @attr description
+           Determines the offset for the scale . 
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleOffset
+        */
+        public static final int SfLinearGauge_scaleOffset = 27;
+        /**
+          <p>
+          @attr description
+          Determines the opposite position for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleOpposedPosition
+        */
+        public static final int SfLinearGauge_scaleOpposedPosition = 23;
+        /**
+          <p>
+          @attr description
+          Determines the scale orientation for the scale .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>horizontal</code></td><td>0</td><td></td></tr>
+<tr><td><code>vertical</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleOrientation
+        */
+        public static final int SfLinearGauge_scaleOrientation = 44;
+        /**
+          <p>
+          @attr description
+          Determines the label for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleShowLabels
+        */
+        public static final int SfLinearGauge_scaleShowLabels = 19;
+        /**
+          <p>
+          @attr description
+          Determines the ticks visibility for the scale.
+
+
+          <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:scaleShowTicks
+        */
+        public static final int SfLinearGauge_scaleShowTicks = 20;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer color for the pointer.
+
+
+          <p>Must be a color value, in the form of "<code>#<i>rgb</i></code>", "<code>#<i>argb</i></code>",
+"<code>#<i>rrggbb</i></code>", or "<code>#<i>aarrggbb</i></code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:symbolPointerColor
+        */
+        public static final int SfLinearGauge_symbolPointerColor = 40;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer offset for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:symbolPointerOffset
+        */
+        public static final int SfLinearGauge_symbolPointerOffset = 42;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer stroke width for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:symbolPointerStrokeWidth
+        */
+        public static final int SfLinearGauge_symbolPointerStrokeWidth = 41;
+        /**
+          <p>
+          @attr description
+          Determines the symbol pointer value for the pointer.
+
+
+          <p>Must be a floating point value, such as "<code>1.2</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:symbolPointerValue
+        */
+        public static final int SfLinearGauge_symbolPointerValue = 39;
+        /**
+          <p>
+          @attr description
+          Determines the symbol position for the pointer .
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>far</code></td><td>0</td><td></td></tr>
+<tr><td><code>away</code></td><td>1</td><td></td></tr>
+</table>
+          <p>This is a private symbol.
+          @attr name com.companyname.AppPlanta:symbolPosition
+        */
+        public static final int SfLinearGauge_symbolPosition = 43;
         /** Attributes that can be used with a SnackbarLayout.
            <p>Includes the following attributes:</p>
            <table>

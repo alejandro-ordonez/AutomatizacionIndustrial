@@ -31,21 +31,13 @@
     <AppXManifest Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-14T00:41:22.114</Modified>
+      <Modified>2018-11-15T16:34:38.293</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\AppPlanta.UWP.exe">
       <PackagePath>entrypoint\AppPlanta.UWP.exe</PackagePath>
-      <Modified>2018-11-14T00:41:19.366</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\prism.core\7.1.0.431\lib\uap10.0.16299\Prism.dll">
-      <PackagePath>Prism.dll</PackagePath>
-      <Modified>2018-10-15T21:19:24.000</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\prism.forms\7.1.0.431\lib\netstandard2.0\Prism.Forms.dll">
-      <PackagePath>Prism.Forms.dll</PackagePath>
-      <Modified>2018-10-15T21:19:36.000</Modified>
+      <Modified>2018-11-15T16:34:36.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\UWPNuGetPackages\runtime.win10-x64.microsoft.netcore.universalwindowsplatform\6.1.9\runtimes\win10-x64\nativeassets\uap10.0.15138\clrcompression.dll">
       <PackagePath>clrcompression.dll</PackagePath>
@@ -707,6 +699,22 @@
       <PackagePath>S7.Net.dll</PackagePath>
       <Modified>2018-07-12T02:00:30.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.licensing\16.3.0.29\lib\uap10.0\Syncfusion.Licensing.dll">
+      <PackagePath>Syncfusion.Licensing.dll</PackagePath>
+      <Modified>2018-10-26T00:24:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP.dll">
+      <PackagePath>Syncfusion.SfGauge.UWP.dll</PackagePath>
+      <Modified>2018-10-26T00:38:14.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.XForms.UWP.dll">
+      <PackagePath>Syncfusion.SfGauge.XForms.UWP.dll</PackagePath>
+      <Modified>2018-10-26T01:03:00.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.XForms.dll">
+      <PackagePath>Syncfusion.SfGauge.XForms.dll</PackagePath>
+      <Modified>2018-10-26T01:02:40.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Core.dll">
       <PackagePath>Xamarin.Forms.Core.dll</PackagePath>
       <Modified>2018-10-30T05:21:48.000</Modified>
@@ -725,11 +733,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta\bin\Debug\netstandard2.0\AppPlanta.dll">
       <PackagePath>AppPlanta.dll</PackagePath>
-      <Modified>2018-11-14T00:41:12.066</Modified>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\Sharp7\bin\Debug\netstandard2.0\Sharp7Library.dll">
-      <PackagePath>Sharp7Library.dll</PackagePath>
-      <Modified>2018-11-14T00:16:02.984</Modified>
+      <Modified>2018-11-15T16:34:29.785</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
@@ -878,6 +882,10 @@
       <PackagePath>Valve.jpg</PackagePath>
       <Modified>2018-11-09T00:11:39.091</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Multiproposito.jpeg">
+      <PackagePath>Multiproposito.jpeg</PackagePath>
+      <Modified>2018-11-15T04:52:30.535</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2018-11-06T20:21:30.362</Modified>
@@ -888,15 +896,39 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2018-11-14T00:41:19.219</Modified>
+      <Modified>2018-11-15T16:34:36.711</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2018-11-14T00:41:19.220</Modified>
+      <Modified>2018-11-15T16:34:36.712</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.16299.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
       <Modified>2017-09-28T22:28:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml">
+      <PackagePath>Syncfusion.SfGauge.UWP\Syncfusion.SfGauge.UWP.xr.xml</PackagePath>
+      <Modified>2018-10-26T00:38:12.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\CircularGauge\Themes\CircularGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\CircularGauge\Themes\CircularGauge.xbf</PackagePath>
+      <Modified>2018-10-26T00:38:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\DigitalGauge\Themes\DigitalGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\DigitalGauge\Themes\DigitalGauge.xbf</PackagePath>
+      <Modified>2018-10-26T00:38:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\LinearGauge\Themes\LinearGauge.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\LinearGauge\Themes\LinearGauge.xbf</PackagePath>
+      <Modified>2018-10-26T00:38:20.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml">
+      <PackagePath>Syncfusion.SfGauge.UWP\Properties\Syncfusion.SfGauge.UWP.rd.xml</PackagePath>
+      <Modified>2018-10-18T12:05:16.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\syncfusion.xamarin.sfgauge\16.3.0.29\lib\uap10.0\Syncfusion.SfGauge.UWP\Themes\Generic.xbf">
+      <PackagePath>Syncfusion.SfGauge.UWP\Themes\Generic.xbf</PackagePath>
+      <Modified>2018-10-26T00:38:20.000</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Alejandro Ordoñez\.nuget\packages\xamarin.forms\3.3.0.967583\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
@@ -905,11 +937,11 @@
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2018-11-14T00:17:26.605</Modified>
+      <Modified>2018-11-15T16:32:34.613</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x64\Debug\Core\AppPlanta.UWP.exe">
       <PackagePath>AppPlanta.UWP.exe</PackagePath>
-      <Modified>2018-11-14T00:41:22.109</Modified>
+      <Modified>2018-11-15T16:34:38.289</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

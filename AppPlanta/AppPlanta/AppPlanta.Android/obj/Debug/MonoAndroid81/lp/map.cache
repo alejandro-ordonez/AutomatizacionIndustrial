@@ -1,9 +1,10 @@
 AppPlanta
 FormsViewGroup
-Prism
-Prism.Forms
 S7.Net
-Sharp7Library
+Syncfusion.Licensing
+Syncfusion.SfGauge.Android
+Syncfusion.SfGauge.XForms.Android
+Syncfusion.SfGauge.XForms
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -29,3 +30,5 @@ Xamarin.Forms.Platform.Android
 Xamarin.Forms.Platform
 Xamarin.Forms.Xaml
 netstandard
+System.Resources.ResourceManager
+System.Reflection.Extensions

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5969783d2932c3fecf28e14f86314d60e441256a"
+    "signature": "5f0291f35982b166c9f27c17a6cadfe9909ffadd"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,9 +10,8 @@
       "AppPlanta/1.0.0": {
         "dependencies": {
           "NETStandard.Library": "2.0.3",
-          "Prism.Forms": "7.1.0.431",
           "S7netplus": "0.3.0",
-          "Sharp7Library": "1.0.0",
+          "Syncfusion.Xamarin.SfGauge": "16.3.0.29",
           "Xamarin.Forms": "3.3.0.967583"
         },
         "runtime": {
@@ -25,31 +24,31 @@
           "Microsoft.NETCore.Platforms": "1.1.0"
         }
       },
-      "Prism.Core/7.1.0.431": {
-        "runtime": {
-          "lib/netstandard2.0/Prism.dll": {
-            "assemblyVersion": "7.1.0.431",
-            "fileVersion": "7.1.0.431"
-          }
-        }
-      },
-      "Prism.Forms/7.1.0.431": {
-        "dependencies": {
-          "Prism.Core": "7.1.0.431",
-          "Xamarin.Forms": "3.3.0.967583"
-        },
-        "runtime": {
-          "lib/netstandard2.0/Prism.Forms.dll": {
-            "assemblyVersion": "7.1.0.431",
-            "fileVersion": "7.1.0.431"
-          }
-        }
-      },
       "S7netplus/0.3.0": {
         "runtime": {
           "lib/netstandard2.0/S7.Net.dll": {
             "assemblyVersion": "0.3.0.0",
             "fileVersion": "0.3.0.0"
+          }
+        }
+      },
+      "Syncfusion.Licensing/16.3.0.29": {
+        "runtime": {
+          "lib/netstandard2.0/Syncfusion.Licensing.dll": {
+            "assemblyVersion": "16.3.0.29",
+            "fileVersion": "16.3.0.29"
+          }
+        }
+      },
+      "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+        "dependencies": {
+          "Syncfusion.Licensing": "16.3.0.29",
+          "Xamarin.Forms": "3.3.0.967583"
+        },
+        "runtime": {
+          "lib/netstandard1.0/Syncfusion.SfGauge.XForms.dll": {
+            "assemblyVersion": "16.3451.0.29",
+            "fileVersion": "16.3451.0.29"
           }
         }
       },
@@ -67,11 +66,6 @@
             "assemblyVersion": "2.0.0.0",
             "fileVersion": "2.0.0.0"
           }
-        }
-      },
-      "Sharp7Library/1.0.0": {
-        "runtime": {
-          "Sharp7Library.dll": {}
         }
       }
     }
@@ -96,20 +90,6 @@
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
     },
-    "Prism.Core/7.1.0.431": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-tBkEf4cDYn2oQfW1wPem4jJK/H1Z4mJsnndO04n2oZyIql7Bj3OVlpfQ6vbPgbtlkEN0oyn02XVurZba3DYqmQ==",
-      "path": "prism.core/7.1.0.431",
-      "hashPath": "prism.core.7.1.0.431.nupkg.sha512"
-    },
-    "Prism.Forms/7.1.0.431": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-sbwu3Ao4yUPVQ4gln1EA5N9vOj/NkaOEYNoCvuY5BOGlkTQod5gPnGJST2ZFsj1gHLJHSdvlT5OP+RKEeqo7pQ==",
-      "path": "prism.forms/7.1.0.431",
-      "hashPath": "prism.forms.7.1.0.431.nupkg.sha512"
-    },
     "S7netplus/0.3.0": {
       "type": "package",
       "serviceable": true,
@@ -117,17 +97,26 @@
       "path": "s7netplus/0.3.0",
       "hashPath": "s7netplus.0.3.0.nupkg.sha512"
     },
+    "Syncfusion.Licensing/16.3.0.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-k5F4Laz8YSE7+bdn3NTqNAWgN+IOlI4HLhJaVH7GnvLuI+Zyby4DMjfJWBt6mb9IOeRLKrkE6sg3Ih6rWaCK/A==",
+      "path": "syncfusion.licensing/16.3.0.29",
+      "hashPath": "syncfusion.licensing.16.3.0.29.nupkg.sha512"
+    },
+    "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tCh+04PeBhNpAPRZ04o264m38lEmViHRIHKHcpM8KHTEETOvNiKNDKUkPEii5HnGCS3UVQPO4tWUiq6OJdx9IQ==",
+      "path": "syncfusion.xamarin.sfgauge/16.3.0.29",
+      "hashPath": "syncfusion.xamarin.sfgauge.16.3.0.29.nupkg.sha512"
+    },
     "Xamarin.Forms/3.3.0.967583": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
       "path": "xamarin.forms/3.3.0.967583",
       "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
-    },
-    "Sharp7Library/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

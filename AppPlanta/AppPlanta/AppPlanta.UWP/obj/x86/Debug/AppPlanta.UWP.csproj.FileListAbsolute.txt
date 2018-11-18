@@ -8,10 +8,6 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Core\AppPlanta.UWP.exe
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Core\AppxManifest.xml
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\AppPlanta.UWP.build.appxrecipe
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Prism.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Prism.pdb
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Prism.Forms.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Prism.Forms.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\clrcompression.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Microsoft.CSharp.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Microsoft.VisualBasic.dll
@@ -199,8 +195,6 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\AppPlanta.UWP.exe
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\AppPlanta.UWP.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\ResourceHandlingTask.state
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\Prism\en\Prism.Properties.Resources.resw
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\Prism.Forms\en\Prism.Properties.Resources.resw
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\FxResources.Microsoft.CSharp.SR.resw
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\FxResources.Microsoft.VisualBasic.SR.resw
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\FxResources.System.Collections.Concurrent.SR.resw
@@ -302,12 +296,12 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\qualifiers.txt
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\qualifiers.txt.intermediate
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\resources.en.resfiles
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\resources.en.resfiles.intermediate
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\Prism.pri.xml
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\ProjectArchitectures.txt
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Sharp7Library.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Sharp7Library.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\S7.Net.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\S7.Net.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Syncfusion.Licensing.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Syncfusion.SfGauge.UWP.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Syncfusion.SfGauge.XForms.UWP.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\bin\x86\Debug\Syncfusion.SfGauge.XForms.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\obj\x86\Debug\Syncfusion.SfGauge.UWP.pri.xml

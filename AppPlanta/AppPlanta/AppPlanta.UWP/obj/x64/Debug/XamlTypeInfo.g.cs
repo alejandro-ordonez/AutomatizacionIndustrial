@@ -204,19 +204,25 @@ namespace AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[5];
+            _typeNameTable = new string[8];
             _typeNameTable[0] = "Xamarin.Forms.Platform.UWP.WindowsPage";
             _typeNameTable[1] = "Xamarin.Forms.Platform.UWP.WindowsBasePage";
             _typeNameTable[2] = "Windows.UI.Xaml.Controls.Page";
             _typeNameTable[3] = "Windows.UI.Xaml.Controls.UserControl";
             _typeNameTable[4] = "AppPlanta.UWP.MainPage";
+            _typeNameTable[5] = "Syncfusion.SfGauge.XForms.UWP.TemplateConverter";
+            _typeNameTable[6] = "Object";
+            _typeNameTable[7] = "Syncfusion.SfGauge.XForms.UWP.CustomConverter";
 
-            _typeTable = new global::System.Type[5];
+            _typeTable = new global::System.Type[8];
             _typeTable[0] = typeof(global::Xamarin.Forms.Platform.UWP.WindowsPage);
             _typeTable[1] = typeof(global::Xamarin.Forms.Platform.UWP.WindowsBasePage);
             _typeTable[2] = typeof(global::Windows.UI.Xaml.Controls.Page);
             _typeTable[3] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
             _typeTable[4] = typeof(global::AppPlanta.UWP.MainPage);
+            _typeTable[5] = typeof(global::Syncfusion.SfGauge.XForms.UWP.TemplateConverter);
+            _typeTable[6] = typeof(global::System.Object);
+            _typeTable[7] = typeof(global::Syncfusion.SfGauge.XForms.UWP.CustomConverter);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -253,6 +259,8 @@ namespace AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo
 
         private object Activate_0_WindowsPage() { return new global::Xamarin.Forms.Platform.UWP.WindowsPage(); }
         private object Activate_4_MainPage() { return new global::AppPlanta.UWP.MainPage(); }
+        private object Activate_5_TemplateConverter() { return new global::Syncfusion.SfGauge.XForms.UWP.TemplateConverter(); }
+        private object Activate_7_CustomConverter() { return new global::Syncfusion.SfGauge.XForms.UWP.CustomConverter(); }
 
         private global::Windows.UI.Xaml.Markup.IXamlType CreateXamlType(int typeIndex)
         {
@@ -289,6 +297,24 @@ namespace AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
+
+            case 5:   //  Syncfusion.SfGauge.XForms.UWP.TemplateConverter
+                userType = new global::AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_5_TemplateConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Object
+                xamlType = new global::AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  Syncfusion.SfGauge.XForms.UWP.CustomConverter
+                userType = new global::AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_7_CustomConverter;
+                userType.SetIsBindable();
+                xamlType = userType;
+                break;
             }
             return xamlType;
         }
@@ -302,6 +328,8 @@ namespace AppPlanta.UWP.AppPlanta_UWP_XamlTypeInfo
                 {
                     var otherProviders = new global::System.Collections.Generic.List<global::Windows.UI.Xaml.Markup.IXamlMetadataProvider>();
                     global::Windows.UI.Xaml.Markup.IXamlMetadataProvider provider;
+                    provider = new global::Syncfusion.UI.Xaml.Gauges.Syncfusion_SfGauge_UWP_2015_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
                     provider = new global::Xamarin.Forms.Platform.UAP.Xamarin_Forms_Platform_UAP_XamlTypeInfo.XamlMetaDataProvider() as global::Windows.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
                     _otherProviders = otherProviders;
