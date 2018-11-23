@@ -12,6 +12,7 @@
             <Setter Property="TextColor" Value="White"/>
             <Setter Property="FontAttributes" Value="Italic"/>
             <Setter Property="FontSize" Value="Large"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
         </Style>
         <Style TargetType="Label" BasedOn="Titles" x:Key="Normal">
             <Setter Property="FontSize" Value="Medium"/>

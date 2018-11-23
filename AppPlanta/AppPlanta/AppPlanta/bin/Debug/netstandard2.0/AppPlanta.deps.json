@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETStandard,Version=v2.0/",
-    "signature": "5f0291f35982b166c9f27c17a6cadfe9909ffadd"
+    "signature": "6084f2736a33505e4164ea5aa92d8150f8a184a5"
   },
   "compilationOptions": {},
   "targets": {
@@ -12,7 +12,7 @@
           "NETStandard.Library": "2.0.3",
           "S7netplus": "0.3.0",
           "Syncfusion.Xamarin.SfGauge": "16.3.0.29",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
           "AppPlanta.dll": {}
@@ -43,7 +43,7 @@
       "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
         "dependencies": {
           "Syncfusion.Licensing": "16.3.0.29",
-          "Xamarin.Forms": "3.3.0.967583"
+          "Xamarin.Forms": "3.4.0.1008975"
         },
         "runtime": {
           "lib/netstandard1.0/Syncfusion.SfGauge.XForms.dll": {
@@ -52,7 +52,7 @@
           }
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "runtime": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {
             "assemblyVersion": "2.0.0.0",
@@ -79,7 +79,7 @@
     "Microsoft.NETCore.Platforms/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
     },
@@ -100,23 +100,23 @@
     "Syncfusion.Licensing/16.3.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-k5F4Laz8YSE7+bdn3NTqNAWgN+IOlI4HLhJaVH7GnvLuI+Zyby4DMjfJWBt6mb9IOeRLKrkE6sg3Ih6rWaCK/A==",
+      "sha512": "sha512-1wmosJeDFlYRFAjL7W4HWAok6SdBvgT4iTriPG54RA/tIMhabrkoz2oSufaMQoMDe57DbsKrkOCtQskrLp+U1A==",
       "path": "syncfusion.licensing/16.3.0.29",
       "hashPath": "syncfusion.licensing.16.3.0.29.nupkg.sha512"
     },
     "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-tCh+04PeBhNpAPRZ04o264m38lEmViHRIHKHcpM8KHTEETOvNiKNDKUkPEii5HnGCS3UVQPO4tWUiq6OJdx9IQ==",
+      "sha512": "sha512-ZvDHYrbk1SGCBQ6Gao6g69IXWohCR4ukJ5s5xDfq/WDS17ZmkXLuCDR43Nod0q2xej8kHPxSBwyi7p4kSgl1AQ==",
       "path": "syncfusion.xamarin.sfgauge/16.3.0.29",
       "hashPath": "syncfusion.xamarin.sfgauge.16.3.0.29.nupkg.sha512"
     },
-    "Xamarin.Forms/3.3.0.967583": {
+    "Xamarin.Forms/3.4.0.1008975": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
-      "path": "xamarin.forms/3.3.0.967583",
-      "hashPath": "xamarin.forms.3.3.0.967583.nupkg.sha512"
+      "sha512": "sha512-036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
+      "path": "xamarin.forms/3.4.0.1008975",
+      "hashPath": "xamarin.forms.3.4.0.1008975.nupkg.sha512"
     }
   }
 }

@@ -12,7 +12,7 @@
   <ItemGroup>
     <PackageReference Include="S7netplus" Version="0.3.0" />
     <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="16.3.0.29" />
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
   </ItemGroup>
 
   <ItemGroup>

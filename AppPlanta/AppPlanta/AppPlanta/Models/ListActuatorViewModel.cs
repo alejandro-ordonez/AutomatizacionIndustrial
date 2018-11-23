@@ -6,11 +6,13 @@ using System.Linq;
 using System.Text;
 using Xamarin.Forms;
 using S7.Net;
+using AppPlanta.Service;
 
 namespace AppPlanta.Models
 {
     public class ListActuatorViewModel
     {
+        public PLC PlCS71500 = new PLC();
         public ObservableCollection<Actuador> lstActuators { get; set; }
         public int MyProperty { get; set; }
         private Command<Actuador> _UpdateElement;
@@ -57,7 +59,7 @@ namespace AppPlanta.Models
             int i = lstActuators.IndexOf(act);
             Debug.WriteLine(lstActuators[i].State);
             lstActuators[i].State = !lstActuators[i].State;
-            
+            PlCS71500.Check();
             Debug.WriteLine(lstActuators.FirstOrDefault(Actuador => Actuador == a).State);
             if (lstActuators.FirstOrDefault(Actuador => Actuador == a).State)
             {

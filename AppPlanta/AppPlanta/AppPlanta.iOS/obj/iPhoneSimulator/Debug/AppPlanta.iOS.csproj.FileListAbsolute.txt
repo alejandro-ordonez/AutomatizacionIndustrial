@@ -1,9 +1,11 @@
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\AppPlanta.iOS.exe
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\AppPlanta.iOS.pdb
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Prism.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Prism.pdb
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Prism.Forms.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Prism.Forms.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\S7.Net.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\S7.Net.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Syncfusion.Licensing.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfGauge.XForms.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfGauge.XForms.iOS.dll
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Syncfusion.SfGauge.iOS.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Core.pdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Xamarin.Forms.Platform.dll
@@ -47,7 +49,6 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\zh-Hant\Xamarin.Forms.Platform.iOS.resources.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\AppPlanta.dll
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\AppPlanta.pdb
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\AppPlanta.dll.mdb
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
@@ -60,5 +61,4 @@ D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhoneSimulator\Debug\AppPlanta.iOS.csproj.CopyComplete
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhoneSimulator\Debug\AppPlanta.iOS.exe
 D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\obj\iPhoneSimulator\Debug\AppPlanta.iOS.pdb
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Sharp7Library.dll
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\Sharp7Library.pdb
+D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.iOS\bin\iPhoneSimulator\Debug\AppPlanta.dll.mdb

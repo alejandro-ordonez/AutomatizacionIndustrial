@@ -34,9 +34,9 @@ namespace AppPlanta.GUI
             {
                 MenuItems = new ObservableCollection<MainMenuMenuItem>(new[]
                 {
-                    new MainMenuMenuItem { Id = 0, Title = "Manual", TargetType=typeof(ManualTab) },
-                    new MainMenuMenuItem { Id = 1, Title = "Automatico", TargetType=typeof(Automatic)},
-                    new MainMenuMenuItem { Id = 2, Title = "Informacion", TargetType=typeof(About) }
+                    new MainMenuMenuItem { Id = 0, Title = "Manual", TargetType=typeof(ManualTab), Icon="Manual.png" },
+                    new MainMenuMenuItem { Id = 1, Title = "Automatico", TargetType=typeof(Automatic), Icon="automatic.png"},
+                    new MainMenuMenuItem { Id = 2, Title = "Informacion", TargetType=typeof(About), Icon="info.png" }
                 });
             }
             

@@ -2,7 +2,7 @@
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppPlanta.GUI.MainMenu"
-             xmlns:pages="clr-namespace:AppPlanta.GUI">
+             xmlns:pages="clr-namespace:AppPlanta.GUI" BackgroundColor="Black">
   <MasterDetailPage.Master>
     <pages:MainMenuMaster x:Name="MasterPage" />
   </MasterDetailPage.Master>

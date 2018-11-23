@@ -57,7 +57,7 @@
           "lib/netstandard1.0/Syncfusion.SfGauge.XForms.dll": {}
         }
       },
-      "Xamarin.Forms/3.3.0.967583": {
+      "Xamarin.Forms/3.4.0.1008975": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Xamarin.Forms.Core.dll": {},
@@ -78,10 +78,11 @@
   },
   "libraries": {
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "bLpT1f/SFlO1CzqXG12KnJzpZs6lv24uX2Rzi4Fmm0noJpNlnWRVryuO3yK18Ca04t/YHcO1e1Z0WDfjseqNzw==",
+      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
@@ -234,10 +235,11 @@
       ]
     },
     "Syncfusion.Licensing/16.3.0.29": {
-      "sha512": "k5F4Laz8YSE7+bdn3NTqNAWgN+IOlI4HLhJaVH7GnvLuI+Zyby4DMjfJWBt6mb9IOeRLKrkE6sg3Ih6rWaCK/A==",
+      "sha512": "1wmosJeDFlYRFAjL7W4HWAok6SdBvgT4iTriPG54RA/tIMhabrkoz2oSufaMQoMDe57DbsKrkOCtQskrLp+U1A==",
       "type": "package",
       "path": "syncfusion.licensing/16.3.0.29",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.Licensing.dll",
         "lib/Xamarin.Mac/Syncfusion.Licensing.dll",
@@ -258,10 +260,11 @@
       ]
     },
     "Syncfusion.Xamarin.SfGauge/16.3.0.29": {
-      "sha512": "tCh+04PeBhNpAPRZ04o264m38lEmViHRIHKHcpM8KHTEETOvNiKNDKUkPEii5HnGCS3UVQPO4tWUiq6OJdx9IQ==",
+      "sha512": "ZvDHYrbk1SGCBQ6Gao6g69IXWohCR4ukJ5s5xDfq/WDS17ZmkXLuCDR43Nod0q2xej8kHPxSBwyi7p4kSgl1AQ==",
       "type": "package",
       "path": "syncfusion.xamarin.sfgauge/16.3.0.29",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "lib/MonoAndroid10/Syncfusion.SfGauge.Android.dll",
         "lib/MonoAndroid10/Syncfusion.SfGauge.XForms.Android.dll",
@@ -296,11 +299,12 @@
         "syncfusion.xamarin.sfgauge.nuspec"
       ]
     },
-    "Xamarin.Forms/3.3.0.967583": {
-      "sha512": "aebAEUHkER6WRo4WpsDd8jq4EudSl3WS4n7Pxcq8ea+x9fHi9PstCU0dU2D5PGvSeKa3yEFSpRljOEjI7qtsNA==",
+    "Xamarin.Forms/3.4.0.1008975": {
+      "sha512": "036/h8HtzRFgTrfhY57IeHoYRsPTO2XTA6uUFdmZzw2QR1sdszfofhI9HrCJTRx6fCzmjPg5Cxk5chYrjKarNw==",
       "type": "package",
-      "path": "xamarin.forms/3.3.0.967583",
+      "path": "xamarin.forms/3.4.0.1008975",
       "files": [
+        ".nupkg.metadata",
         ".signature.p7s",
         "build/Xamarin.Forms.DefaultItems.props",
         "build/Xamarin.Forms.DefaultItems.targets",
@@ -325,13 +329,11 @@
         "lib/MonoAndroid10/Design/Xamarin.Forms.Core.Design.dll",
         "lib/MonoAndroid10/Design/Xamarin.Forms.Xaml.Design.dll",
         "lib/MonoAndroid10/FormsViewGroup.dll",
-        "lib/MonoAndroid10/FormsViewGroup.dll.mdb",
         "lib/MonoAndroid10/FormsViewGroup.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Core.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Core.xml",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll",
-        "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.dll.mdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.Android.pdb",
         "lib/MonoAndroid10/Xamarin.Forms.Platform.dll",
         "lib/MonoAndroid10/Xamarin.Forms.Xaml.dll",
@@ -439,7 +441,7 @@
         "lib/uap10.0/Xamarin.Forms.Platform.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.dll",
         "lib/uap10.0/Xamarin.Forms.Xaml.xml",
-        "xamarin.forms.3.3.0.967583.nupkg.sha512",
+        "xamarin.forms.3.4.0.1008975.nupkg.sha512",
         "xamarin.forms.nuspec"
       ]
     }
@@ -449,7 +451,7 @@
       "NETStandard.Library >= 2.0.3",
       "S7netplus >= 0.3.0",
       "Syncfusion.Xamarin.SfGauge >= 16.3.0.29",
-      "Xamarin.Forms >= 3.3.0.967583"
+      "Xamarin.Forms >= 3.4.0.1008975"
     ]
   },
   "packageFolders": {
@@ -510,7 +512,7 @@
           },
           "Xamarin.Forms": {
             "target": "Package",
-            "version": "[3.3.0.967583, )"
+            "version": "[3.4.0.1008975, )"
           }
         },
         "imports": [
