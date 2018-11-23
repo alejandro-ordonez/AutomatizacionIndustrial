@@ -4,5 +4,6 @@ The project was developed with Xamarin.Forms in Visual Studio 2017. It uses the 
 
 # Content:
 - Xamarin APP
+- TIA Portal Project
 # Processes
 The Application connects a PLC1500 by an fixed IP. Using the IP, the application sends and write data to the main data memory block, all the data is linked to an address in the PLC.
