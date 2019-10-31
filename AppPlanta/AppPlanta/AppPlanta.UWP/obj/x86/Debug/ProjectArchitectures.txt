@@ -1,1 +1,0 @@
-D:\Visual Studio Projects\AutomatizacionIndustrial\AppPlanta\AppPlanta\AppPlanta.UWP\AppPlanta.UWP.csproj;x86

@@ -10,7 +10,7 @@ namespace AppPlanta
         public App()
         {
             //Register Syncfusion license
-            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NDMxMDlAMzEzNjJlMzMyZTMwSi8wdGhPRjFjMlhoNFVDdEhoWUUvdG16OXNQVitaRFF1NzU1RTdrTGQwaz0=");
+            Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTU0MDcxQDMxMzcyZTMzMmUzMFZPcGswa0ljV2tvYi9ZTURpeWZOclk2dFZDV3dWcDZSYjY4TjR6MnlCRlk9");
             InitializeComponent();
 
             MainPage = new NavigationPage(new GUI.Home());

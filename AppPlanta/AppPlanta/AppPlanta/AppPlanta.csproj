@@ -10,13 +10,23 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="S7netplus" Version="0.3.0" />
-    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="16.3.0.29" />
-    <PackageReference Include="Xamarin.Forms" Version="3.4.0.1008975" />
+    <None Remove="appsettings.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="GUI\Manual.xaml.cs">
+    <EmbeddedResource Include="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.0.0" />
+    <PackageReference Include="S7netplus" Version="0.4.0" />
+    <PackageReference Include="Syncfusion.Xamarin.SfGauge" Version="17.3.0.21" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.3.1" />
+    <PackageReference Include="Xamarin.Forms" Version="4.3.0.947036" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Views\Manual.xaml.cs">
       <DependentUpon>Manual.xaml</DependentUpon>
     </Compile>
     <Compile Update="Models\MainMenuMenuItem.cs">
@@ -25,41 +35,45 @@
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="GUI\About.xaml">
+    <EmbeddedResource Update="Views\About.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\Automatic.xaml">
+    <EmbeddedResource Update="Views\Automatic.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\AutomaticIndicator.xaml">
+    <EmbeddedResource Update="Views\AutomaticIndicator.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\HMI.xaml">
+    <EmbeddedResource Update="Views\HMI.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\Home.xaml">
+    <EmbeddedResource Update="Views\Home.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\Main.xaml">
+    <EmbeddedResource Update="Views\Main.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\MainMenu.xaml">
+    <EmbeddedResource Update="Views\MainMenu.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\MainMenuDetail.xaml">
+    <EmbeddedResource Update="Views\MainMenuDetail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\MainMenuMaster.xaml">
+    <EmbeddedResource Update="Views\MainMenuMaster.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\Manual.xaml">
+    <EmbeddedResource Update="Views\Manual.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\ManualIndicator.xaml">
+    <EmbeddedResource Update="Views\ManualIndicator.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="GUI\ManualTab.xaml">
+    <EmbeddedResource Update="Views\ManualTab.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>

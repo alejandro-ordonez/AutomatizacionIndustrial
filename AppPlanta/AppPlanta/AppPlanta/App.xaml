@@ -14,7 +14,7 @@
             <Setter Property="FontSize" Value="Large"/>
             <Setter Property="HorizontalOptions" Value="Center"/>
         </Style>
-        <Style TargetType="Label" BasedOn="Titles" x:Key="Normal">
+        <Style TargetType="Label" BasedOn="{StaticResource Titles}" x:Key="Normal">
             <Setter Property="FontSize" Value="Medium"/>
             <Setter Property="TextColor" Value="White"/>
             <Setter Property="HorizontalTextAlignment" Value="Start"/>
