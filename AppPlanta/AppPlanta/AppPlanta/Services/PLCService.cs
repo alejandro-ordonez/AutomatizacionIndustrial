@@ -39,7 +39,7 @@ namespace AppPlanta.Services
             throw new NotImplementedException();
         }
 
-        public Task<Reading> GetReadingsAsync()
+        public Reading GetReadings()
         {
             throw new NotImplementedException();
         }

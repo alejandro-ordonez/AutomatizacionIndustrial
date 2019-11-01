@@ -10,7 +10,7 @@ namespace AppPlanta.Services
     {
         Task<string> CheckConnection();
         Task<bool> SetBitAt();
-        Task<Reading> GetReadingsAsync();
+        Reading GetReadings();
 
     }
 }

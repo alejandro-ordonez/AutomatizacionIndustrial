@@ -28,19 +28,16 @@ namespace AppPlanta.ViewModels
         public AutomaticViewModel(IPLCService service)
         {
             this.service = service;
-            Device.StartTimer(TimeSpan.FromMilliseconds(100), () =>
+            Device.StartTimer(TimeSpan.FromSeconds(2), () =>
             {
-                Task.Factory.StartNew(async () =>
-                {
-                    await UpdateReadings();
-                });
-                return false;
+                UpdateReadings();
+                return true;
             });
         }
 
-        private async Task UpdateReadings()
+        private void UpdateReadings()
         {
-            var res = await service.GetReadingsAsync();
+            var res = service.GetReadings();
             Therm1 = res.Termo1;
             Therm2 = res.Termo2;
         }

@@ -20,17 +20,17 @@
                 <Label Text="Parar"      Style="{DynamicResource Titles}" Grid.Column="1" Grid.Row="1" FontAttributes="Bold"/>
                 <Label Text="Emergencia" Style="{DynamicResource Titles}" Grid.Column="2" Grid.Row="1" FontAttributes="Bold"/>
                 <!--Image Buttons-->
-                <Image Source="power_on" Aspect="AspectFit" Grid.Column="0" Grid.Row="0">
+                <Image Source="power_on.png" Aspect="AspectFit" Grid.Column="0" Grid.Row="0">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Start_Tapped"/>
                     </Image.GestureRecognizers>
                 </Image>
-                <Image Source="power_off" Aspect="AspectFit" Grid.Column="1" Grid.Row="0">
+                <Image Source="power_off.png" Aspect="AspectFit" Grid.Column="1" Grid.Row="0">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Stop_Tapped"/>
                     </Image.GestureRecognizers>
                 </Image>
-                <Image Source="emergency" Aspect="AspectFit" Grid.Column="2" Grid.Row="0">
+                <Image Source="emergency.png" Aspect="AspectFit" Grid.Column="2" Grid.Row="0">
                     <Image.GestureRecognizers>
                         <TapGestureRecognizer Tapped="Emergency_Tapped"/>
                     </Image.GestureRecognizers>

@@ -6,7 +6,7 @@
              x:Name="ManualView"
              Title="Actuadores">
     <ContentPage.Content>
-        <StackLayout Margin="5" VerticalOptions="FillAndExpand" BackgroundColor="Black">
+        <StackLayout Padding="5" VerticalOptions="FillAndExpand" BackgroundColor="Black">
             <Label Text="{Binding Status}" TextColor="White" FontSize="Title" FontAttributes="Bold,Italic"/>
             <ListView x:Name="lstData" SelectionMode="None" SeparatorVisibility="None" ItemsSource="{Binding LstActuators}" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="Black">
                 <ListView.ItemTemplate>

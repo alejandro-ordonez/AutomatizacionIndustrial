@@ -7,22 +7,23 @@
                   BackgroundColor="Black">
     <MasterDetailPage.Master>
         <ContentPage Title="Master">
-            <StackLayout>
+            <StackLayout BackgroundColor="Black">
                 <ListView x:Name="MenuItemsListView"
                           SeparatorVisibility="None"
                           SelectionMode="None"
                           HasUnevenRows="true"
+                          BackgroundColor="Black"
                           ItemsSource="{Binding Items}">
                     <ListView.Header>
                         <RelativeLayout>
-                            <Image Source="Wallpaper_listview.jpeg" Style="{DynamicResource BaseIcon}"/>
+                            <Image Source="Wallpaper_listview.jpg" Style="{DynamicResource BaseIcon}"/>
                             <Label Style="{DynamicResource Titles}" Text="Planta Multipropósito" Margin="20,50,0,0"/>
                         </RelativeLayout>
                     </ListView.Header>
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>
-                                <Frame Padding="0">
+                                <Frame Padding="0" BackgroundColor="Black">
                                     <Frame.GestureRecognizers>
                                         <TapGestureRecognizer Command="{Binding BindingContext.NavigateCommand,Source={x:Reference MasterDetail}}" CommandParameter="{Binding TargetType}"/>
                                     </Frame.GestureRecognizers>

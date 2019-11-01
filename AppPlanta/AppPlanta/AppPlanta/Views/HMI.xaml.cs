@@ -20,8 +20,8 @@ namespace AppPlanta.Views
 		public HMI ()
 		{
 			InitializeComponent ();
-			PLCS71500= new Plc(CpuType.S71500, "172.18.4.1", 0, 1);
-			Device.StartTimer(TimeSpan.FromSeconds(2), UpdateStates);
+			//PLCS71500= new Plc(CpuType.S71500, "172.18.4.1", 0, 1);
+			//Device.StartTimer(TimeSpan.FromSeconds(2), UpdateStates);
 		}
 
 		private async void  Start_Tapped(object sender, EventArgs e)

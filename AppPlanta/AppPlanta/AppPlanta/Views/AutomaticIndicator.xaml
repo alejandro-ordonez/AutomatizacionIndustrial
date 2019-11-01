@@ -14,7 +14,7 @@
                     <gauge:SfLinearGauge.Scales>
                         <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
                             <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo1" Value="{Binding Thermo1}" Color="Red" EnableAnimation="True"/>
+                                <gauge:BarPointer x:Name="Termo1" Value="{Binding Therm1}" Color="Red" EnableAnimation="True"/>
                             </gauge:LinearScale.Pointers>
                         </gauge:LinearScale>
                     </gauge:SfLinearGauge.Scales>
@@ -27,31 +27,7 @@
                     <gauge:SfLinearGauge.Scales>
                         <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
                             <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo2" Value="{Binding Thermo2}" Color="Red" EnableAnimation="True"/>
-                            </gauge:LinearScale.Pointers>
-                        </gauge:LinearScale>
-                    </gauge:SfLinearGauge.Scales>
-                </gauge:SfLinearGauge>
-                <gauge:SfLinearGauge>
-                    <gauge:SfLinearGauge.Header>
-                        <gauge:LinearHeader Text="Termocupla 3" ForegroundColor="White" TextSize="20" FontAttributes="Bold" Offset="0.8,0.8"/>
-                    </gauge:SfLinearGauge.Header>
-                    <gauge:SfLinearGauge.Scales>
-                        <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
-                            <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo3" Color="Red" EnableAnimation="True"/>
-                            </gauge:LinearScale.Pointers>
-                        </gauge:LinearScale>
-                    </gauge:SfLinearGauge.Scales>
-                </gauge:SfLinearGauge>
-                <gauge:SfLinearGauge>
-                    <gauge:SfLinearGauge.Header>
-                        <gauge:LinearHeader Text="Termocupla 3" ForegroundColor="White" TextSize="20" FontAttributes="Bold" Offset="0.8,0.8"/>
-                    </gauge:SfLinearGauge.Header>
-                    <gauge:SfLinearGauge.Scales>
-                        <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
-                            <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo4" Color="Red" EnableAnimation="True"/>
+                                <gauge:BarPointer x:Name="Termo2" Value="{Binding Therm2}" Color="Red" EnableAnimation="True"/>
                             </gauge:LinearScale.Pointers>
                         </gauge:LinearScale>
                     </gauge:SfLinearGauge.Scales>

@@ -39,7 +39,7 @@ namespace AppPlanta.ViewModels
             };
             for (int i = 0; i < 10; i++)
             {
-                LstActuators.Add(new Actuator {Id=i+2, Name = $"Valvula {i}", Icon = Valve, State = false, Description = $"Valvula numero {i}", BoxColor = Color.Red });
+                LstActuators.Add(new Actuator {Id=i+2, Name = $"Valvula {i+2}", Icon = Valve, State = false, Description = $"Valvula numero {i+2}", BoxColor = Color.Red });
             }
             Init();
         }

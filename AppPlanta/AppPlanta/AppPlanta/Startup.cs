@@ -48,7 +48,7 @@ namespace AppPlanta
         static void ConfigureServices(HostBuilderContext ctx, IServiceCollection services)
         {
             // Serivices
-            services.AddTransient<IPLCService, PLCService>();
+            services.AddTransient<IPLCService, PLCServiceMock>();
             // ViewModels
             services.AddTransient<MainMenuViewModel>();
             services.AddTransient<ManualModeViewModel>();
