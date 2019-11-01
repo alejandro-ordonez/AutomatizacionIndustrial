@@ -14,7 +14,7 @@
                     <gauge:SfLinearGauge.Scales>
                         <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
                             <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo1" Color="Red" EnableAnimation="True"/>
+                                <gauge:BarPointer x:Name="Termo1" Value="{Binding Thermo1}" Color="Red" EnableAnimation="True"/>
                             </gauge:LinearScale.Pointers>
                         </gauge:LinearScale>
                     </gauge:SfLinearGauge.Scales>
@@ -27,7 +27,7 @@
                     <gauge:SfLinearGauge.Scales>
                         <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
                             <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo2" Color="Red" EnableAnimation="True"/>
+                                <gauge:BarPointer x:Name="Termo2" Value="{Binding Thermo2}" Color="Red" EnableAnimation="True"/>
                             </gauge:LinearScale.Pointers>
                         </gauge:LinearScale>
                     </gauge:SfLinearGauge.Scales>

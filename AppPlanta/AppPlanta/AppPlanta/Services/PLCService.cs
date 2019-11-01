@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;
 using System.Threading.Tasks;
+using AppPlanta.Models;
 using S7.Net;
 using Xamarin.Forms;
 
@@ -34,6 +35,11 @@ namespace AppPlanta.Services
         }
 
         public Task<bool> SetBitAt()
+        {
+            throw new NotImplementedException();
+        }
+
+        public Task<Reading> GetReadingsAsync()
         {
             throw new NotImplementedException();
         }

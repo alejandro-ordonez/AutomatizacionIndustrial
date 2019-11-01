@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppPlanta.Models;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,6 +10,7 @@ namespace AppPlanta.Services
     {
         Task<string> CheckConnection();
         Task<bool> SetBitAt();
+        Task<Reading> GetReadingsAsync();
 
     }
 }
