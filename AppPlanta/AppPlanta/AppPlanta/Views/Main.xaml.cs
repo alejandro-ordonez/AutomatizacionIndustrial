@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppPlanta.GUI
+namespace AppPlanta.Views
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class Main : ContentPage

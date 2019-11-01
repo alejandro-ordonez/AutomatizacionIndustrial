@@ -1,4 +1,6 @@
-﻿using Microsoft.Extensions.Configuration;
+﻿using AppPlanta.Services;
+using AppPlanta.ViewModels;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
@@ -16,7 +18,7 @@ namespace AppPlanta
         public static IServiceProvider ServiceProvider { get; set; }
         public static void Init()
         {
-            var configFile = ExtractResource("Solar.appsettings.json", FileSystem.AppDataDirectory);
+            var configFile = ExtractResource("AppPlanta.appsettings.json", FileSystem.AppDataDirectory);
 
             var host = new HostBuilder()
                         .ConfigureHostConfiguration(c =>
@@ -45,8 +47,9 @@ namespace AppPlanta
 
         static void ConfigureServices(HostBuilderContext ctx, IServiceCollection services)
         {
-            
-            
+            services.AddTransient<IPLCService, PLCService>();
+            services.AddTransient<MainMenuViewModel>();
+            services.AddTransient<ManualModeViewModel>();
         }
 
         static string ExtractResource(string filename, string location)

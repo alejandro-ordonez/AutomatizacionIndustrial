@@ -9,11 +9,11 @@ using Xamarin.Forms;
 namespace AppPlanta.Models
 {
 
-    public class MainMenuMenuItem
+    public class MainMenuItem
     {
         public int Id { get; set; }
         public string Title { get; set; }
-        public ImageSource Icon { get; set; }
+        public string Icon { get; set; }
         public Type TargetType { get; set; }
     }
 }

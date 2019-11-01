@@ -5,12 +5,10 @@
              xmlns:Models="clr-namespace:AppPlanta.Models;assembly=AppPlanta"
              x:Name="ManualView"
              Title="Actuadores">
-    <ContentPage.BindingContext>
-        <Models:ListActuatorViewModel/>
-    </ContentPage.BindingContext>
     <ContentPage.Content>
         <StackLayout Margin="5" VerticalOptions="FillAndExpand" BackgroundColor="Black">
-            <ListView x:Name="lstData" SelectionMode="None" SeparatorVisibility="None" ItemsSource="{Binding lstActuators}" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="Black">
+            <Label Text="{Binding Status}" TextColor="White" FontSize="Title" FontAttributes="Bold,Italic"/>
+            <ListView x:Name="lstData" SelectionMode="None" SeparatorVisibility="None" ItemsSource="{Binding LstActuators}" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="Black">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -27,11 +25,11 @@
                                 </Grid.RowDefinitions>
                                 <Image Source="{Binding Icon}" Style="{DynamicResource BaseIcon}" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2">
                                     <Image.GestureRecognizers>
-                                        <TapGestureRecognizer Command="{Binding Path=BindingContext.UpdateElement, Source={x:Reference ManualView}}" CommandParameter="{Binding .}" Tapped="TapGestureRecognizer_Tapped"/>
+                                        <TapGestureRecognizer Command="{Binding Path=BindingContext.ChangeStateCommand, Source={x:Reference ManualView}}" CommandParameter="{Binding Id}"/>
                                     </Image.GestureRecognizers>
                                 </Image>
-                                <Label Text="{Binding Name}" Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="0"/>
-                                <Label Text="{Binding Description}" Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="1"/>
+                                <Label Text="{Binding Name}" HorizontalOptions="Start" Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="0"/>
+                                <Label Text="{Binding Description}" HorizontalOptions="Start" Style="{DynamicResource Normal}" Grid.Column="1" Grid.Row="1"/>
                                 <BoxView BackgroundColor="{Binding BoxColor}" Grid.Column="3" Grid.Row="0" Grid.RowSpan="2"/>
                             </Grid>
                         </ViewCell>

@@ -9,11 +9,11 @@ namespace AppPlanta
     {
         public App()
         {
+            Startup.Init();
             //Register Syncfusion license
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("MTU0MDcxQDMxMzcyZTMzMmUzMFZPcGswa0ljV2tvYi9ZTURpeWZOclk2dFZDV3dWcDZSYjY4TjR6MnlCRlk9");
             InitializeComponent();
-
-            MainPage = new NavigationPage(new GUI.Home());
+            MainPage = new Views.Home();
         }
 
         protected override void OnStart()

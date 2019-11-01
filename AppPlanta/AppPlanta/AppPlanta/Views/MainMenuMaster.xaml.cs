@@ -22,34 +22,6 @@ namespace AppPlanta.Views
         {
             InitializeComponent();
             NavigationPage.SetHasNavigationBar(this, false);
-            BindingContext = new MainMenuMasterViewModel();
-            ListView = MenuItemsListView;
-        }
-
-        class MainMenuMasterViewModel : INotifyPropertyChanged
-        {
-            public ObservableCollection<MainMenuMenuItem> MenuItems { get; set; }
-            
-            public MainMenuMasterViewModel()
-            {
-                MenuItems = new ObservableCollection<MainMenuMenuItem>(new[]
-                {
-                    new MainMenuMenuItem { Id = 0, Title = "Manual", TargetType=typeof(ManualTab), Icon="Manual.png" },
-                    new MainMenuMenuItem { Id = 1, Title = "Automatico", TargetType=typeof(Automatic), Icon="automatic.png"},
-                    new MainMenuMenuItem { Id = 2, Title = "Informacion", TargetType=typeof(About), Icon="info.png" }
-                });
-            }
-            
-            #region INotifyPropertyChanged Implementation
-            public event PropertyChangedEventHandler PropertyChanged;
-            void OnPropertyChanged([CallerMemberName] string propertyName = "")
-            {
-                if (PropertyChanged == null)
-                    return;
-
-                PropertyChanged.Invoke(this, new PropertyChangedEventArgs(propertyName));
-            }
-            #endregion
         }
     }
 }

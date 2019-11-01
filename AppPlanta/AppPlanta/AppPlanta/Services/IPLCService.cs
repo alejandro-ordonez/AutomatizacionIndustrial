@@ -1,11 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Threading.Tasks;
 
 namespace AppPlanta.Services
 {
-    interface IPLCService
+    public interface IPLCService
     {
+        Task<string> CheckConnection();
+        Task<bool> SetBitAt();
 
     }
 }

@@ -1,16 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppPlanta.GUI.MainMenu"
-             xmlns:pages="clr-namespace:AppPlanta.Views" BackgroundColor="Black">
-  <MasterDetailPage.Master>
-    <pages:MainMenuMaster x:Name="MasterPage" />
-  </MasterDetailPage.Master>
-  <MasterDetailPage.Detail>
-    <NavigationPage>
-      <x:Arguments>
-        <pages:MainMenuDetail />
-      </x:Arguments>
-    </NavigationPage>
-  </MasterDetailPage.Detail>
+                  xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                  x:Class="AppPlanta.Views.MainMenu"
+                  xmlns:pages="clr-namespace:AppPlanta.Views"
+                  x:Name="MasterDetail"
+                  BackgroundColor="Black">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Master">
+            <StackLayout>
+                <ListView x:Name="MenuItemsListView"
+                          SeparatorVisibility="None"
+                          SelectionMode="None"
+                          HasUnevenRows="true"
+                          ItemsSource="{Binding Items}">
+                    <ListView.Header>
+                        <RelativeLayout>
+                            <Image Source="Wallpaper_listview.jpeg" Style="{DynamicResource BaseIcon}"/>
+                            <Label Style="{DynamicResource Titles}" Text="Planta Multipropósito" Margin="20,50,0,0"/>
+                        </RelativeLayout>
+                    </ListView.Header>
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <Frame Padding="0">
+                                    <Frame.GestureRecognizers>
+                                        <TapGestureRecognizer Command="{Binding BindingContext.NavigateCommand,Source={x:Reference MasterDetail}}" CommandParameter="{Binding TargetType}"/>
+                                    </Frame.GestureRecognizers>
+                                    <Grid Padding="20">
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="30"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        <Grid.RowDefinitions>
+                                            <RowDefinition Height="30"/>
+                                        </Grid.RowDefinitions>
+                                        <Label VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" Text="{Binding Title}" TextColor="White"  FontSize="24" Grid.Column="1" Grid.Row="0"/>
+                                        <Image Aspect="AspectFit" Grid.Column="0" Grid.Row="0">
+                                            <Image.Source>
+                                                <FileImageSource File="{Binding Icon}"/>
+                                            </Image.Source>
+                                        </Image>
+                                    </Grid>
+                                </Frame>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        </ContentPage>
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <pages:Manual/>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
 </MasterDetailPage>

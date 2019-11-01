@@ -18,9 +18,9 @@ namespace AppPlanta.Views
             InitializeComponent ();
         }
 
-        private async void Ok_Clicked(object sender, EventArgs e)
+        private void Ok_Clicked(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new MainMenu());
+            Application.Current.MainPage = new MainMenu();
         }
     }
 }
