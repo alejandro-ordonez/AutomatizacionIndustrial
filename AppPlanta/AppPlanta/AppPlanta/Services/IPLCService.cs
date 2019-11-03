@@ -9,8 +9,8 @@ namespace AppPlanta.Services
     public interface IPLCService
     {
         Task<string> CheckConnection();
-        Task<bool> SetBitAt();
+        Task<bool> SetBitAt(string adress, bool state);
         Reading GetReadings();
-
+        Task<bool> ReadBitAt(string adress);
     }
 }

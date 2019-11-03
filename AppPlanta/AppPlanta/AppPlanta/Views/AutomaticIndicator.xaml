@@ -9,7 +9,7 @@
             <StackLayout>
                 <gauge:SfLinearGauge>
                     <gauge:SfLinearGauge.Header>
-                        <gauge:LinearHeader Text="Termocupla 1" ForegroundColor="White" TextSize="20" FontAttributes="Bold" Offset="0.8,0.8"/>
+                        <gauge:LinearHeader Text="Temperatura" ForegroundColor="White" TextSize="20" FontAttributes="Bold" Offset="0.8,0.8"/>
                     </gauge:SfLinearGauge.Header>
                     <gauge:SfLinearGauge.Scales>
                         <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
@@ -22,12 +22,12 @@
                 </gauge:SfLinearGauge>
                 <gauge:SfLinearGauge>
                     <gauge:SfLinearGauge.Header>
-                        <gauge:LinearHeader Text="Termocupla 2" ForegroundColor="White" TextSize="20" FontAttributes="Bold" Offset="0.8,0.8"/>
+                        <gauge:LinearHeader Text="Nivel" ForegroundColor="White" TextSize="20" FontAttributes="Bold" Offset="0.8,0.8"/>
                     </gauge:SfLinearGauge.Header>
                     <gauge:SfLinearGauge.Scales>
-                        <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="-40" MaximumValue="150" ScaleBarColor="White">
+                        <gauge:LinearScale LabelColor="White" CornerRadius="10" CornerRadiusType="Both" MinimumValue="0" MaximumValue="50" ScaleBarColor="White">
                             <gauge:LinearScale.Pointers>
-                                <gauge:BarPointer x:Name="Termo2" Value="{Binding Therm2}" Color="Red" EnableAnimation="True"/>
+                                <gauge:BarPointer x:Name="Termo2" Value="{Binding Therm2}" Color="Blue" EnableAnimation="True"/>
                             </gauge:LinearScale.Pointers>
                         </gauge:LinearScale>
                     </gauge:SfLinearGauge.Scales>

@@ -9,6 +9,7 @@ namespace AppPlanta.ViewModels
 {
     public class AutomaticViewModel : BaseViewModel
     {
+        //TODO: Add the rest of the indicators
         private readonly IPLCService service;
         private double _therm1;
 
@@ -38,8 +39,8 @@ namespace AppPlanta.ViewModels
         private void UpdateReadings()
         {
             var res = service.GetReadings();
-            Therm1 = res.Termo1;
-            Therm2 = res.Termo2;
+            Therm1 = res.Thermistor;
+            Therm2 = res.Level;
         }
     }
 }

@@ -5,10 +5,12 @@
              xmlns:Models="clr-namespace:AppPlanta.Models;assembly=AppPlanta"
              x:Name="ManualView"
              Title="Actuadores">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="{Binding Status}" IconImageSource="refresh.png" Command="{Binding RefreshConnection}"/>
+    </ContentPage.ToolbarItems>
     <ContentPage.Content>
         <StackLayout Padding="5" VerticalOptions="FillAndExpand" BackgroundColor="Black">
-            <Label Text="{Binding Status}" TextColor="White" FontSize="Title" FontAttributes="Bold,Italic"/>
-            <ListView x:Name="lstData" SelectionMode="None" SeparatorVisibility="None" ItemsSource="{Binding LstActuators}" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="Black">
+            <ListView IsEnabled="{Binding Available}" SelectionMode="None" SeparatorVisibility="None" ItemsSource="{Binding LstActuators}" VerticalOptions="FillAndExpand" HasUnevenRows="True" BackgroundColor="Black">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
@@ -17,7 +19,7 @@
                                     <ColumnDefinition Width="100"/>
                                     <ColumnDefinition Width="*"/>
                                     <ColumnDefinition Width="40"/>
-                                    <ColumnDefinition Width="10"/>
+                                    <ColumnDefinition Width="20"/>
                                 </Grid.ColumnDefinitions>
                                 <Grid.RowDefinitions>
                                     <RowDefinition Height="50"/>

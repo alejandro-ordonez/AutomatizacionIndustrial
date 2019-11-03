@@ -7315,25 +7315,31 @@ namespace AppPlanta.Droid
 			public const int notify_panel_notification_icon_bg = 2131165534;
 			
 			// aapt resource value: 0x7F07015F
-			public const int power_off = 2131165535;
+			public const int Piston = 2131165535;
 			
 			// aapt resource value: 0x7F070160
-			public const int power_on = 2131165536;
+			public const int power_off = 2131165536;
 			
 			// aapt resource value: 0x7F070161
-			public const int Pump = 2131165537;
+			public const int power_on = 2131165537;
 			
 			// aapt resource value: 0x7F070162
-			public const int tooltip_frame_dark = 2131165538;
+			public const int Pump = 2131165538;
 			
 			// aapt resource value: 0x7F070163
-			public const int tooltip_frame_light = 2131165539;
+			public const int refresh = 2131165539;
 			
 			// aapt resource value: 0x7F070164
-			public const int Valve = 2131165540;
+			public const int tooltip_frame_dark = 2131165540;
 			
 			// aapt resource value: 0x7F070165
-			public const int Wallpaper_listview = 2131165541;
+			public const int tooltip_frame_light = 2131165541;
+			
+			// aapt resource value: 0x7F070166
+			public const int Valve = 2131165542;
+			
+			// aapt resource value: 0x7F070167
+			public const int Wallpaper_listview = 2131165543;
 			
 			static Drawable()
 			{

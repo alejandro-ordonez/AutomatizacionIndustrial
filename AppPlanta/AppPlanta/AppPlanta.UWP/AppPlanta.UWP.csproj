@@ -151,6 +151,7 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="Multiproposito.jpeg" />
+    <Content Include="Piston.jpg" />
     <Content Include="power_off.png">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
@@ -164,6 +165,7 @@
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="refresh.png" />
     <Content Include="Valve.jpg">
       <Generator>MSBuild:UpdateGeneratedFiles</Generator>
       <SubType>Designer</SubType>

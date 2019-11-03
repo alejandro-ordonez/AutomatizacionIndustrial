@@ -17,7 +17,7 @@
                     <ListView.Header>
                         <RelativeLayout>
                             <Image Source="Wallpaper_listview.jpg" Style="{DynamicResource BaseIcon}"/>
-                            <Label Style="{DynamicResource Titles}" Text="Planta Multipropósito" Margin="20,50,0,0"/>
+                            <Label Style="{DynamicResource Titles}" Text="Planta Didáctica" Margin="20,50,0,0"/>
                         </RelativeLayout>
                     </ListView.Header>
                     <ListView.ItemTemplate>

@@ -8,6 +8,7 @@ namespace AppPlanta.Services
 {
     public class PLCServiceMock : IPLCService
     {
+        public bool State { get; set; }
         private Random Rand { get; set; }
         public PLCServiceMock()
         {
@@ -23,15 +24,22 @@ namespace AppPlanta.Services
         {
             Reading reading = new Reading
             {
-                Termo1 = Rand.Next(0, 100),
-                Termo2 = Rand.Next(0,100)
+                Thermistor = Rand.Next(0, 100),
+                Level = Rand.Next(0,100)
             };
             return reading;
         }
 
-        public Task<bool> SetBitAt()
+        public async Task<bool> SetBitAt(string adress, bool state)
         {
-            throw new NotImplementedException();
+            await Task.Delay(100);
+            return State = !State;
+        }
+
+        public async Task<bool> ReadBitAt(string adress)
+        {
+            await Task.Delay(100);
+            return State;
         }
     }
 }

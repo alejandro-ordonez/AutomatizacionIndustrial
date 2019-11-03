@@ -48,11 +48,12 @@ namespace AppPlanta
         static void ConfigureServices(HostBuilderContext ctx, IServiceCollection services)
         {
             // Serivices
-            services.AddTransient<IPLCService, PLCServiceMock>();
+            services.AddSingleton<IPLCService, PLCService>();
             // ViewModels
             services.AddTransient<MainMenuViewModel>();
             services.AddTransient<ManualModeViewModel>();
             services.AddTransient<AutomaticViewModel>();
+            services.AddTransient<HMIViewModel>();
         }
 
         static string ExtractResource(string filename, string location)

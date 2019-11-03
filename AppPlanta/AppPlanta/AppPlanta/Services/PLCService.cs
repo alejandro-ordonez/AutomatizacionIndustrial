@@ -12,9 +12,10 @@ namespace AppPlanta.Services
     public class PLCService:IPLCService
     {
         private Plc Plc { get; set; }
+        private readonly string BaseAdress="Datos.";
         public PLCService()
         {
-            Plc= new Plc(CpuType.S71500, "172.18.4.1", 0, 1); //192.168.1.1
+            Plc= new Plc(CpuType.S71200, "192.168.0.80", 0, 1); //192.168.1.1
         }
 
         public async Task<string> CheckConnection()
@@ -34,14 +35,30 @@ namespace AppPlanta.Services
             else { return $"El Plc {Plc.IP} es accesible, pero no pudo ser conectado"; }
         }
 
-        public Task<bool> SetBitAt()
+        public async Task<bool> SetBitAt(string adress, bool state)
         {
-            throw new NotImplementedException();
+            try
+            {
+                //await PLCS71500.WriteBitAsync(DataType.DataBlock, 2, 1, 0, !Start);
+                await Plc.WriteBitAsync(DataType.DataBlock,1,0,int.Parse(adress), state);
+                return true;
+            }
+            catch (Exception e)
+            {
+                return false;
+            }
+            
         }
 
         public Reading GetReadings()
         {
-            throw new NotImplementedException();
+            return (Reading)Plc.ReadStruct<Reading>(1);
+        }
+
+        public async Task<bool> ReadBitAt(string adress)
+        {
+            
+            return (bool)await Plc.ReadAsync($"{BaseAdress}{adress}");
         }
     }
 }

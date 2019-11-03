@@ -4,7 +4,7 @@
              x:Class="AppPlanta.App">
     <Application.Resources>
         <!--Datos-->
-        <x:String x:Key="Title">BIENVENIDO A LA APLICACIÓN: PLANTA MULTIPROPÓSITO</x:String>
+        <x:String x:Key="Title">BIENVENIDO A LA APLICACIÓN: Plata Didactica</x:String>
         <x:String x:Key="DescriptionApp">Esta apliación tiene como fin mostrar los datos obtenidos de una planta multipropósito y el estado del sistema. Además esta permite el control de las válvulas desde el dispositivo móvil. El fin de esta aplicación es netamente educativa no se permite la venta ni la distribución.</x:String>
 
         <!--Styles-->
